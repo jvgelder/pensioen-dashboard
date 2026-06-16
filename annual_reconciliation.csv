@@ -1,0 +1,1583 @@
+fund,year,return_type,dnb_compounded_annual_return,n_quarters,quarters_present,annual_sample_status,official_annual_return,source,source_url,notes,difference,difference_pp,reconciliation_status
+ABN AMRO Bank,2015,return_quarterly,0.005578203211999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2016,return_quarterly,0.12411085328000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2017,return_quarterly,0.020759144499999937,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2018,return_quarterly,0.013020986977999804,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2019,return_quarterly,0.21768974600000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2020,return_quarterly,0.09501469846999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2021,return_quarterly,-0.009700645576000144,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2022,return_quarterly,-0.2517513333399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2023,return_quarterly,0.0758024950399998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABN AMRO Bank,2024,return_quarterly,0.04442443951999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ABP,2015,return_quarterly,0.028108131776000134,4,"1,2,3,4",complete_year,0.027,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,0.001108131776000134,0.1108131776000134,ok
+ABP,2016,return_quarterly,0.09489027866400002,4,"1,2,3,4",complete_year,0.095,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.0001097213359999849,-0.01097213359999849,ok
+ABP,2017,return_quarterly,0.07679768000000009,4,"1,2,3,4",complete_year,0.076,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,0.0007976800000000922,0.07976800000000922,ok
+ABP,2018,return_quarterly,-0.0231894116200001,4,"1,2,3,4",complete_year,-0.023,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.0001894116200001003,-0.01894116200001003,ok
+ABP,2019,return_quarterly,0.1487189103319999,4,"1,2,3,4",complete_year,0.168,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.0192810896680001,-1.9281089668000102,review_difference
+ABP,2020,return_quarterly,0.05061139455999997,4,"1,2,3,4",complete_year,0.066,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.015388605440000036,-1.5388605440000036,review_difference
+ABP,2021,return_quarterly,0.1250615982919998,4,"1,2,3,4",complete_year,0.114,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,ABP meldt dat 2021 is aangepast na definitieve jaarrekening.,0.011061598291999805,1.1061598291999806,review_difference
+ABP,2022,return_quarterly,-0.17638208446400006,4,"1,2,3,4",complete_year,-0.176,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.00038208446400006535,-0.038208446400006535,ok
+ABP,2023,return_quarterly,0.09259624598299987,4,"1,2,3,4",complete_year,0.093,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,,-0.0004037540170001297,-0.04037540170001297,ok
+ABP,2024,return_quarterly,0.08593784900000001,4,"1,2,3,4",complete_year,0.084,ABP beleggingsresultaten Rendement 2008-2025,https://www.abp.nl/over-abp/beleggingen/beleggingsresultaten,ABP meldt dat 2024 is aangepast na definitieve jaarrekening.,0.0019378490000000054,0.19378490000000054,ok
+AHOLD,2015,return_quarterly,-0.012319088640000087,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2016,return_quarterly,0.10671824257999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2017,return_quarterly,0.029991235999999866,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2018,return_quarterly,-0.0070904523700001665,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2019,return_quarterly,0.2270297444160001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2020,return_quarterly,0.08999080189999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2021,return_quarterly,0.0332262100159999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2022,return_quarterly,-0.24451411411199986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2023,return_quarterly,0.09577022463999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AHOLD,2024,return_quarterly,0.08123265754399989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2015,return_quarterly,-0.0076260929439998515,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2016,return_quarterly,0.07647355289600011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2017,return_quarterly,0.07477612087999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2018,return_quarterly,-0.03558242149000024,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2019,return_quarterly,0.14203112635299964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2020,return_quarterly,0.05097510627200008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2021,return_quarterly,0.06719093280799981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2022,return_quarterly,-0.1867200960319999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2023,return_quarterly,0.09719246772800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+APF,2024,return_quarterly,0.0752421182749996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2015,return_quarterly,0.02830362157599975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2016,return_quarterly,0.08200970320399992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2017,return_quarterly,0.0351099332,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2018,return_quarterly,-0.023483637640000166,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2019,return_quarterly,0.16349364969199964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2020,return_quarterly,0.06780041830400019,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2021,return_quarterly,0.029030477425999734,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2022,return_quarterly,-0.19480891579199988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2023,return_quarterly,0.08948175322999963,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AT&T Nederland,2024,return_quarterly,0.0839682621440001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2015,return_quarterly,0.0001717806079997164,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2016,return_quarterly,0.09560051974999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2017,return_quarterly,0.12060925243999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2018,return_quarterly,-0.07385144148999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2019,return_quarterly,0.23341061135599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2020,return_quarterly,0.1256452064,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2021,return_quarterly,0.18767956306999967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2022,return_quarterly,-0.15701501825200004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2023,return_quarterly,0.1777841308699999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+AVEBE,2024,return_quarterly,0.1754772509479996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2015,return_quarterly,-0.02480921200000019,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2016,return_quarterly,0.1421672001919998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2017,return_quarterly,0.045289920289999896,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2018,return_quarterly,-0.010363017925000273,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2019,return_quarterly,0.21982772001200002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2020,return_quarterly,0.16285389000000028,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2021,return_quarterly,-0.007414466750000126,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2022,return_quarterly,-0.2988245252799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2023,return_quarterly,0.10140771760599976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Abbott Nederland,2024,return_quarterly,0.107875648464,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2015,return_quarterly,0.004468631449999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2016,return_quarterly,0.10473101647999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2017,return_quarterly,0.04657646038399976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2018,return_quarterly,-0.01642831753600027,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2019,return_quarterly,0.17472697999999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2020,return_quarterly,0.12441656203999951,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2021,return_quarterly,0.030299611327999854,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2022,return_quarterly,-0.21993992015200003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2023,return_quarterly,0.08880420819999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Achmea,2024,return_quarterly,0.08362571111899952,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2015,return_quarterly,0.035795743423999715,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2016,return_quarterly,0.06817096601599992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2017,return_quarterly,0.04762782144799971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2018,return_quarterly,-0.0206827408000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2019,return_quarterly,0.23422488862399993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2020,return_quarterly,0.09226557440000027,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2021,return_quarterly,0.060952355647999834,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2022,return_quarterly,-0.29323579635999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2023,return_quarterly,0.11367185602399998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Alliance,2024,return_quarterly,0.1013108064199999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2015,return_quarterly,-0.0006915711249999568,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2016,return_quarterly,0.1111559536400002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2017,return_quarterly,0.06541563497599978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2018,return_quarterly,-0.03293012396799999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2019,return_quarterly,0.18382006814999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2020,return_quarterly,0.11486445600000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2021,return_quarterly,-0.0010032851200001414,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2022,return_quarterly,-0.17980295287600012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2023,return_quarterly,0.07952537860999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Apothekers,2024,return_quarterly,0.08964182095999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2015,return_quarterly,0.007813398320000164,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2016,return_quarterly,0.1197368780000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2017,return_quarterly,0.06203458915999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2018,return_quarterly,0.0007354807819996978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2019,return_quarterly,0.18881756000000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2020,return_quarterly,0.12260266495999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2021,return_quarterly,0.03840086441599966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2022,return_quarterly,-0.243353728,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2023,return_quarterly,0.10685634315199977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Architectenbureaus,2024,return_quarterly,0.11611236211999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2015,return_quarterly,0.01797971911999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2016,return_quarterly,0.05898210687499983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2017,return_quarterly,0.028245565159999764,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2018,return_quarterly,-0.022072448800000144,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2019,return_quarterly,0.11302562369599989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2020,return_quarterly,0.04201512492800008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2021,return_quarterly,0.030103961479999608,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2022,return_quarterly,-0.15534531135999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2023,return_quarterly,0.11979669517099967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Atos Origin,2024,return_quarterly,0.09362340799999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2015,return_quarterly,-0.019356443535999968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2016,return_quarterly,0.11465875808000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2017,return_quarterly,0.04405306928000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2018,return_quarterly,-0.017332063750000404,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2019,return_quarterly,0.23741521879699978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2020,return_quarterly,0.14923438080000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2021,return_quarterly,0.04411662612199985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2022,return_quarterly,-0.27468688347400005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2023,return_quarterly,0.10971261447199976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Avery Dennison,2024,return_quarterly,0.09809451223999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2015,return_quarterly,-0.015773159799999936,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2016,return_quarterly,0.1285923671,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2017,return_quarterly,0.006322025239999807,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2018,return_quarterly,0.0037476569119998526,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2019,return_quarterly,0.22919235485799994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2020,return_quarterly,0.1368847179799999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2021,return_quarterly,0.02212687462399998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2022,return_quarterly,-0.26078865100000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2023,return_quarterly,0.09095705809999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPF Foodservice,2024,return_quarterly,0.08836236349999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2015,return_quarterly,0.02182885092800002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2016,return_quarterly,0.10719823831999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2017,return_quarterly,0.06633241429399961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2018,return_quarterly,-0.005650634170000113,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2019,return_quarterly,0.1802409131299998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2020,return_quarterly,0.08289967385599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2021,return_quarterly,0.07353496698499962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2022,return_quarterly,-0.1731423202000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2023,return_quarterly,0.08640907100000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+BPL,2024,return_quarterly,0.09578562001999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2015,return_quarterly,0.006559267424000259,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2016,return_quarterly,0.0996970375999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2017,return_quarterly,0.03733058869999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2018,return_quarterly,-0.014323783904000131,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2019,return_quarterly,0.15694370376199984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2020,return_quarterly,0.08917248255999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2021,return_quarterly,0.038418312259999476,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2022,return_quarterly,-0.24050633536,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2023,return_quarterly,0.08880657828799987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bakkersbedrijf BPF,2024,return_quarterly,0.09969465983599957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2015,return_quarterly,-0.02634336508800017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2016,return_quarterly,0.12062100989000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2017,return_quarterly,0.014525892253999695,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2018,return_quarterly,-0.009229237549999936,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2019,return_quarterly,0.24668895120000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2020,return_quarterly,0.12961745965999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2021,return_quarterly,-0.024839200000000172,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2022,return_quarterly,-0.3138034999999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2023,return_quarterly,0.07584891344000022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Banden- en Wielenbranche,2024,return_quarterly,0.08549062571599975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2015,return_quarterly,-0.01175169637300022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2016,return_quarterly,0.1312435868939994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2017,return_quarterly,0.04840578919999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2018,return_quarterly,-0.012360556300000103,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2019,return_quarterly,0.23878429438399995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2020,return_quarterly,0.1449915986599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2021,return_quarterly,0.007110494599999795,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2022,return_quarterly,-0.28968847360000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2023,return_quarterly,0.1002463966879994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Beroepsvervoer over de Weg,2024,return_quarterly,0.0887930899999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2015,return_quarterly,-0.012433242550000112,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2016,return_quarterly,0.13020767428399993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2017,return_quarterly,0.04849689245599964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2018,return_quarterly,-0.015291975700000071,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2019,return_quarterly,0.19831307724799996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2020,return_quarterly,0.14799231260000023,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2021,return_quarterly,0.013523839999999954,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2022,return_quarterly,-0.31901141708799996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2023,return_quarterly,0.09062968784000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Betonproduktenindustrie,2024,return_quarterly,0.08089321002499972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2015,return_quarterly,0.018634456175000036,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2016,return_quarterly,0.10936986565999973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2017,return_quarterly,0.04976986399999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2018,return_quarterly,-0.005515696000000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2019,return_quarterly,0.18048897966999955,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2020,return_quarterly,0.0852624458000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2021,return_quarterly,0.055487391200000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2022,return_quarterly,-0.21019829567199988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2023,return_quarterly,0.11790694735999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bibliotheken openbare,2024,return_quarterly,0.10326539967999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2015,return_quarterly,0.010758323119999913,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2016,return_quarterly,0.09357520420499976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2017,return_quarterly,0.04971291199999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2018,return_quarterly,0.0023661331600000057,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2019,return_quarterly,0.1555145463680001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2020,return_quarterly,0.10227229839999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2021,return_quarterly,0.04408877671999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2022,return_quarterly,-0.18212697359199992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2023,return_quarterly,0.08825475044999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bisdommen,2024,return_quarterly,0.0702882735999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2015,return_quarterly,-0.02077739200000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2016,return_quarterly,0.11968589553599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2017,return_quarterly,0.048557077399999926,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2018,return_quarterly,0.007708781984999691,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2019,return_quarterly,0.17540412780800008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2020,return_quarterly,0.1119794171199997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2021,return_quarterly,0.009245292343999845,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2022,return_quarterly,-0.25873328742400004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2023,return_quarterly,0.09315054244499965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwmaterialen,2024,return_quarterly,0.08026185409999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2015,return_quarterly,0.010154780479999959,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2016,return_quarterly,0.12126963815999958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2017,return_quarterly,0.06299232203999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2018,return_quarterly,0.002338133411999843,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2019,return_quarterly,0.13359202189999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2020,return_quarterly,0.07355548,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2021,return_quarterly,0.0991834478239999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2022,return_quarterly,-0.21393160024000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2023,return_quarterly,0.07835913364399949,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Bouwnijverheid,2024,return_quarterly,0.07497669650000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2015,return_quarterly,0.014488680379999952,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2016,return_quarterly,0.06169622966400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2017,return_quarterly,0.036375804580000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2018,return_quarterly,-0.022185813951999922,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2019,return_quarterly,0.09458710067599996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2020,return_quarterly,0.05813265903799958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2021,return_quarterly,0.03421071344000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2022,return_quarterly,-0.11832719895999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2023,return_quarterly,0.11766358339999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+British American Tobacco,2024,return_quarterly,0.024287529859999824,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2015,return_quarterly,0.003571928189999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2016,return_quarterly,0.08277152278400002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2017,return_quarterly,0.05174957887999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2018,return_quarterly,-0.013275566080000023,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2019,return_quarterly,0.18155341303999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2020,return_quarterly,0.08268179551999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2021,return_quarterly,0.02946633491899986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2022,return_quarterly,-0.22918739245599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2023,return_quarterly,0.10366880479999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Brocacef,2024,return_quarterly,0.08944311013999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2015,return_quarterly,0.01422042704000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2016,return_quarterly,0.061022510824999765,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2017,return_quarterly,0.04976807935999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2018,return_quarterly,-0.02538642940800029,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2019,return_quarterly,0.16053468761600032,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2020,return_quarterly,0.0820693009279998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2021,return_quarterly,0.04313653927999961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2022,return_quarterly,-0.239746072697,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2023,return_quarterly,0.11774007295999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+CRH,2024,return_quarterly,0.09180623551999956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2015,return_quarterly,0.02274499712,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2016,return_quarterly,0.07158673360699974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2017,return_quarterly,0.0242057147839998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2018,return_quarterly,0.004447593799999705,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2019,return_quarterly,0.12638405373200023,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2020,return_quarterly,0.03989816000000013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2021,return_quarterly,0.06232272793599969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2022,return_quarterly,-0.160485707425,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2023,return_quarterly,0.05578535887999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Calpam,2024,return_quarterly,0.06560039986399979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2015,return_quarterly,0.008803680128000257,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2016,return_quarterly,0.09999063439999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2017,return_quarterly,0.05494584032000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2018,return_quarterly,-0.02760509440000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2019,return_quarterly,0.18821711808800012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2020,return_quarterly,0.07952481066500017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2021,return_quarterly,0.04520345190399988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2022,return_quarterly,-0.2073383617600001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2023,return_quarterly,0.09854025960799984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Campina,2024,return_quarterly,0.07411300640000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2015,return_quarterly,-0.00930598833600016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2016,return_quarterly,0.11384565448799977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2017,return_quarterly,0.030972468320000113,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2018,return_quarterly,-0.011184014079999915,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2019,return_quarterly,0.20623006196000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2020,return_quarterly,0.14013603157999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2021,return_quarterly,0.008703562723999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2022,return_quarterly,-0.26760157051199995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2023,return_quarterly,0.10158677875999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cap Gemini Nederland,2024,return_quarterly,0.07745585696000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2015,return_quarterly,-0.016387934463999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2016,return_quarterly,0.07544682627199939,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2017,return_quarterly,0.02196138519199997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2018,return_quarterly,-0.007115748000000033,3,"1,2,4",incomplete_year,,,,,,,no_official_return
+Cargill,2019,return_quarterly,0.17922505872499994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2020,return_quarterly,0.11770828769599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2021,return_quarterly,6.822725599997526e-05,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2022,return_quarterly,-0.23504911993599986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2023,return_quarterly,0.09509100786799984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cargill,2024,return_quarterly,0.05612768226000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2015,return_quarterly,-0.025265462079999912,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2016,return_quarterly,0.0893158639999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2017,return_quarterly,0.04745511644999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2018,return_quarterly,-0.03155784068400036,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2019,return_quarterly,0.1558646083519999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2020,return_quarterly,0.1605327338,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2021,return_quarterly,0.0074687173459999645,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2022,return_quarterly,-0.26094811988800015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2023,return_quarterly,0.1100466607999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Citigroup Nederland,2024,return_quarterly,0.08058998801599992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2015,return_quarterly,-0.008968978053999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2016,return_quarterly,0.08480700658000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2017,return_quarterly,0.0633271518349996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2018,return_quarterly,-0.03452604827200023,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2019,return_quarterly,0.193696271104,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2020,return_quarterly,0.11440314552499986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2021,return_quarterly,0.04254850730799986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2022,return_quarterly,-0.2575540268680001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2023,return_quarterly,0.12758056456799993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Coram,2024,return_quarterly,0.08144746999999986,3,"1,2,3",incomplete_year,,,,,,,no_official_return
+Cosun,2015,return_quarterly,-0.016798584064000033,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2016,return_quarterly,0.10937219907200002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2017,return_quarterly,0.04668194232800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2018,return_quarterly,-0.01325313760000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2019,return_quarterly,0.15263833287499984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2020,return_quarterly,0.04911866674999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2021,return_quarterly,0.019496400955999915,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2022,return_quarterly,-0.2166517,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2023,return_quarterly,0.07417254776000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Cosun,2024,return_quarterly,0.0761017880599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2015,return_quarterly,0.01589378344999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2016,return_quarterly,0.10113467281999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2017,return_quarterly,0.06122639671999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2018,return_quarterly,-0.027759508960000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2019,return_quarterly,0.1526600496949999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2020,return_quarterly,0.0656522583200001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2021,return_quarterly,0.0905781418999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2022,return_quarterly,-0.17950160128000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2023,return_quarterly,0.04944530389999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+DHL Nederland,2024,return_quarterly,0.12926294058499943,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2017,return_quarterly,0.018795547615999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2018,return_quarterly,-0.001444679999999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2019,return_quarterly,0.19730236832000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2020,return_quarterly,0.10530069372799988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2021,return_quarterly,-0.007381583920000212,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2022,return_quarterly,-0.26154708467199994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2023,return_quarterly,0.08405714859199986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Delta Lloyd,2024,return_quarterly,0.08799859242800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2015,return_quarterly,-0.005212389375999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2016,return_quarterly,0.13477685047999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2017,return_quarterly,0.03286146363399989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2018,return_quarterly,0.00575046195200013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2019,return_quarterly,0.2678051713520002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2020,return_quarterly,0.14262316993599988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2021,return_quarterly,0.011626015399999856,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2022,return_quarterly,-0.2695403260000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2023,return_quarterly,0.09113645239999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Detailhandel,2024,return_quarterly,0.09183030319999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2015,return_quarterly,0.0009856855040002444,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2016,return_quarterly,0.10630463173999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2017,return_quarterly,0.04553097549999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2018,return_quarterly,-0.0002617237150002172,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2019,return_quarterly,0.1885483321920003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2020,return_quarterly,0.10001757913999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2021,return_quarterly,0.033873700243999716,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2022,return_quarterly,-0.23384101312000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2023,return_quarterly,0.07922892492799982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dierenartsen,2024,return_quarterly,0.09003511231999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2015,return_quarterly,0.02500478259200012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2016,return_quarterly,0.09454053464000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2017,return_quarterly,0.04875732539199995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2018,return_quarterly,-0.011395096120000225,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2019,return_quarterly,0.15446762777599998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2020,return_quarterly,0.0884060633599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2021,return_quarterly,-0.015372009280000043,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2022,return_quarterly,-0.24595477408,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2023,return_quarterly,0.0755837388799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Dow,2024,return_quarterly,0.04043566188799974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2015,return_quarterly,-0.005014142991999759,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2016,return_quarterly,0.07475355511999981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2017,return_quarterly,0.04137770422399978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2018,return_quarterly,-0.024012143200000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2019,return_quarterly,0.1849400452679999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2020,return_quarterly,0.11187827662399985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2021,return_quarterly,0.04287195675199973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2022,return_quarterly,-0.18504965631999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2023,return_quarterly,0.11513855158399977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Ecolab,2024,return_quarterly,0.10859711368999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2015,return_quarterly,0.011168663374999888,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2016,return_quarterly,0.09499405400000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2017,return_quarterly,0.0537880625999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2018,return_quarterly,-0.014281720960000244,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2019,return_quarterly,0.19149874999399952,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2020,return_quarterly,0.07553747605200023,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2021,return_quarterly,0.04418724252499984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2022,return_quarterly,-0.20826101158199983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2023,return_quarterly,0.0954539066240001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Essity,2024,return_quarterly,0.0970782295999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2018,return_quarterly,0.006000000000000005,1,4,incomplete_year,,,,,,,no_official_return
+Flexsecurity,2019,return_quarterly,0.07863970642999973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2020,return_quarterly,0.03859843791199968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2021,return_quarterly,0.03334727340799981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2022,return_quarterly,-0.14572018359999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2023,return_quarterly,0.09492864102399978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Flexsecurity,2024,return_quarterly,0.09501017177599991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2015,return_quarterly,0.001306404799999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2016,return_quarterly,0.12153920480000036,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2017,return_quarterly,0.0382961092399996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2018,return_quarterly,-0.014305747264000024,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2019,return_quarterly,0.20610995834000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2020,return_quarterly,0.11377011262399983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2021,return_quarterly,0.0025638063560000646,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2022,return_quarterly,-0.25728698602,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2023,return_quarterly,0.10003105861999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Forbo,2024,return_quarterly,0.08322240259999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2015,return_quarterly,0.020444200160000037,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2016,return_quarterly,0.10662568873999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2017,return_quarterly,0.055941039999999775,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2018,return_quarterly,0.005740832095999737,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2019,return_quarterly,0.17995626834999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2020,return_quarterly,0.08777694199999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2021,return_quarterly,0.05341943960000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2022,return_quarterly,-0.20894850652600006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2023,return_quarterly,0.04342958196799973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Fysiotherapeuten,2024,return_quarterly,0.06686780731999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2015,return_quarterly,0.00996084715400003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2016,return_quarterly,0.09040287199999963,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2017,return_quarterly,0.07150167205999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2018,return_quarterly,-0.03318557826000024,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2019,return_quarterly,0.23390783554400008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2020,return_quarterly,0.0975123964000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2021,return_quarterly,0.11611116889999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2022,return_quarterly,-0.16912702288299986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2023,return_quarterly,0.11476211712000017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gasunie,2024,return_quarterly,0.11621436740000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2015,return_quarterly,0.005259765752000156,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2016,return_quarterly,0.09925591160000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2017,return_quarterly,0.05779235563999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2018,return_quarterly,-0.03929685436000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2019,return_quarterly,0.2507805977600004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2020,return_quarterly,0.13015059541999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2021,return_quarterly,0.02884638137600004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2022,return_quarterly,-0.25260816041200007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2023,return_quarterly,0.11302492437499989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Gazelle psf,2024,return_quarterly,0.10948211028400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2015,return_quarterly,0.032742424459999864,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2016,return_quarterly,0.05811784756999949,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2017,return_quarterly,0.023144959109999697,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2018,return_quarterly,-0.01708205095000026,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2019,return_quarterly,0.0758006771749995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2020,return_quarterly,0.023634363877999665,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2021,return_quarterly,0.029195274499999924,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2022,return_quarterly,-0.137097577072,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2023,return_quarterly,0.08569051135999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Geveke,2024,return_quarterly,0.06422231035999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2015,return_quarterly,0.04375930399999972,3,"1,2,4",incomplete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2016,return_quarterly,0.09702679054399987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2017,return_quarterly,0.031140431215999742,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2018,return_quarterly,-0.013824911050000166,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2019,return_quarterly,0.17041768122499978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2020,return_quarterly,0.0573338742199998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2021,return_quarterly,-0.02540809600000027,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2022,return_quarterly,-0.2672163208,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2023,return_quarterly,0.10369564412799992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Grolsche bierbrouwerij,2024,return_quarterly,0.07689393399999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2015,return_quarterly,0.002951550128000191,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2016,return_quarterly,0.12248073079999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2017,return_quarterly,0.02444339009599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2018,return_quarterly,-0.001108710604000196,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2019,return_quarterly,0.2537725397120003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2020,return_quarterly,0.17440996283,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2021,return_quarterly,-0.018152131000000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2022,return_quarterly,-0.30942128517400014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2023,return_quarterly,0.117479709248,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Groothandel,2024,return_quarterly,0.09318002440399953,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2015,return_quarterly,0.061205451398000044,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2016,return_quarterly,0.032709655795999826,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2017,return_quarterly,0.10680009113599986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2018,return_quarterly,-0.1295800507,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2019,return_quarterly,0.16182035215999968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2020,return_quarterly,0.03155267865,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2021,return_quarterly,0.17370986700799995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2022,return_quarterly,-0.19261806112000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2023,return_quarterly,0.16321891558400026,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HAL,2024,return_quarterly,0.10456521182,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2015,return_quarterly,0.024616857600000097,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2016,return_quarterly,0.08749097072,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2017,return_quarterly,0.03424090112,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2018,return_quarterly,-0.009535270240000115,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2019,return_quarterly,0.1959522680000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2020,return_quarterly,0.11116967360000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2021,return_quarterly,0.02744814585599986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2022,return_quarterly,-0.2967816451959998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2023,return_quarterly,0.13062551139199963,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hagee,2024,return_quarterly,0.11345685920000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2018,return_quarterly,-0.03961199999999998,2,"3,4",incomplete_year,,,,,,,no_official_return
+HaskoningDHV,2019,return_quarterly,0.19172669180599966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2020,return_quarterly,0.07473102658999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2021,return_quarterly,0.09018881509299947,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2022,return_quarterly,-0.19439664360999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2023,return_quarterly,0.09169441808000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+HaskoningDHV,2024,return_quarterly,0.07436243600000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2015,return_quarterly,0.02776608334399988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2016,return_quarterly,0.0876318588799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2017,return_quarterly,0.05791099596799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2018,return_quarterly,-0.013111736320000178,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2019,return_quarterly,0.13347265857299995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2020,return_quarterly,0.01616087300000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2021,return_quarterly,0.12195306317599997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2022,return_quarterly,-0.09314167360000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2023,return_quarterly,0.0844421948359999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Heineken,2024,return_quarterly,0.1258410060259998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2015,return_quarterly,0.03618733041599986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2016,return_quarterly,0.09752897654399995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2017,return_quarterly,0.05246463795199996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2018,return_quarterly,-0.0322340564400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2019,return_quarterly,0.19460439003500007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2020,return_quarterly,0.1486692664,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2021,return_quarterly,0.04989394103999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2022,return_quarterly,-0.21390162688000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2023,return_quarterly,0.08843902257199954,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Honeywell,2024,return_quarterly,0.11732658388999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2015,return_quarterly,0.025916652799999884,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2016,return_quarterly,0.07900442143999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2017,return_quarterly,0.07164698497999966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2018,return_quarterly,-0.013963483392000042,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2019,return_quarterly,0.15988843084399984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2020,return_quarterly,0.06420182320099976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2021,return_quarterly,0.08228922101999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2022,return_quarterly,-0.14447924988100014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2023,return_quarterly,0.1132643164160001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Hoogovens,2024,return_quarterly,0.0808918999999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2015,return_quarterly,0.0018179148319998895,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2016,return_quarterly,0.12103821872899978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2017,return_quarterly,0.05036664297599991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2018,return_quarterly,-0.006107822848000155,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2019,return_quarterly,0.26318150582,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2020,return_quarterly,0.14152637815999958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2021,return_quarterly,0.04344109120999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2022,return_quarterly,-0.28060091608000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2023,return_quarterly,0.10242356587999968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Horecabedrijf,2024,return_quarterly,0.09379437559999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2015,return_quarterly,0.013015235840000194,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2016,return_quarterly,0.08389951487999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2017,return_quarterly,0.055827009933999694,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2018,return_quarterly,-0.014422111705000296,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2019,return_quarterly,0.1613602316799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2020,return_quarterly,0.053318778720000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2021,return_quarterly,0.03189855635999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2022,return_quarterly,-0.20731056400000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2023,return_quarterly,0.06798178111999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huisartsen,2024,return_quarterly,0.04496779680999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2015,return_quarterly,0.02604671906,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2016,return_quarterly,0.09902455035199997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2017,return_quarterly,0.05596397899999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2018,return_quarterly,-0.017590878207999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2019,return_quarterly,0.17087314399999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2020,return_quarterly,0.0788481367999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2021,return_quarterly,0.056710855303999885,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2022,return_quarterly,-0.2033976434500001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2023,return_quarterly,0.08896778041999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Huntsman Rozenburg,2024,return_quarterly,0.08838066837499947,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2015,return_quarterly,0.0036052272000002272,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2016,return_quarterly,0.09307872396799977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2017,return_quarterly,0.02814011475999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2018,return_quarterly,0.021937841960000037,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2019,return_quarterly,0.11200166629099972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2020,return_quarterly,0.07346310776000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2021,return_quarterly,0.07718361919999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2022,return_quarterly,-0.19826903900799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2023,return_quarterly,0.036552496219999675,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IBM Nederland,2024,return_quarterly,-0.002302538680000077,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2015,return_quarterly,-0.0035237500000001587,3,"1,2,3",incomplete_year,,,,,,,no_official_return
+IFF,2016,return_quarterly,0.12067561894399992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2017,return_quarterly,0.027112684118000052,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2018,return_quarterly,0.008969911999999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2019,return_quarterly,0.15443180720000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2020,return_quarterly,0.09372089540000017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2021,return_quarterly,0.0070906209199999015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2022,return_quarterly,-0.19601826227200003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2023,return_quarterly,0.06920541727999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IFF,2024,return_quarterly,0.08668038481600004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2015,return_quarterly,-0.029157607480000403,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2016,return_quarterly,0.13457179980800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2017,return_quarterly,0.05253797245999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2018,return_quarterly,-0.020678305600000058,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2019,return_quarterly,0.223328503124,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2020,return_quarterly,0.19272273545599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2021,return_quarterly,0.03354713428399991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2022,return_quarterly,-0.292295548,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2023,return_quarterly,0.10129233967999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+IKEA,2024,return_quarterly,0.13476401611999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2015,return_quarterly,0.011885183071999705,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2016,return_quarterly,0.10543252601599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2017,return_quarterly,0.008622376159999945,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2018,return_quarterly,0.011744768000000017,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+ING,2019,return_quarterly,0.10977369747199983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2020,return_quarterly,0.09319616900000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2021,return_quarterly,0.06113555475199961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2022,return_quarterly,-0.20690301757600016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2023,return_quarterly,0.04549745484799983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING,2024,return_quarterly,0.018443918491999778,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2015,return_quarterly,0.014488422991999927,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2016,return_quarterly,0.11426296360399979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2017,return_quarterly,0.054865129219999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2018,return_quarterly,0.0034834299519996836,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2019,return_quarterly,0.18880906086799976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2020,return_quarterly,0.14943313848999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2021,return_quarterly,0.0032055933899997058,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2022,return_quarterly,-0.28547599708000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2023,return_quarterly,0.09823137382399993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+ING Bank CDC fonds,2024,return_quarterly,0.05533051705199976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2015,return_quarterly,0.00900680883199989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2016,return_quarterly,0.09343969576599997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2017,return_quarterly,0.0780915138560001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2018,return_quarterly,-0.017769429280000137,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2019,return_quarterly,0.15533948665999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2020,return_quarterly,0.061050503600000194,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2021,return_quarterly,0.1065786161779998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2022,return_quarterly,-0.1680975187199999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2023,return_quarterly,0.08209812287499973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Algemeen,2024,return_quarterly,0.09879693213999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2015,return_quarterly,0.023717339917999736,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2016,return_quarterly,0.07903593996799985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2017,return_quarterly,0.0696428295,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2018,return_quarterly,-0.021395035564000353,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2019,return_quarterly,0.13774751305999966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2020,return_quarterly,0.05494956640000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2021,return_quarterly,0.1618591512519998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2022,return_quarterly,-0.13383296100999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2023,return_quarterly,0.06590461951999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM Vliegend Personeel,2024,return_quarterly,0.06175399095999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2015,return_quarterly,0.006351257599999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2016,return_quarterly,0.10196418406399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2017,return_quarterly,0.0854444138399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2018,return_quarterly,-0.03377304234800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2019,return_quarterly,0.14747488446800006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2020,return_quarterly,0.09077465499200033,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2021,return_quarterly,0.09047578371199982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2022,return_quarterly,-0.22110547599999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2023,return_quarterly,0.0907184326099999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KLM-Cabinepersoneel,2024,return_quarterly,0.08911656874999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2015,return_quarterly,0.03741944074999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2016,return_quarterly,0.11179978932499979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2017,return_quarterly,0.07251890715199982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2018,return_quarterly,-0.01737351859199998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2019,return_quarterly,0.18413952976000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2020,return_quarterly,0.09220999846399969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2021,return_quarterly,0.07354318399999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2022,return_quarterly,-0.245804425672,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2023,return_quarterly,0.07493565657599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+KPN,2024,return_quarterly,0.09673690395499968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2015,return_quarterly,0.018056828096000066,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2016,return_quarterly,0.14207090389999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2017,return_quarterly,0.014313583999999935,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kappersbedrijf,2018,return_quarterly,0.023070904999999753,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2019,return_quarterly,0.27318013965800003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2020,return_quarterly,0.20092945299200005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2021,return_quarterly,-0.021498200725000305,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2022,return_quarterly,-0.31534464409599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2023,return_quarterly,0.06443412415999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kappersbedrijf,2024,return_quarterly,0.09716582104999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2015,return_quarterly,0.0029790989900000397,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2016,return_quarterly,0.08324630201600014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2017,return_quarterly,0.023852859020000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2018,return_quarterly,-0.0024013104400002483,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2019,return_quarterly,0.18387374508800014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2020,return_quarterly,0.15044833749999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2021,return_quarterly,0.010548062719999862,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2022,return_quarterly,-0.2650947478,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2023,return_quarterly,0.08154096221599971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kas Bank,2024,return_quarterly,0.07073577407499965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2015,return_quarterly,0.0001522342559998613,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2016,return_quarterly,0.07943882076799968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2017,return_quarterly,0.020012129135999812,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2018,return_quarterly,0.012981948056000059,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2019,return_quarterly,0.14475295296000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2020,return_quarterly,0.08591815327999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2021,return_quarterly,-0.008384707900000121,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2022,return_quarterly,-0.21802903134399998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2023,return_quarterly,0.07765651519999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Koopvaardij,2024,return_quarterly,0.06460616706499978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2017,return_quarterly,0.010757677999999826,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2018,return_quarterly,-0.019409852472,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2019,return_quarterly,0.21726497199999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2020,return_quarterly,0.11904744341600004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2021,return_quarterly,0.035540023040000035,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2022,return_quarterly,-0.2532057995050001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2023,return_quarterly,0.08142939674999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 2 - DB premie (Achmea),2024,return_quarterly,0.1105041271999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2017,return_quarterly,-0.01196295000000025,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2018,return_quarterly,0.007844431999999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2019,return_quarterly,0.2474585169200001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2020,return_quarterly,0.17747569081999925,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2021,return_quarterly,-0.07836163892800019,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2022,return_quarterly,-0.4061717922399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2023,return_quarterly,0.07423442000000025,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 3 - Stabiliteit (Achmea),2024,return_quarterly,0.10726919029999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2017,return_quarterly,0.020320180000000132,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2018,return_quarterly,-0.02245226752000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2019,return_quarterly,0.19901515673600034,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2020,return_quarterly,0.10777065649999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2021,return_quarterly,0.040057020002000066,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2022,return_quarterly,-0.2245506475600001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2023,return_quarterly,0.08247421204999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring 4 - Koopkracht (Achmea),2024,return_quarterly,0.10663103165299992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2018,return_quarterly,0.005885287819999752,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2019,return_quarterly,0.27058018808000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2020,return_quarterly,0.19042012507999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2021,return_quarterly,-0.035386388479999864,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2022,return_quarterly,-0.30429841384,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2023,return_quarterly,0.07269009337599996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring AFM (De Nationale),2024,return_quarterly,0.08789500752799961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ANWB (De nationale),2020,return_quarterly,0.11488499045000022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ANWB (De nationale),2021,return_quarterly,0.013442394649999967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ANWB (De nationale),2022,return_quarterly,-0.28974562660000025,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ANWB (De nationale),2023,return_quarterly,0.10895125543999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ANWB (De nationale),2024,return_quarterly,0.08360199583999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2018,return_quarterly,-0.02853300000000003,2,"3,4",incomplete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2019,return_quarterly,0.20283033785600013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2020,return_quarterly,0.09012431673599997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2021,return_quarterly,0.06145500064999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2022,return_quarterly,-0.23251819326200007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2023,return_quarterly,0.08832354399999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Arcadis (Hnp),2024,return_quarterly,0.07076404357999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring B (De Nationale),2021,return_quarterly,-0.012747999999999982,2,"3,4",incomplete_year,,,,,,,no_official_return
+Kring B (De Nationale),2022,return_quarterly,-0.26394202419199997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring B (De Nationale),2023,return_quarterly,0.09940658613499975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring B (De Nationale),2024,return_quarterly,0.08167454251999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2017,return_quarterly,0.013523839999999954,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2018,return_quarterly,-0.00011289178000006839,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2019,return_quarterly,0.16581588199999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2020,return_quarterly,0.09643146468499975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2021,return_quarterly,0.014180512399999845,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2022,return_quarterly,-0.23555201572000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2023,return_quarterly,0.07903275200000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Bavaria (Achmea),2024,return_quarterly,0.079200739232,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2017,return_quarterly,0.031023295999999867,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2018,return_quarterly,0.006606737408000329,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2019,return_quarterly,0.21532379091200005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2020,return_quarterly,0.12860224399999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2021,return_quarterly,0.013849709872999716,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2022,return_quarterly,-0.32592416337999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2023,return_quarterly,0.08605988691199995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring CK1 (Hnp),2024,return_quarterly,0.06567285500000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Chemours (Achmea),2020,return_quarterly,0.09015026183699981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Chemours (Achmea),2021,return_quarterly,0.021720962999999927,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Chemours (Achmea),2022,return_quarterly,-0.28205915679999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Chemours (Achmea),2023,return_quarterly,0.11682067030400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Chemours (Achmea),2024,return_quarterly,0.11019351449599957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring D (De Nationale),2020,return_quarterly,0.07005799999999995,2,"3,4",incomplete_year,,,,,,,no_official_return
+Kring D (De Nationale),2021,return_quarterly,-0.007106421466000268,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring D (De Nationale),2022,return_quarterly,-0.2621812404999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring D (De Nationale),2023,return_quarterly,0.07528427460999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring D (De Nationale),2024,return_quarterly,0.09773013900199978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB evenwicht (Achmea),2020,return_quarterly,0.040000000000000036,1,4,incomplete_year,,,,,,,no_official_return
+Kring DB evenwicht (Achmea),2021,return_quarterly,0.01922430232499983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB evenwicht (Achmea),2022,return_quarterly,-0.24133149740799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB evenwicht (Achmea),2023,return_quarterly,0.07730691992000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB evenwicht (Achmea),2024,return_quarterly,0.077433153536,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2017,return_quarterly,0.022582944239999847,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2018,return_quarterly,-0.0003687889600000327,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2019,return_quarterly,0.2529669546800002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2020,return_quarterly,0.16314361855999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2021,return_quarterly,-0.021009396574000028,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2022,return_quarterly,-0.2190884860000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2023,return_quarterly,0.0888711016039998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring DB-A (De Nationale),2024,return_quarterly,0.07868037186799981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Deutche Bank NL (Achmea),2023,return_quarterly,0.16899999999999982,1,4,incomplete_year,,,,,,,no_official_return
+Kring Deutche Bank NL (Achmea),2024,return_quarterly,0.07602450410000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2018,return_quarterly,-0.0025987240000001632,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2019,return_quarterly,0.16112036964399956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2020,return_quarterly,0.0696837187999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2021,return_quarterly,0.10469275078399987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2022,return_quarterly,-0.2292897304000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2023,return_quarterly,0.10864198222399968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Douwe Egberts (Stap),2024,return_quarterly,0.09017395135999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ES Nederland (Achmea),2021,return_quarterly,-0.0040000000000000036,1,4,incomplete_year,,,,,,,no_official_return
+Kring ES Nederland (Achmea),2022,return_quarterly,-0.28213470514000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ES Nederland (Achmea),2023,return_quarterly,0.12080162347999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring ES Nederland (Achmea),2024,return_quarterly,0.10118103958999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2016,return_quarterly,-0.028999999999999915,1,4,incomplete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2017,return_quarterly,0.043476021248000096,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2018,return_quarterly,-0.004434318864000031,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2019,return_quarterly,0.1662280685359998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2020,return_quarterly,0.08760684031999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2021,return_quarterly,0.053600910335999785,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2022,return_quarterly,-0.2929030167700001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2023,return_quarterly,0.09943423002499996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Eastman (Stap),2024,return_quarterly,0.07797363779999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2017,return_quarterly,0.026999999999999913,1,4,incomplete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2018,return_quarterly,-0.014324923900000397,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2019,return_quarterly,0.2190759391999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2020,return_quarterly,0.0955431061759997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2021,return_quarterly,0.0446016229999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2022,return_quarterly,-0.20856219003999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2023,return_quarterly,0.08099646338599986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Forward (Unilever),2024,return_quarterly,0.10324794413599969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Grolsch (Achmea),2024,return_quarterly,0.016999999999999904,1,4,incomplete_year,,,,,,,no_official_return
+Kring HP Nederland (Achmea),2021,return_quarterly,-0.006000000000000005,1,4,incomplete_year,,,,,,,no_official_return
+Kring HP Nederland (Achmea),2022,return_quarterly,-0.28778490172000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring HP Nederland (Achmea),2023,return_quarterly,0.10882695423499977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring HP Nederland (Achmea),2024,return_quarterly,0.11010882751999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring HPE (Achmea),2021,return_quarterly,0.0040000000000000036,1,4,incomplete_year,,,,,,,no_official_return
+Kring HPE (Achmea),2022,return_quarterly,-0.22465637704000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring HPE (Achmea),2023,return_quarterly,0.09956291443999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring HPE (Achmea),2024,return_quarterly,0.07109971558400008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2017,return_quarterly,0.05359199999999986,2,"3,4",incomplete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2018,return_quarterly,-0.012075868960000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2019,return_quarterly,0.18870006679999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2020,return_quarterly,0.11075609528000041,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2021,return_quarterly,0.10230650816000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2022,return_quarterly,-0.30836616831999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2023,return_quarterly,0.11845823679799983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Holland Casino (Stap),2024,return_quarterly,0.11878013063599968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2017,return_quarterly,0.025619429999999888,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2018,return_quarterly,-0.011361134500000092,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2019,return_quarterly,0.24216333331999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2020,return_quarterly,0.17152943041399982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2021,return_quarterly,0.005064850645999819,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2022,return_quarterly,-0.27219760762,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2023,return_quarterly,0.10063145360000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring McCain (De Nationale),2024,return_quarterly,0.09428786386099985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2017,return_quarterly,0.027999999999999803,1,4,incomplete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2018,return_quarterly,-0.038463440720000075,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2019,return_quarterly,0.13717232047999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2020,return_quarterly,0.0506801080160002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2021,return_quarterly,0.11126476122199969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2022,return_quarterly,-0.10286079121600011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2023,return_quarterly,0.07147965774499987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Progress (Unilever),2024,return_quarterly,0.0694086728479999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2017,return_quarterly,0.04840051097600018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2018,return_quarterly,-0.00813884171200041,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2019,return_quarterly,0.17665116992000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2020,return_quarterly,0.12170648743999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2021,return_quarterly,0.06308932729999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2022,return_quarterly,-0.25315906322399995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2023,return_quarterly,0.07925876064799975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring RBS (Achmea),2024,return_quarterly,0.07395001280000013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Roba (Hnp),2023,return_quarterly,0.10867520040199996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Roba (Hnp),2024,return_quarterly,0.10112994141499976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2016,return_quarterly,0.016000000000000014,1,4,incomplete_year,,,,,,,no_official_return
+Kring SVG (Stap),2017,return_quarterly,0.06108269571199987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2018,return_quarterly,-0.021789864099999945,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2019,return_quarterly,0.1711337652799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2020,return_quarterly,0.06610494154999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2021,return_quarterly,0.07172389519999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2022,return_quarterly,-0.23069599062400004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2023,return_quarterly,0.1060433483119998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring SVG (Stap),2024,return_quarterly,0.0772668473,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2019,return_quarterly,-0.013999999999999901,1,4,incomplete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2020,return_quarterly,0.19804050080000013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2021,return_quarterly,0.004255860608000095,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2022,return_quarterly,-0.2950179124239999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2023,return_quarterly,0.10949091047399984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring Sligro (Achmea),2024,return_quarterly,0.10787971470400004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring TotalEnergies NL (Stap),2022,return_quarterly,-0.25379989165000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring TotalEnergies NL (Stap),2023,return_quarterly,0.09235696127999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring TotalEnergies NL (Stap),2024,return_quarterly,0.09674470282399983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring equensWorldline (Achmea),2020,return_quarterly,0.13444011296000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring equensWorldline (Achmea),2021,return_quarterly,-0.019684783000000095,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring equensWorldline (Achmea),2022,return_quarterly,-0.25496100527199983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring equensWorldline (Achmea),2023,return_quarterly,0.07591787539999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Kring equensWorldline (Achmea),2024,return_quarterly,0.06964016743999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2015,return_quarterly,0.005494895,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2016,return_quarterly,0.08338202789999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2017,return_quarterly,0.03422025727999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2018,return_quarterly,-0.01614332800000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2019,return_quarterly,0.15077470107599988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2020,return_quarterly,0.08210048875999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2021,return_quarterly,0.015794039149999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2022,return_quarterly,-0.2688783887799999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2023,return_quarterly,0.09634078717999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lanschot,2024,return_quarterly,0.09453188960000025,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2015,return_quarterly,0.0019925667839999495,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2016,return_quarterly,0.12088926171199987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2017,return_quarterly,0.045543314815999825,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2018,return_quarterly,-0.009456103520000037,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2019,return_quarterly,0.17024465599999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2020,return_quarterly,0.0877379648569998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2021,return_quarterly,0.025704363683999754,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2022,return_quarterly,-0.3253615299999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2023,return_quarterly,0.08191921694499982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Levensmiddelenbedrijf,2024,return_quarterly,0.10613556830000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2015,return_quarterly,0.0008355840000000558,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2016,return_quarterly,0.0866647657520001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2017,return_quarterly,0.0854866404800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2018,return_quarterly,-0.03190339360000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2019,return_quarterly,0.152661653864,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2020,return_quarterly,0.10478041856000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2021,return_quarterly,0.05646879279200001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2022,return_quarterly,-0.22791727852,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2023,return_quarterly,0.14372187776,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Lloyd's Register Nederland,2024,return_quarterly,0.08632354687999966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2015,return_quarterly,0.0060643935649997704,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2016,return_quarterly,0.08459374399999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2017,return_quarterly,0.06017776623799964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2018,return_quarterly,-0.03430711026000011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2019,return_quarterly,0.130868003552,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2020,return_quarterly,0.051743757824000314,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2021,return_quarterly,0.07569071035999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2022,return_quarterly,-0.18008155903599998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2023,return_quarterly,0.11936461537999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Loodsen,2024,return_quarterly,0.09312403782399992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2015,return_quarterly,0.011678790079999946,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2016,return_quarterly,0.13048052479999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2017,return_quarterly,0.04416350654000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2018,return_quarterly,-0.016412994800000136,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2019,return_quarterly,0.2178185718600001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2020,return_quarterly,0.11496693139999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2021,return_quarterly,0.05637147109999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2022,return_quarterly,-0.249979200304,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2023,return_quarterly,0.12021142999999967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+MSD,2024,return_quarterly,0.10271844660399987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2015,return_quarterly,0.06581103135,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2016,return_quarterly,0.07771726356800013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2017,return_quarterly,0.045326883722,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2018,return_quarterly,0.005141959136000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2019,return_quarterly,0.12899796296,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2020,return_quarterly,0.05715366644999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2021,return_quarterly,0.10472637321799971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2022,return_quarterly,-0.1687461184000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2023,return_quarterly,0.015278201504000055,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mars,2024,return_quarterly,0.0659164200960003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2015,return_quarterly,0.04038525113599989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2016,return_quarterly,0.07137946857499977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2017,return_quarterly,0.06441066575199983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2018,return_quarterly,-0.008430257200000124,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2019,return_quarterly,0.20185039520000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2020,return_quarterly,0.10125596151999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2021,return_quarterly,0.00662870827999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2022,return_quarterly,-0.31637241565600005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2023,return_quarterly,0.09491371249999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medewerkers Apotheken,2024,return_quarterly,0.08572521377599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2015,return_quarterly,0.03531438388000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2016,return_quarterly,0.08489272396400005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2017,return_quarterly,0.08128637439999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2018,return_quarterly,0.001816764416000094,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2019,return_quarterly,0.15658088611999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2020,return_quarterly,0.0761395601599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2021,return_quarterly,0.10006189492999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2022,return_quarterly,-0.16963394724999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2023,return_quarterly,0.08332672962499976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Media PNO,2024,return_quarterly,0.09345756415999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2015,return_quarterly,0.03279344365999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2016,return_quarterly,0.09204948569599991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2017,return_quarterly,0.04975835148800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2018,return_quarterly,-0.0216143060520001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2019,return_quarterly,0.1726409750719997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2020,return_quarterly,0.09551705556000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2021,return_quarterly,0.0412885278720001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2022,return_quarterly,-0.20578507992999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2023,return_quarterly,0.1031221376,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mediahuis Nederland,2024,return_quarterly,0.08497276024399958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2015,return_quarterly,0.013811402869999823,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2016,return_quarterly,0.12091447193600002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2017,return_quarterly,0.052785968191999766,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2018,return_quarterly,-0.017316006904000147,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2019,return_quarterly,0.232832208509,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2020,return_quarterly,0.1563636694399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2021,return_quarterly,0.02337001135999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2022,return_quarterly,-0.27114761602000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2023,return_quarterly,0.08648484500599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Medische Specialisten,2024,return_quarterly,0.08448063541999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2015,return_quarterly,-0.023198957119999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2016,return_quarterly,0.16837721120000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2017,return_quarterly,-0.012585246399999916,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2018,return_quarterly,0.021812425738999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2019,return_quarterly,0.17701597664000013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2020,return_quarterly,0.09908055466999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2021,return_quarterly,-0.0037229902720001817,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2022,return_quarterly,-0.24953230225,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2023,return_quarterly,0.0905512813999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Mercer,2024,return_quarterly,0.06910554607999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2015,return_quarterly,0.022487791919999944,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2016,return_quarterly,0.10945180150999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2017,return_quarterly,0.040341844555999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2018,return_quarterly,0.0016361525239998453,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2019,return_quarterly,0.17993775040000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2020,return_quarterly,0.09959811215000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2021,return_quarterly,0.03873711590000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2022,return_quarterly,-0.27456435816,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2023,return_quarterly,0.08478342191999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metaal en Techniek,2024,return_quarterly,0.08100093679999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2015,return_quarterly,0.01070322080000019,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2016,return_quarterly,0.10149568899200001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2017,return_quarterly,0.046532297635999864,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2018,return_quarterly,-0.009548875260000256,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2019,return_quarterly,0.1823256318719999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2020,return_quarterly,0.10556465599999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2021,return_quarterly,0.03948946135999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2022,return_quarterly,-0.2328918922540001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2023,return_quarterly,0.08611856691199993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Metalektro, bedrijfstakpensioenfonds",2024,return_quarterly,0.08694753139999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2015,return_quarterly,0.02461927142399989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2016,return_quarterly,0.10662362719999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2017,return_quarterly,0.048667769239999936,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2018,return_quarterly,0.0025675740079993403,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2019,return_quarterly,0.1921152319999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2020,return_quarterly,0.09934329330000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2021,return_quarterly,0.06282897459199988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2022,return_quarterly,-0.23255864224,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Metro,2023,return_quarterly,0.09907103497399983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2015,return_quarterly,0.013526319049999902,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2016,return_quarterly,0.10589005834999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2017,return_quarterly,0.0404041703439999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2018,return_quarterly,-0.007455375040000156,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2019,return_quarterly,0.16468594480999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2020,return_quarterly,0.06097093670400011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2021,return_quarterly,0.04110826039999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2022,return_quarterly,-0.17328889024000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2023,return_quarterly,0.09366007760000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2024,return_quarterly,0.07102651911499969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2015,return_quarterly,-0.01340462273599985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2016,return_quarterly,0.1286910214999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2017,return_quarterly,0.05562242071999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2018,return_quarterly,-0.015773705199999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2019,return_quarterly,0.27603772800000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2020,return_quarterly,0.17220114810399956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2021,return_quarterly,0.015539590519999757,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2022,return_quarterly,-0.3246277774680001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2023,return_quarterly,0.12080046291200008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Molenaarspensioenfonds,2024,return_quarterly,0.1246668999999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2015,return_quarterly,0.01162905443599982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2016,return_quarterly,0.11439685409,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2017,return_quarterly,0.05069710714399944,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2018,return_quarterly,0.0025005862399998247,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2019,return_quarterly,0.18673317212000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2020,return_quarterly,0.14728142143999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2021,return_quarterly,0.005386586203999677,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2022,return_quarterly,-0.2927893673440001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2023,return_quarterly,0.1058247189079995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+NN CDC fonds,2024,return_quarterly,0.05771475553999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2015,return_quarterly,0.02002614920000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2016,return_quarterly,0.11627906667199972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2017,return_quarterly,0.04134960799999954,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Nederlandsche Bank,2018,return_quarterly,-0.0055817000960002305,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2019,return_quarterly,0.18976165922,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2020,return_quarterly,0.1162480868000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2021,return_quarterly,0.04853920703999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2022,return_quarterly,-0.24418700415999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2023,return_quarterly,0.11825451783499963,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nederlandsche Bank,2024,return_quarterly,0.08502852348799972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2015,return_quarterly,0.04732989672499954,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2016,return_quarterly,0.07438092569599974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2017,return_quarterly,0.03228559399999975,3,"1,3,4",incomplete_year,,,,,,,no_official_return
+Nedlloyd,2018,return_quarterly,0.01582007089699977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2019,return_quarterly,0.10074498902399975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2020,return_quarterly,0.04793918839999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2021,return_quarterly,0.0298033180999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2022,return_quarterly,-0.18437300992000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2023,return_quarterly,0.04016706977599993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Nedlloyd,2024,return_quarterly,0.03305515934600001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2015,return_quarterly,4.509668000007849e-05,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2016,return_quarterly,0.11146203555199996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2017,return_quarterly,0.024789218815999936,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2018,return_quarterly,-0.004461186612000123,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2019,return_quarterly,0.1863602660000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2020,return_quarterly,0.11402762671199995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2021,return_quarterly,0.01792898899999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2022,return_quarterly,-0.27852875252200004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2023,return_quarterly,0.11408231563199989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Notariaat,2024,return_quarterly,0.07962326359999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2015,return_quarterly,-0.030118715040000077,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2016,return_quarterly,0.1215137206400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2017,return_quarterly,0.060982370624000026,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2018,return_quarterly,-0.023257583350000166,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2019,return_quarterly,0.19389853568000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2020,return_quarterly,0.12261202726400011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2021,return_quarterly,0.060166284056,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2022,return_quarterly,-0.2827573318719998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2023,return_quarterly,0.09516863590399982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Oak,2024,return_quarterly,0.09078163952999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2015,return_quarterly,0.0024294708800001175,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2016,return_quarterly,0.07424412876800002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2017,return_quarterly,0.052964268199999553,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2018,return_quarterly,-0.01740246304000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2019,return_quarterly,0.12366595186999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2020,return_quarterly,0.041387190271999774,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2021,return_quarterly,0.07898168521199955,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2022,return_quarterly,-0.13968930304000027,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2023,return_quarterly,0.08859183901999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PDN,2024,return_quarterly,0.08514627739199976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2015,return_quarterly,0.014062885000000191,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2016,return_quarterly,0.1096264748869995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2017,return_quarterly,0.06747028387999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2018,return_quarterly,-0.022967710980000056,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2019,return_quarterly,0.1593716451799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2020,return_quarterly,0.06901760986999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2021,return_quarterly,0.06179497416799995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2022,return_quarterly,-0.25315006240000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2023,return_quarterly,0.11779133312000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PGB,2024,return_quarterly,0.09400273241599955,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2015,return_quarterly,-0.013061815680000088,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2016,return_quarterly,0.15096418467999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2017,return_quarterly,0.049232196679999785,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2018,return_quarterly,0.006117227167999673,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2019,return_quarterly,0.27120246703999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2020,return_quarterly,0.1537041689599996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2021,return_quarterly,0.03355633030400007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2022,return_quarterly,-0.26663485548800003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2023,return_quarterly,0.08143892480000026,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Particuliere Beveiliging,2024,return_quarterly,0.10632243996199975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2018,return_quarterly,0.001786369999999815,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2019,return_quarterly,0.15865842175999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2020,return_quarterly,0.08511171776000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2021,return_quarterly,0.034763920981999874,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2022,return_quarterly,-0.29766596032000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2023,return_quarterly,0.09062565516799981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring 2 (Stap),2024,return_quarterly,0.07094059028,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring AON (Stap),2023,return_quarterly,0.06634380200000001,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Pensioenkring AON (Stap),2024,return_quarterly,0.07465471546399982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Astellas (Stap),2024,return_quarterly,0.08576110999999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2019,return_quarterly,0.15972517555999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2020,return_quarterly,0.09640650608000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2021,return_quarterly,0.03804253199999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2022,return_quarterly,-0.218710671817,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2023,return_quarterly,0.10939081932800021,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Ballast Nedam (Stap),2024,return_quarterly,0.07867951190999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Cargill (Hnp),2023,return_quarterly,0.061226,2,"3,4",incomplete_year,,,,,,,no_official_return
+Pensioenkring Cargill (Hnp),2024,return_quarterly,0.09033689600000017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring GE Nederland (Stap),2021,return_quarterly,0.04717199999999999,2,"3,4",incomplete_year,,,,,,,no_official_return
+Pensioenkring GE Nederland (Stap),2022,return_quarterly,-0.2738727687160001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring GE Nederland (Stap),2023,return_quarterly,0.1409290430000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring GE Nederland (Stap),2024,return_quarterly,0.08431809076800012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring OWASE (Hnp),2020,return_quarterly,0.08333375283200017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring OWASE (Hnp),2021,return_quarterly,0.06072998422399989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring OWASE (Hnp),2022,return_quarterly,-0.22496203653400004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring OWASE (Hnp),2023,return_quarterly,0.1126520984599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring OWASE (Hnp),2024,return_quarterly,0.0888695309959997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring PepsiCo (Hnp),2024,return_quarterly,0.05935542712999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Randstad (Hnp),2020,return_quarterly,0.10842935839999956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Randstad (Hnp),2021,return_quarterly,-0.023116043280000165,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Randstad (Hnp),2022,return_quarterly,-0.2955939201400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Randstad (Hnp),2023,return_quarterly,0.08504612216000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Randstad (Hnp),2024,return_quarterly,0.061253446399999856,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Sweco (Hnp),2020,return_quarterly,0.04037499999999983,2,"3,4",incomplete_year,,,,,,,no_official_return
+Pensioenkring Sweco (Hnp),2021,return_quarterly,0.011287637359999936,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Sweco (Hnp),2022,return_quarterly,-0.20778939675999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Sweco (Hnp),2023,return_quarterly,0.08697874879999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Sweco (Hnp),2024,return_quarterly,0.06655298749999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensioenkring Xerox (Hnp),2024,return_quarterly,0.07721703963999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2015,return_quarterly,0.0328349670560002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2016,return_quarterly,0.10228200156800016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2017,return_quarterly,0.05249823988399993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2018,return_quarterly,-0.017610407200000178,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2019,return_quarterly,0.20474937800000004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2020,return_quarterly,0.07759185920000022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2021,return_quarterly,0.10140411695599938,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2022,return_quarterly,-0.19724686336000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2023,return_quarterly,0.13222659175999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pensura,2024,return_quarterly,0.10416529831999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2015,return_quarterly,-0.00733136062000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2016,return_quarterly,0.02633619523999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2017,return_quarterly,-0.007026936838000153,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2018,return_quarterly,0.011002724299999711,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2019,return_quarterly,0.07449545924,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2020,return_quarterly,0.0711210229999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2021,return_quarterly,-0.013308780000000131,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2022,return_quarterly,-0.22324639388800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2023,return_quarterly,0.0832143549919997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelsdiensten,2024,return_quarterly,0.03285672627199987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2015,return_quarterly,0.010194596179999849,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2016,return_quarterly,0.11061550387199981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2017,return_quarterly,0.06310119172399964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2018,return_quarterly,-0.02786369392000021,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2019,return_quarterly,0.14757226495999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2020,return_quarterly,0.057783730399999955,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2021,return_quarterly,0.1130886821599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2022,return_quarterly,-0.2165552744560002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2023,return_quarterly,0.10454543561599983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Personeelspensioenfonds APG,2024,return_quarterly,0.07241982662000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2015,return_quarterly,0.0023508383840000757,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2016,return_quarterly,0.10254690457999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2017,return_quarterly,0.05803923679999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2018,return_quarterly,-0.023553153352000145,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2019,return_quarterly,0.16698197041999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2020,return_quarterly,0.09972920657599982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2021,return_quarterly,0.05633708840000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2022,return_quarterly,-0.24667807060000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2023,return_quarterly,0.06782464040000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Philips,2024,return_quarterly,0.04909969345999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2015,return_quarterly,0.038283635023999896,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2016,return_quarterly,0.0642087094399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2017,return_quarterly,0.08407448035999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2018,return_quarterly,-0.05295734794800022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2019,return_quarterly,0.2742234814400002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2020,return_quarterly,0.12796753920000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2021,return_quarterly,0.029088509371999915,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2022,return_quarterly,-0.27801266848000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2023,return_quarterly,0.11728740876799959,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Pon,2024,return_quarterly,0.12903244999999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2015,return_quarterly,0.01405844432000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2016,return_quarterly,0.10816313299999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2017,return_quarterly,0.05389987499999971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2018,return_quarterly,-0.0055742794879999336,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2019,return_quarterly,0.15121573952,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2020,return_quarterly,0.06842165884999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2021,return_quarterly,0.07590200933599989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2022,return_quarterly,-0.17109934280000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2023,return_quarterly,0.07465666725199949,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+PostNL,2024,return_quarterly,0.0710566078399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2015,return_quarterly,0.03180331330999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2016,return_quarterly,0.06798858451999967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2017,return_quarterly,0.04255076191599971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2018,return_quarterly,-0.012668345368000211,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2019,return_quarterly,0.1318940740800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2020,return_quarterly,0.0848800919599999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2021,return_quarterly,0.04441082530399987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2022,return_quarterly,-0.19700591574399984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2023,return_quarterly,0.0939158507200002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Provisum,2024,return_quarterly,0.07332151255999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2015,return_quarterly,0.010347998912000111,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2016,return_quarterly,0.08694119953999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2017,return_quarterly,0.03732096267799956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2018,return_quarterly,-0.02429125215200012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2019,return_quarterly,0.12217495084099972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2020,return_quarterly,0.16577668037600013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2021,return_quarterly,0.017202958147999547,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2022,return_quarterly,-0.2814199839999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2023,return_quarterly,0.07763304370400004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rabobankorganisatie,2024,return_quarterly,0.06617659218399985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2015,return_quarterly,-0.0040224029679999385,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2016,return_quarterly,0.11280309865999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2017,return_quarterly,0.06653186426599977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2018,return_quarterly,-0.0075005200000001215,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2019,return_quarterly,0.1618687807999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2020,return_quarterly,0.08077568978599992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2021,return_quarterly,0.0829630518979998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2022,return_quarterly,-0.17473834016000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2023,return_quarterly,0.07754356735999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rail & Openbaar Vervoer,2024,return_quarterly,0.08629883599999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2015,return_quarterly,-0.015765500116000086,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2016,return_quarterly,0.124385877368,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2017,return_quarterly,0.001181533999999873,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2018,return_quarterly,0.006780763280000102,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2019,return_quarterly,0.27667790910800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2020,return_quarterly,0.15370194539599957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2021,return_quarterly,0.007233562249999714,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2022,return_quarterly,-0.31100246677599996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2023,return_quarterly,0.0862604212039999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Recreatie (SPR),2024,return_quarterly,0.08402251543999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2015,return_quarterly,-0.009545310351999903,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2016,return_quarterly,0.12689916016399994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2017,return_quarterly,0.07263300661999961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2018,return_quarterly,-0.019891302400000033,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2019,return_quarterly,0.20077873291999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2020,return_quarterly,0.12664556388799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2021,return_quarterly,0.04996392599999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2022,return_quarterly,-0.2430488799999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2023,return_quarterly,0.09278980485999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rijn- en Binnenvaart,2024,return_quarterly,0.09394598297599988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2015,return_quarterly,0.001022736229999932,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2016,return_quarterly,0.10707015161599998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2017,return_quarterly,0.05381419894399975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2018,return_quarterly,-0.028848589264000246,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2019,return_quarterly,0.1967866656199999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2020,return_quarterly,0.09011683549999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2021,return_quarterly,0.04670095248799977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2022,return_quarterly,-0.19661587632800015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2023,return_quarterly,0.09453444531200006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Robeco,2024,return_quarterly,0.10869555928000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2015,return_quarterly,0.01672703468000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2016,return_quarterly,0.07042395987799965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2017,return_quarterly,0.022660562672000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2018,return_quarterly,-0.009183150658000128,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2019,return_quarterly,0.19045491343999976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2020,return_quarterly,0.13522270055999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2021,return_quarterly,0.0024827887249996294,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2022,return_quarterly,-0.26374816702000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2023,return_quarterly,0.10403451903999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Rockwool,2024,return_quarterly,0.08891476400000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2015,return_quarterly,0.023659106623999726,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2016,return_quarterly,0.06920557567999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2017,return_quarterly,0.047730960275999657,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2018,return_quarterly,-0.005385090976000262,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2019,return_quarterly,0.14107145151999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2020,return_quarterly,0.06132436976000011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2021,return_quarterly,0.0549509805799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2022,return_quarterly,-0.16286936168800015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2023,return_quarterly,0.11454026802799988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Roeiers in het Rotterdamse havengebied,2024,return_quarterly,0.11744219014999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2015,return_quarterly,0.011056775047999956,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2016,return_quarterly,0.08463454985599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2017,return_quarterly,0.06330299187199984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2018,return_quarterly,-0.026592362560000193,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2019,return_quarterly,0.16686246949999983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2020,return_quarterly,0.08727065629999986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2021,return_quarterly,0.06614085599999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2022,return_quarterly,-0.1948267540840002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2023,return_quarterly,0.09211300659999977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SABIC,2024,return_quarterly,0.058986844999999954,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2015,return_quarterly,-0.01895169199999991,3,"1,2,3",incomplete_year,,,,,,,no_official_return
+SNS Reaal Groep,2016,return_quarterly,0.1254301224319998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2017,return_quarterly,0.01856330575999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2018,return_quarterly,-0.005016871180000049,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2019,return_quarterly,0.17518741999999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2020,return_quarterly,0.11731774071499967,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2021,return_quarterly,-0.015669234400000454,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2022,return_quarterly,-0.28236003808,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2023,return_quarterly,0.06932943312000006,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+SNS Reaal Groep,2024,return_quarterly,0.08573758710399959,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2015,return_quarterly,0.05220340159999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2016,return_quarterly,0.046590953408000235,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2017,return_quarterly,0.047713546879999846,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2018,return_quarterly,-0.03819187921599998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2019,return_quarterly,0.12894694999999978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2020,return_quarterly,0.03969516838400011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2021,return_quarterly,0.060186327199999834,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2022,return_quarterly,-0.15759121283200017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2023,return_quarterly,0.11303001920000022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sagittarius,2024,return_quarterly,0.04057086319999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2015,return_quarterly,0.041369408240000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2016,return_quarterly,0.09503983138400018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2017,return_quarterly,0.04869375649999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2018,return_quarterly,0.005754512434999803,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2019,return_quarterly,0.1610738247679997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2020,return_quarterly,0.11006508838399998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2021,return_quarterly,0.0533657601919999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2022,return_quarterly,-0.19401552595899996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2023,return_quarterly,0.04605177770000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Samenwerking / Slagersbedrijf,2024,return_quarterly,0.07973401112,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2015,return_quarterly,-0.012171833416000144,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2016,return_quarterly,0.09903872000000025,3,"1,2,3",incomplete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2017,return_quarterly,0.07163290133899958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2018,return_quarterly,-0.017219349247000304,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2019,return_quarterly,0.17736860527999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2020,return_quarterly,0.0630360607999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2021,return_quarterly,0.10003428973199968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2022,return_quarterly,-0.19125716910399992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2023,return_quarterly,0.109950957568,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Schilders-, Afwerkings- en Glaszetbedrijf",2024,return_quarterly,0.10943469996800004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2015,return_quarterly,-0.009375044680000166,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2016,return_quarterly,0.09213251264000011,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2017,return_quarterly,0.044605718155999785,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2018,return_quarterly,0.00764717983999974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2019,return_quarterly,0.15084161914399985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2020,return_quarterly,0.09518054659999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2021,return_quarterly,0.029550593203999886,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2022,return_quarterly,-0.23154007567999968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2023,return_quarterly,0.1032483212719999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Schoonmaak- en Glazenwassersbedrijf,2024,return_quarterly,0.07577058679999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2015,return_quarterly,0.04474154067199998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2016,return_quarterly,0.06442009150399985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2017,return_quarterly,0.05084452959199948,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2018,return_quarterly,-0.0031171926880001477,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2019,return_quarterly,0.13164364249999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2020,return_quarterly,0.033721694720000084,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2021,return_quarterly,0.09734425399999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2022,return_quarterly,-0.18636434200000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2023,return_quarterly,0.06676211312000002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Shell,2024,return_quarterly,0.028485218671999935,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2015,return_quarterly,-0.029777904640000075,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2016,return_quarterly,0.11169259600000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2017,return_quarterly,0.055742775919999765,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2018,return_quarterly,-0.027261811072000097,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2019,return_quarterly,0.18128284792000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2020,return_quarterly,0.06588618226999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2021,return_quarterly,0.04910402781799994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2022,return_quarterly,-0.1985115600880002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2023,return_quarterly,0.09989612743999987,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Smurfit Kappa Nederland,2024,return_quarterly,0.10445773144999948,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2015,return_quarterly,-0.03412741375000017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2016,return_quarterly,0.07165396635199994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2017,return_quarterly,0.08978407163599966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2018,return_quarterly,-0.045314255679999804,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2019,return_quarterly,0.17560718600000014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2020,return_quarterly,0.09295946508000008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2021,return_quarterly,0.09230637622399973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2022,return_quarterly,-0.2151214787550001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2023,return_quarterly,0.12117398892800013,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Sportfondsen,2024,return_quarterly,0.1225941674509996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2015,return_quarterly,0.01850128832199971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2016,return_quarterly,0.0778783112239998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2017,return_quarterly,0.041474451679999635,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2018,return_quarterly,-0.019517039920000312,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2019,return_quarterly,0.13715224106000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2020,return_quarterly,0.07905599900000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2021,return_quarterly,0.03412504985600018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2022,return_quarterly,-0.24842145599999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2023,return_quarterly,0.10429315142299989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Staples,2024,return_quarterly,0.0729522790399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2015,return_quarterly,0.011606195599999758,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2016,return_quarterly,0.07867480064000021,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2017,return_quarterly,0.0877016175739993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2018,return_quarterly,-0.030971850176000126,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2019,return_quarterly,0.16082719168000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2020,return_quarterly,0.055409796349999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2021,return_quarterly,0.08748265954399992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2022,return_quarterly,-0.16035997239999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2023,return_quarterly,0.08039027095999973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TDV,2024,return_quarterly,0.06285157378399986,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2015,return_quarterly,0.025861493719999906,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2016,return_quarterly,0.09670677483199985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2017,return_quarterly,0.03941119883599975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2018,return_quarterly,-0.012279374112000196,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2019,return_quarterly,0.13617091632,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2020,return_quarterly,0.07546531201999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2021,return_quarterly,0.08479891519999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2022,return_quarterly,-0.1903165455039998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2023,return_quarterly,0.11558138983999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+TNO,2024,return_quarterly,0.09101047641600002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2015,return_quarterly,0.0027932712500000623,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2016,return_quarterly,0.08260513961599991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2017,return_quarterly,0.020961997699999957,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2018,return_quarterly,-0.003233749312000378,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2019,return_quarterly,0.1332154223059998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2020,return_quarterly,0.08305793680000018,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2021,return_quarterly,0.0034639315999998033,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2022,return_quarterly,-0.20390308432000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2023,return_quarterly,0.10251700275499998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Tandartsen en Tandarts-Specialisten,2024,return_quarterly,0.06580500487999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2015,return_quarterly,0.0232424576000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2016,return_quarterly,0.09924577112000033,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2017,return_quarterly,0.0350921903839998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2018,return_quarterly,-0.024831366400000277,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2019,return_quarterly,0.23224809396,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2020,return_quarterly,0.12185306113999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2021,return_quarterly,0.07152585343999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2022,return_quarterly,-0.25115367548800005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2023,return_quarterly,0.12828774297,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Thales,2024,return_quarterly,0.08946191067200027,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2015,return_quarterly,-0.007833271119999874,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2016,return_quarterly,0.09363063680000017,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2017,return_quarterly,-0.006604720669000086,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2018,return_quarterly,0.0018116107999999187,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2019,return_quarterly,0.22771018279999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2020,return_quarterly,0.14651981414399984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2021,return_quarterly,-0.037941136000000264,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2022,return_quarterly,-0.2841895446400001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2023,return_quarterly,0.07327030454000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Trespa,2024,return_quarterly,0.060496102015999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2015,return_quarterly,-0.004369761663999716,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2016,return_quarterly,0.11863252158899962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2017,return_quarterly,0.03421886527999973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2018,return_quarterly,-0.0052787138559999836,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2019,return_quarterly,0.15885583747999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2020,return_quarterly,0.06708502276999972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2021,return_quarterly,0.04748295679999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2022,return_quarterly,-0.17638424704000022,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2023,return_quarterly,0.08455053409999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+UWV,2024,return_quarterly,0.07349090155999982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2015,return_quarterly,-0.03969644644000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2016,return_quarterly,0.12258049381499969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2017,return_quarterly,0.04077345341599958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2018,return_quarterly,-0.015211434160000148,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2019,return_quarterly,0.2175349338799999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2020,return_quarterly,0.12295171625000001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2021,return_quarterly,0.014613578803999827,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2022,return_quarterly,-0.25839835012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2023,return_quarterly,0.056740133599999965,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Verloskundigen,2024,return_quarterly,0.08880568468099947,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2015,return_quarterly,-0.020297331999999946,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2016,return_quarterly,0.10036441087999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2017,return_quarterly,0.01348869697499988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2018,return_quarterly,0.002762710375999955,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2019,return_quarterly,0.20310122815999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2020,return_quarterly,0.12822551763199996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2021,return_quarterly,0.007023082669999736,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2022,return_quarterly,-0.24801395679999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2023,return_quarterly,0.09240475728999975,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2024,return_quarterly,0.10917986174000016,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2015,return_quarterly,0.0068159678260000245,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2016,return_quarterly,0.10165365555199979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2017,return_quarterly,0.0444589338079997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2018,return_quarterly,-0.022520763960000245,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2019,return_quarterly,0.18304717831999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2020,return_quarterly,0.09819895640000009,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2021,return_quarterly,0.02951501619199992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2022,return_quarterly,-0.23661340825600008,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2023,return_quarterly,0.10253184343999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2024,return_quarterly,0.1048555737800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2015,return_quarterly,0.018345948975999837,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2016,return_quarterly,0.08408847392999985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2017,return_quarterly,0.05602147819999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2018,return_quarterly,-0.021574736128000205,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2019,return_quarterly,0.1657882328960003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2020,return_quarterly,0.08188207870399977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2021,return_quarterly,0.0483725127679997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2022,return_quarterly,-0.18685462009600007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2023,return_quarterly,0.08528241536000003,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Vopak,2024,return_quarterly,0.06818385385599979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2015,return_quarterly,0.033426145555999875,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2016,return_quarterly,0.06632192000000003,3,"2,3,4",incomplete_year,,,,,,,no_official_return
+Waterbouw BPF,2017,return_quarterly,0.09086199851199961,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2018,return_quarterly,-0.018571569160000134,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2019,return_quarterly,0.15361183399999923,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2020,return_quarterly,0.07321735347199976,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2021,return_quarterly,0.09067174848799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2022,return_quarterly,-0.17781551206400015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2023,return_quarterly,0.08917590505599993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Waterbouw BPF,2024,return_quarterly,0.1137467108600001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2015,return_quarterly,0.0072537939749999225,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2016,return_quarterly,0.07454216114000012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2017,return_quarterly,0.0897339241999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2018,return_quarterly,-0.04214171955199997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2019,return_quarterly,0.15426752940799981,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2020,return_quarterly,0.08143896409999973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2021,return_quarterly,0.07565848477999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2022,return_quarterly,-0.16660850041599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2023,return_quarterly,0.09052757777599929,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Werk en (re)Integratie,2024,return_quarterly,0.08800811399999997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2015,return_quarterly,-0.0007300291599999786,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2016,return_quarterly,0.10090242281600004,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2017,return_quarterly,0.04343171609599983,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2018,return_quarterly,-0.019631456560000093,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2019,return_quarterly,0.156208520204,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2020,return_quarterly,0.10739914876799994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2021,return_quarterly,0.02361660199999993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2022,return_quarterly,-0.23501990124999994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2023,return_quarterly,0.09817242563599993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Witteveen & Bos,2024,return_quarterly,0.07129200363199972,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2015,return_quarterly,0.008168584192000061,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2016,return_quarterly,0.08432709228799973,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2017,return_quarterly,0.04771700376199939,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2018,return_quarterly,-0.01543061485000019,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2019,return_quarterly,0.15264424066399984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2020,return_quarterly,0.08887115284999969,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2021,return_quarterly,0.04526091669999954,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2022,return_quarterly,-0.21049851576,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2023,return_quarterly,0.11625743599999971,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Wolters Kluwer Nederland,2024,return_quarterly,0.061200279619999964,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2015,return_quarterly,0.010415728448000205,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2016,return_quarterly,0.12907466255999966,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2017,return_quarterly,0.04732701920000015,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2018,return_quarterly,-0.011261065599999953,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2019,return_quarterly,0.16908646299199992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2020,return_quarterly,0.06031456543999991,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2021,return_quarterly,0.09803133439999989,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2022,return_quarterly,-0.2225962958319999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2023,return_quarterly,0.08443221365599984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Woningcorporaties,2024,return_quarterly,0.08364877004799998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2015,return_quarterly,0.017126069396000032,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2016,return_quarterly,0.06529719295999992,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2017,return_quarterly,0.06864483219199968,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2018,return_quarterly,-0.033401720319999995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2019,return_quarterly,0.12948214043599982,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2020,return_quarterly,0.0686247487999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2021,return_quarterly,0.06100743190399993,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2022,return_quarterly,-0.17634764018000026,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2023,return_quarterly,0.10895670859999962,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+YARA Nederland,2024,return_quarterly,0.0702856550359996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2015,return_quarterly,-0.015111548319999946,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2016,return_quarterly,0.14193057387499985,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2017,return_quarterly,0.0456065635339995,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2018,return_quarterly,-0.005501885823999908,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2019,return_quarterly,0.17329458688,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2020,return_quarterly,0.07846420322600012,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2021,return_quarterly,0.0543392896399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2022,return_quarterly,-0.24499718092900002,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2023,return_quarterly,0.11376689605999979,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zoetwarenindustrie,2024,return_quarterly,0.11872653630399999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2015,return_quarterly,-0.0009354454240001475,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2016,return_quarterly,0.11934939813199974,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2017,return_quarterly,0.05142292783999958,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2018,return_quarterly,-0.004286048782000007,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2019,return_quarterly,0.18698447735,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2020,return_quarterly,0.05431536742399978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2021,return_quarterly,0.08244503586799978,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2022,return_quarterly,-0.2220743543349999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2023,return_quarterly,0.08178107239999988,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorg en Welzijn,2024,return_quarterly,0.0760143234499997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2015,return_quarterly,-0.004184607999999979,3,"1,2,4",incomplete_year,,,,,,,no_official_return
+Zorgverzekeraars,2016,return_quarterly,0.11401530416000005,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2017,return_quarterly,0.04139483999999971,3,"1,3,4",incomplete_year,,,,,,,no_official_return
+Zorgverzekeraars,2018,return_quarterly,-0.0031271633620000294,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2019,return_quarterly,0.15922710675200014,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2020,return_quarterly,0.13548056005999998,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2021,return_quarterly,0.008661092479999688,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2022,return_quarterly,-0.2432151170800001,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2023,return_quarterly,0.06941240529199977,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zorgverzekeraars,2024,return_quarterly,0.06139525513599997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2015,return_quarterly,-0.09987873991999996,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2016,return_quarterly,0.13044483281599994,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2017,return_quarterly,0.021573662720000053,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2018,return_quarterly,-0.004444864000000104,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2019,return_quarterly,0.24552118836799997,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2020,return_quarterly,0.16741232138999984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2021,return_quarterly,0.006137440909999903,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2022,return_quarterly,-0.31706346707199984,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2023,return_quarterly,0.1053765687999999,4,"1,2,3,4",complete_year,,,,,,,no_official_return
+Zuivel en aanverwante industrie,2024,return_quarterly,0.09131030086400016,4,"1,2,3,4",complete_year,,,,,,,no_official_return

@@ -1,0 +1,2 @@
+factor_model,requested_factor_columns,selected_factor_columns,available_nonempty_factor_columns,missing_factor_columns,ignored_empty_factor_columns,notes
+pension,"equity,duration,credit,real_estate,fx","equity,duration,credit,real_estate,fx","equity,duration,credit,real_estate,fx,eurusd_return",,,

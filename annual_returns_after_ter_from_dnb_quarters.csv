@@ -1,0 +1,1583 @@
+fund,year,return_type,dnb_compounded_annual_return,n_quarters,quarters_present,annual_sample_status
+ABN AMRO Bank,2015,return_after_ter,0.003967206283082669,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2016,return_after_ter,0.12225579095613215,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2017,return_after_ter,0.019034765567583767,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2018,return_after_ter,0.011205864544461042,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2019,return_after_ter,0.2161815808762606,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2020,return_after_ter,0.09330351456051433,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2021,return_after_ter,-0.011386424511187987,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2022,return_after_ter,-0.2532791977823715,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2023,return_after_ter,0.07379526024729866,4,"1,2,3,4",complete_year
+ABN AMRO Bank,2024,return_after_ter,0.04287597379345698,4,"1,2,3,4",complete_year
+ABP,2015,return_after_ter,0.021292869270641557,4,"1,2,3,4",complete_year
+ABP,2016,return_after_ter,0.08775381046325603,4,"1,2,3,4",complete_year
+ABP,2017,return_after_ter,0.06880849519922783,4,"1,2,3,4",complete_year
+ABP,2018,return_after_ter,-0.030033705007171396,4,"1,2,3,4",complete_year
+ABP,2019,return_after_ter,0.141429514641489,4,"1,2,3,4",complete_year
+ABP,2020,return_after_ter,0.042542432613898784,4,"1,2,3,4",complete_year
+ABP,2021,return_after_ter,0.1133559253205656,4,"1,2,3,4",complete_year
+ABP,2022,return_after_ter,-0.1818045714735168,4,"1,2,3,4",complete_year
+ABP,2023,return_after_ter,0.08694837995646365,4,"1,2,3,4",complete_year
+ABP,2024,return_after_ter,0.08021536294974507,4,"1,2,3,4",complete_year
+AHOLD,2015,return_after_ter,-0.016976100615269774,4,"1,2,3,4",complete_year
+AHOLD,2016,return_after_ter,0.10305487106153133,4,"1,2,3,4",complete_year
+AHOLD,2017,return_after_ter,0.026116752711165203,4,"1,2,3,4",complete_year
+AHOLD,2018,return_after_ter,-0.010463838289813565,4,"1,2,3,4",complete_year
+AHOLD,2019,return_after_ter,0.22272346667236764,4,"1,2,3,4",complete_year
+AHOLD,2020,return_after_ter,0.0867937298755217,4,"1,2,3,4",complete_year
+AHOLD,2021,return_after_ter,0.03056606491536651,4,"1,2,3,4",complete_year
+AHOLD,2022,return_after_ter,-0.24653867988878098,4,"1,2,3,4",complete_year
+AHOLD,2023,return_after_ter,0.09245172128787837,4,"1,2,3,4",complete_year
+AHOLD,2024,return_after_ter,0.0780578736001103,4,"1,2,3,4",complete_year
+APF,2015,return_after_ter,-0.013179919887353897,4,"1,2,3,4",complete_year
+APF,2016,return_after_ter,0.07057895185757657,4,"1,2,3,4",complete_year
+APF,2017,return_after_ter,0.06972709157938572,4,"1,2,3,4",complete_year
+APF,2018,return_after_ter,-0.040431447122665554,4,"1,2,3,4",complete_year
+APF,2019,return_after_ter,0.13630713140431872,4,"1,2,3,4",complete_year
+APF,2020,return_after_ter,0.04455605771207538,4,"1,2,3,4",complete_year
+APF,2021,return_after_ter,0.06071023920539553,4,"1,2,3,4",complete_year
+APF,2022,return_after_ter,-0.1920093782847654,4,"1,2,3,4",complete_year
+APF,2023,return_after_ter,0.09195194645523252,4,"1,2,3,4",complete_year
+APF,2024,return_after_ter,0.06987623876340288,4,"1,2,3,4",complete_year
+AT&T Nederland,2015,return_after_ter,0.01925565531502338,4,"1,2,3,4",complete_year
+AT&T Nederland,2016,return_after_ter,0.07420120828340115,4,"1,2,3,4",complete_year
+AT&T Nederland,2017,return_after_ter,0.027151101815477974,4,"1,2,3,4",complete_year
+AT&T Nederland,2018,return_after_ter,-0.03158784327084496,4,"1,2,3,4",complete_year
+AT&T Nederland,2019,return_after_ter,0.15402675864152449,4,"1,2,3,4",complete_year
+AT&T Nederland,2020,return_after_ter,0.05869997640365576,4,"1,2,3,4",complete_year
+AT&T Nederland,2021,return_after_ter,0.021106891491798896,4,"1,2,3,4",complete_year
+AT&T Nederland,2022,return_after_ter,-0.20132032562843305,4,"1,2,3,4",complete_year
+AT&T Nederland,2023,return_after_ter,0.08078103239116086,4,"1,2,3,4",complete_year
+AT&T Nederland,2024,return_after_ter,0.07562360797899381,4,"1,2,3,4",complete_year
+AVEBE,2015,return_after_ter,-0.008481265713270236,4,"1,2,3,4",complete_year
+AVEBE,2016,return_after_ter,0.08676521306138785,4,"1,2,3,4",complete_year
+AVEBE,2017,return_after_ter,0.11745707550981432,4,"1,2,3,4",complete_year
+AVEBE,2018,return_after_ter,-0.07715130373002499,4,"1,2,3,4",complete_year
+AVEBE,2019,return_after_ter,0.22873984230712163,4,"1,2,3,4",complete_year
+AVEBE,2020,return_after_ter,0.12092811235466683,4,"1,2,3,4",complete_year
+AVEBE,2021,return_after_ter,0.18314074478833464,4,"1,2,3,4",complete_year
+AVEBE,2022,return_after_ter,-0.16044056844534949,4,"1,2,3,4",complete_year
+AVEBE,2023,return_after_ter,0.1731582121876709,4,"1,2,3,4",complete_year
+AVEBE,2024,return_after_ter,0.17041266757830842,4,"1,2,3,4",complete_year
+Abbott Nederland,2015,return_after_ter,-0.029529079276557346,4,"1,2,3,4",complete_year
+Abbott Nederland,2016,return_after_ter,0.13775124294055963,4,"1,2,3,4",complete_year
+Abbott Nederland,2017,return_after_ter,0.04209223728402889,4,"1,2,3,4",complete_year
+Abbott Nederland,2018,return_after_ter,-0.013432059517143435,4,"1,2,3,4",complete_year
+Abbott Nederland,2019,return_after_ter,0.2164635868414042,4,"1,2,3,4",complete_year
+Abbott Nederland,2020,return_after_ter,0.15938769915334583,4,"1,2,3,4",complete_year
+Abbott Nederland,2021,return_after_ter,-0.010491964142995025,4,"1,2,3,4",complete_year
+Abbott Nederland,2022,return_after_ter,-0.3018124337120487,4,"1,2,3,4",complete_year
+Abbott Nederland,2023,return_after_ter,0.09775153536476933,4,"1,2,3,4",complete_year
+Abbott Nederland,2024,return_after_ter,0.1042122295789778,4,"1,2,3,4",complete_year
+Achmea,2015,return_after_ter,0.0007567890683748413,4,"1,2,3,4",complete_year
+Achmea,2016,return_after_ter,0.1008590858123759,4,"1,2,3,4",complete_year
+Achmea,2017,return_after_ter,0.043273022614164214,4,"1,2,3,4",complete_year
+Achmea,2018,return_after_ter,-0.019778230293896804,4,"1,2,3,4",complete_year
+Achmea,2019,return_after_ter,0.17089756071850415,4,"1,2,3,4",complete_year
+Achmea,2020,return_after_ter,0.120275790808412,4,"1,2,3,4",complete_year
+Achmea,2021,return_after_ter,0.025915203519885077,4,"1,2,3,4",complete_year
+Achmea,2022,return_after_ter,-0.22449043273886882,4,"1,2,3,4",complete_year
+Achmea,2023,return_after_ter,0.08316752466420407,4,"1,2,3,4",complete_year
+Achmea,2024,return_after_ter,0.07854471165000598,4,"1,2,3,4",complete_year
+Alliance,2015,return_after_ter,0.024162620786750466,4,"1,2,3,4",complete_year
+Alliance,2016,return_after_ter,0.057429654866577584,4,"1,2,3,4",complete_year
+Alliance,2017,return_after_ter,0.04103169346785385,4,"1,2,3,4",complete_year
+Alliance,2018,return_after_ter,-0.02695436193952694,4,"1,2,3,4",complete_year
+Alliance,2019,return_after_ter,0.22733931180974487,4,"1,2,3,4",complete_year
+Alliance,2020,return_after_ter,0.08650783882325919,4,"1,2,3,4",complete_year
+Alliance,2021,return_after_ter,0.05532799282901557,4,"1,2,3,4",complete_year
+Alliance,2022,return_after_ter,-0.2978497375471957,4,"1,2,3,4",complete_year
+Alliance,2023,return_after_ter,0.10955501184881289,4,"1,2,3,4",complete_year
+Alliance,2024,return_after_ter,0.09734268302540428,4,"1,2,3,4",complete_year
+Apothekers,2015,return_after_ter,-0.00787561746996146,4,"1,2,3,4",complete_year
+Apothekers,2016,return_after_ter,0.10554391588480527,4,"1,2,3,4",complete_year
+Apothekers,2017,return_after_ter,0.060503900770287,4,"1,2,3,4",complete_year
+Apothekers,2018,return_after_ter,-0.03740094300640229,4,"1,2,3,4",complete_year
+Apothekers,2019,return_after_ter,0.17827533389554007,4,"1,2,3,4",complete_year
+Apothekers,2020,return_after_ter,0.10999497770127786,4,"1,2,3,4",complete_year
+Apothekers,2021,return_after_ter,-0.005982110889535708,4,"1,2,3,4",complete_year
+Apothekers,2022,return_after_ter,-0.18375699923273492,4,"1,2,3,4",complete_year
+Apothekers,2023,return_after_ter,0.07477110908188989,4,"1,2,3,4",complete_year
+Apothekers,2024,return_after_ter,0.08496308617203119,4,"1,2,3,4",complete_year
+Architectenbureaus,2015,return_after_ter,0.003393202724598865,4,"1,2,3,4",complete_year
+Architectenbureaus,2016,return_after_ter,0.11560975828977482,4,"1,2,3,4",complete_year
+Architectenbureaus,2017,return_after_ter,0.057757949410749854,4,"1,2,3,4",complete_year
+Architectenbureaus,2018,return_after_ter,-0.0030560630448077664,4,"1,2,3,4",complete_year
+Architectenbureaus,2019,return_after_ter,0.18450089912417988,4,"1,2,3,4",complete_year
+Architectenbureaus,2020,return_after_ter,0.1187900095992862,4,"1,2,3,4",complete_year
+Architectenbureaus,2021,return_after_ter,0.034501887373156404,4,"1,2,3,4",complete_year
+Architectenbureaus,2022,return_after_ter,-0.24602794949357087,4,"1,2,3,4",complete_year
+Architectenbureaus,2023,return_after_ter,0.1037296436219981,4,"1,2,3,4",complete_year
+Architectenbureaus,2024,return_after_ter,0.11307772732704091,4,"1,2,3,4",complete_year
+Atos Origin,2015,return_after_ter,0.014941583497982913,4,"1,2,3,4",complete_year
+Atos Origin,2016,return_after_ter,0.055649279067698565,4,"1,2,3,4",complete_year
+Atos Origin,2017,return_after_ter,0.025697519558314896,4,"1,2,3,4",complete_year
+Atos Origin,2018,return_after_ter,-0.02540769636333451,4,"1,2,3,4",complete_year
+Atos Origin,2019,return_after_ter,0.11032125659195224,4,"1,2,3,4",complete_year
+Atos Origin,2020,return_after_ter,0.03768855019869033,4,"1,2,3,4",complete_year
+Atos Origin,2021,return_after_ter,0.024401527899890585,4,"1,2,3,4",complete_year
+Atos Origin,2022,return_after_ter,-0.161396274409061,4,"1,2,3,4",complete_year
+Atos Origin,2023,return_after_ter,0.11188669173917098,4,"1,2,3,4",complete_year
+Atos Origin,2024,return_after_ter,0.090741378789297,4,"1,2,3,4",complete_year
+Avery Dennison,2015,return_after_ter,-0.02683276744862173,4,"1,2,3,4",complete_year
+Avery Dennison,2016,return_after_ter,0.10892465285308783,4,"1,2,3,4",complete_year
+Avery Dennison,2017,return_after_ter,0.0370639361751246,4,"1,2,3,4",complete_year
+Avery Dennison,2018,return_after_ter,-0.022053030152067277,4,"1,2,3,4",complete_year
+Avery Dennison,2019,return_after_ter,0.23296361119030573,4,"1,2,3,4",complete_year
+Avery Dennison,2020,return_after_ter,0.1443610877659547,4,"1,2,3,4",complete_year
+Avery Dennison,2021,return_after_ter,0.04020111224642031,4,"1,2,3,4",complete_year
+Avery Dennison,2022,return_after_ter,-0.27845310267764345,4,"1,2,3,4",complete_year
+Avery Dennison,2023,return_after_ter,0.1056081060983558,4,"1,2,3,4",complete_year
+Avery Dennison,2024,return_after_ter,0.09434856074176379,4,"1,2,3,4",complete_year
+BPF Foodservice,2015,return_after_ter,-0.018649351049259355,4,"1,2,3,4",complete_year
+BPF Foodservice,2016,return_after_ter,0.12541731742119233,4,"1,2,3,4",complete_year
+BPF Foodservice,2017,return_after_ter,0.00361424666072252,4,"1,2,3,4",complete_year
+BPF Foodservice,2018,return_after_ter,0.001345082775915163,4,"1,2,3,4",complete_year
+BPF Foodservice,2019,return_after_ter,0.22674145816218982,4,"1,2,3,4",complete_year
+BPF Foodservice,2020,return_after_ter,0.13391532588116073,4,"1,2,3,4",complete_year
+BPF Foodservice,2021,return_after_ter,0.02040047716147053,4,"1,2,3,4",complete_year
+BPF Foodservice,2022,return_after_ter,-0.2625423837468025,4,"1,2,3,4",complete_year
+BPF Foodservice,2023,return_after_ter,0.08828756793886439,4,"1,2,3,4",complete_year
+BPF Foodservice,2024,return_after_ter,0.08549008804782976,4,"1,2,3,4",complete_year
+BPL,2015,return_after_ter,0.018677566087917707,4,"1,2,3,4",complete_year
+BPL,2016,return_after_ter,0.10385915688104141,4,"1,2,3,4",complete_year
+BPL,2017,return_after_ter,0.06308671593480342,4,"1,2,3,4",complete_year
+BPL,2018,return_after_ter,-0.008730836737781966,4,"1,2,3,4",complete_year
+BPL,2019,return_after_ter,0.17718831336512086,4,"1,2,3,4",complete_year
+BPL,2020,return_after_ter,0.07992856978305363,4,"1,2,3,4",complete_year
+BPL,2021,return_after_ter,0.07079786782568731,4,"1,2,3,4",complete_year
+BPL,2022,return_after_ter,-0.17565310312539306,4,"1,2,3,4",complete_year
+BPL,2023,return_after_ter,0.08268687741295078,4,"1,2,3,4",complete_year
+BPL,2024,return_after_ter,0.09215203241058867,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2015,return_after_ter,0.0025372558102916276,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2016,return_after_ter,0.09573275692003547,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2017,return_after_ter,0.03302683901128578,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2018,return_after_ter,-0.018760799464052624,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2019,return_after_ter,0.15071848922808995,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2020,return_after_ter,0.08396248401432937,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2021,return_after_ter,0.03054055344503448,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2022,return_after_ter,-0.24391666560924385,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2023,return_after_ter,0.08401670453499666,4,"1,2,3,4",complete_year
+Bakkersbedrijf BPF,2024,return_after_ter,0.09413080767899618,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2015,return_after_ter,-0.030286615355165636,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2016,return_after_ter,0.11594371106149426,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2017,return_after_ter,0.008386751234035206,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2018,return_after_ter,-0.013979165447698727,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2019,return_after_ter,0.24127154536423379,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2020,return_after_ter,0.12480930410775981,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2021,return_after_ter,-0.028853385631238848,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2022,return_after_ter,-0.31711799971603005,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2023,return_after_ter,0.07236455671567876,4,"1,2,3,4",complete_year
+Banden- en Wielenbranche,2024,return_after_ter,0.08050839241644625,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2015,return_after_ter,-0.016117960042073554,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2016,return_after_ter,0.1265351252632807,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2017,return_after_ter,0.04344975090583714,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2018,return_after_ter,-0.016311961813853304,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2019,return_after_ter,0.23432804347848868,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2020,return_after_ter,0.14068263322005436,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2021,return_after_ter,0.003599350009635627,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2022,return_after_ter,-0.2930113857727391,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2023,return_after_ter,0.09574041991327009,4,"1,2,3,4",complete_year
+Beroepsvervoer over de Weg,2024,return_after_ter,0.0842232352535679,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2015,return_after_ter,-0.016895776516737793,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2016,return_after_ter,0.12517538004807682,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2017,return_after_ter,0.04384936748073098,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2018,return_after_ter,-0.019922060472352232,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2019,return_after_ter,0.19396875482910136,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2020,return_after_ter,0.14367562746786455,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2021,return_after_ter,0.009895749964261125,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2022,return_after_ter,-0.32260547807714024,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2023,return_after_ter,0.08604270278871962,4,"1,2,3,4",complete_year
+Betonproduktenindustrie,2024,return_after_ter,0.07613707010528037,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2015,return_after_ter,0.01256073250948142,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2016,return_after_ter,0.10301548989544984,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2017,return_after_ter,0.044191795266887546,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2018,return_after_ter,-0.010378179654411679,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2019,return_after_ter,0.17642111127308957,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2020,return_after_ter,0.08239125288601024,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2021,return_after_ter,0.05330366627875249,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2022,return_after_ter,-0.21245754817828144,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2023,return_after_ter,0.11475779289573462,4,"1,2,3,4",complete_year
+Bibliotheken openbare,2024,return_after_ter,0.10100800299103607,4,"1,2,3,4",complete_year
+Bisdommen,2015,return_after_ter,0.00783452389552508,4,"1,2,3,4",complete_year
+Bisdommen,2016,return_after_ter,0.09069252136763706,4,"1,2,3,4",complete_year
+Bisdommen,2017,return_after_ter,0.047124970827397306,4,"1,2,3,4",complete_year
+Bisdommen,2018,return_after_ter,-0.0003336231827857361,4,"1,2,3,4",complete_year
+Bisdommen,2019,return_after_ter,0.15284327542101317,4,"1,2,3,4",complete_year
+Bisdommen,2020,return_after_ter,0.0990494213727402,4,"1,2,3,4",complete_year
+Bisdommen,2021,return_after_ter,0.04161389379040448,4,"1,2,3,4",complete_year
+Bisdommen,2022,return_after_ter,-0.18435983131487366,4,"1,2,3,4",complete_year
+Bisdommen,2023,return_after_ter,0.08527501702989304,4,"1,2,3,4",complete_year
+Bisdommen,2024,return_after_ter,0.06734769627530612,4,"1,2,3,4",complete_year
+Bouwmaterialen,2015,return_after_ter,-0.026689723672780885,4,"1,2,3,4",complete_year
+Bouwmaterialen,2016,return_after_ter,0.11599036296066467,4,"1,2,3,4",complete_year
+Bouwmaterialen,2017,return_after_ter,0.045352021867179904,4,"1,2,3,4",complete_year
+Bouwmaterialen,2018,return_after_ter,0.004798128050285788,4,"1,2,3,4",complete_year
+Bouwmaterialen,2019,return_after_ter,0.17168509060505155,4,"1,2,3,4",complete_year
+Bouwmaterialen,2020,return_after_ter,0.10916699630526683,4,"1,2,3,4",complete_year
+Bouwmaterialen,2021,return_after_ter,0.0067321864823739475,4,"1,2,3,4",complete_year
+Bouwmaterialen,2022,return_after_ter,-0.2616046800749783,4,"1,2,3,4",complete_year
+Bouwmaterialen,2023,return_after_ter,0.09047893088298453,4,"1,2,3,4",complete_year
+Bouwmaterialen,2024,return_after_ter,0.07740589752425953,4,"1,2,3,4",complete_year
+Bouwnijverheid,2015,return_after_ter,0.0031176147457812053,4,"1,2,3,4",complete_year
+Bouwnijverheid,2016,return_after_ter,0.11400167383205373,4,"1,2,3,4",complete_year
+Bouwnijverheid,2017,return_after_ter,0.055183445131828046,4,"1,2,3,4",complete_year
+Bouwnijverheid,2018,return_after_ter,-0.00463868987666749,4,"1,2,3,4",complete_year
+Bouwnijverheid,2019,return_after_ter,0.12637530025469768,4,"1,2,3,4",complete_year
+Bouwnijverheid,2020,return_after_ter,0.06422260779228806,4,"1,2,3,4",complete_year
+Bouwnijverheid,2021,return_after_ter,0.08620313005268487,4,"1,2,3,4",complete_year
+Bouwnijverheid,2022,return_after_ter,-0.2209842894379448,4,"1,2,3,4",complete_year
+Bouwnijverheid,2023,return_after_ter,0.06930355294130086,4,"1,2,3,4",complete_year
+Bouwnijverheid,2024,return_after_ter,0.06637001578342483,4,"1,2,3,4",complete_year
+British American Tobacco,2015,return_after_ter,0.011154880025670888,4,"1,2,3,4",complete_year
+British American Tobacco,2016,return_after_ter,0.05814846567109999,4,"1,2,3,4",complete_year
+British American Tobacco,2017,return_after_ter,0.03330112872936919,4,"1,2,3,4",complete_year
+British American Tobacco,2018,return_after_ter,-0.025031486793323454,4,"1,2,3,4",complete_year
+British American Tobacco,2019,return_after_ter,0.09202297211857902,4,"1,2,3,4",complete_year
+British American Tobacco,2020,return_after_ter,0.05583997285353548,4,"1,2,3,4",complete_year
+British American Tobacco,2021,return_after_ter,0.031958082246532404,4,"1,2,3,4",complete_year
+British American Tobacco,2022,return_after_ter,-0.12059870449093746,4,"1,2,3,4",complete_year
+British American Tobacco,2023,return_after_ter,0.11451558257598515,4,"1,2,3,4",complete_year
+British American Tobacco,2024,return_after_ter,0.020023647032227032,4,"1,2,3,4",complete_year
+Brocacef,2015,return_after_ter,-0.000733677403600197,4,"1,2,3,4",complete_year
+Brocacef,2016,return_after_ter,0.07832540063377946,4,"1,2,3,4",complete_year
+Brocacef,2017,return_after_ter,0.047091394170263756,4,"1,2,3,4",complete_year
+Brocacef,2018,return_after_ter,-0.016338554647071235,4,"1,2,3,4",complete_year
+Brocacef,2019,return_after_ter,0.1752289631731032,4,"1,2,3,4",complete_year
+Brocacef,2020,return_after_ter,0.07992350701208095,4,"1,2,3,4",complete_year
+Brocacef,2021,return_after_ter,0.0268136739720104,4,"1,2,3,4",complete_year
+Brocacef,2022,return_after_ter,-0.23230922764164386,4,"1,2,3,4",complete_year
+Brocacef,2023,return_after_ter,0.10011797373551601,4,"1,2,3,4",complete_year
+Brocacef,2024,return_after_ter,0.085400955373937,4,"1,2,3,4",complete_year
+CRH,2015,return_after_ter,0.010587516701183297,4,"1,2,3,4",complete_year
+CRH,2016,return_after_ter,0.05737273209247151,4,"1,2,3,4",complete_year
+CRH,2017,return_after_ter,0.04336743775532437,4,"1,2,3,4",complete_year
+CRH,2018,return_after_ter,-0.03027332828322904,4,"1,2,3,4",complete_year
+CRH,2019,return_after_ter,0.15607386907626375,4,"1,2,3,4",complete_year
+CRH,2020,return_after_ter,0.07814631885905388,4,"1,2,3,4",complete_year
+CRH,2021,return_after_ter,0.03922481281198431,4,"1,2,3,4",complete_year
+CRH,2022,return_after_ter,-0.24307974420764122,4,"1,2,3,4",complete_year
+CRH,2023,return_after_ter,0.11263736582598916,4,"1,2,3,4",complete_year
+CRH,2024,return_after_ter,0.08786395510987766,4,"1,2,3,4",complete_year
+Calpam,2015,return_after_ter,0.020813315158262347,4,"1,2,3,4",complete_year
+Calpam,2016,return_after_ter,0.06822420432819842,4,"1,2,3,4",complete_year
+Calpam,2017,return_after_ter,0.020854246077197436,4,"1,2,3,4",complete_year
+Calpam,2018,return_after_ter,0.0002462317820515203,4,"1,2,3,4",complete_year
+Calpam,2019,return_after_ter,0.12409087546840913,4,"1,2,3,4",complete_year
+Calpam,2020,return_after_ter,0.037221336668102234,4,"1,2,3,4",complete_year
+Calpam,2021,return_after_ter,0.059503092104167266,4,"1,2,3,4",complete_year
+Calpam,2022,return_after_ter,-0.16267478634035415,4,"1,2,3,4",complete_year
+Calpam,2023,return_after_ter,0.05318545954258935,4,"1,2,3,4",complete_year
+Calpam,2024,return_after_ter,0.06298263501364976,4,"1,2,3,4",complete_year
+Campina,2015,return_after_ter,0.0053829798476243695,4,"1,2,3,4",complete_year
+Campina,2016,return_after_ter,0.09538493351165456,4,"1,2,3,4",complete_year
+Campina,2017,return_after_ter,0.05027712094519665,4,"1,2,3,4",complete_year
+Campina,2018,return_after_ter,-0.032775536392125715,4,"1,2,3,4",complete_year
+Campina,2019,return_after_ter,0.18254512989282556,4,"1,2,3,4",complete_year
+Campina,2020,return_after_ter,0.07433999583221618,4,"1,2,3,4",complete_year
+Campina,2021,return_after_ter,0.040156018029147145,4,"1,2,3,4",complete_year
+Campina,2022,return_after_ter,-0.2115266875977686,4,"1,2,3,4",complete_year
+Campina,2023,return_after_ter,0.093829827242355,4,"1,2,3,4",complete_year
+Campina,2024,return_after_ter,0.06906554176969393,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2015,return_after_ter,-0.013482769118530857,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2016,return_after_ter,0.10919049487021382,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2017,return_after_ter,0.026993440084645437,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2018,return_after_ter,-0.015237330213120459,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2019,return_after_ter,0.2025518546738594,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2020,return_after_ter,0.13606006189480024,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2021,return_after_ter,0.00508862732112858,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2022,return_after_ter,-0.2707650704659621,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2023,return_after_ter,0.09847059242429745,4,"1,2,3,4",complete_year
+Cap Gemini Nederland,2024,return_after_ter,0.07471106785692627,4,"1,2,3,4",complete_year
+Cargill,2015,return_after_ter,-0.019948795212034964,4,"1,2,3,4",complete_year
+Cargill,2016,return_after_ter,0.07186202099052807,4,"1,2,3,4",complete_year
+Cargill,2017,return_after_ter,0.01851411624539967,4,"1,2,3,4",complete_year
+Cargill,2018,return_after_ter,-0.009648363520321834,3,"1,2,4",incomplete_year
+Cargill,2019,return_after_ter,0.17572183414059195,4,"1,2,3,4",complete_year
+Cargill,2020,return_after_ter,0.11412700680721066,4,"1,2,3,4",complete_year
+Cargill,2021,return_after_ter,-0.0030254679933409134,4,"1,2,3,4",complete_year
+Cargill,2022,return_after_ter,-0.2376636976114972,4,"1,2,3,4",complete_year
+Cargill,2023,return_after_ter,0.09166926110123774,4,"1,2,3,4",complete_year
+Cargill,2024,return_after_ter,0.05290471836915933,4,"1,2,3,4",complete_year
+Citigroup Nederland,2015,return_after_ter,-0.028986775819737298,4,"1,2,3,4",complete_year
+Citigroup Nederland,2016,return_after_ter,0.08548607615909365,4,"1,2,3,4",complete_year
+Citigroup Nederland,2017,return_after_ter,0.04414947463781482,4,"1,2,3,4",complete_year
+Citigroup Nederland,2018,return_after_ter,-0.03632495948452963,4,"1,2,3,4",complete_year
+Citigroup Nederland,2019,return_after_ter,0.1489803504042979,4,"1,2,3,4",complete_year
+Citigroup Nederland,2020,return_after_ter,0.15773757435210745,4,"1,2,3,4",complete_year
+Citigroup Nederland,2021,return_after_ter,0.005459747375275992,4,"1,2,3,4",complete_year
+Citigroup Nederland,2022,return_after_ter,-0.2652426586072648,4,"1,2,3,4",complete_year
+Citigroup Nederland,2023,return_after_ter,0.10518898709589752,4,"1,2,3,4",complete_year
+Citigroup Nederland,2024,return_after_ter,0.0783673616485221,4,"1,2,3,4",complete_year
+Coram,2015,return_after_ter,-0.0153080527829218,4,"1,2,3,4",complete_year
+Coram,2016,return_after_ter,0.07782264811761874,4,"1,2,3,4",complete_year
+Coram,2017,return_after_ter,0.058110760209430845,4,"1,2,3,4",complete_year
+Coram,2018,return_after_ter,-0.03734517293915751,4,"1,2,3,4",complete_year
+Coram,2019,return_after_ter,0.18675776002640898,4,"1,2,3,4",complete_year
+Coram,2020,return_after_ter,0.10758418565806616,4,"1,2,3,4",complete_year
+Coram,2021,return_after_ter,0.03689554154567132,4,"1,2,3,4",complete_year
+Coram,2022,return_after_ter,-0.2611483632708641,4,"1,2,3,4",complete_year
+Coram,2023,return_after_ter,0.1221214809287432,4,"1,2,3,4",complete_year
+Coram,2024,return_after_ter,0.07750783943884931,3,"1,2,3",incomplete_year
+Cosun,2015,return_after_ter,-0.022120853054667378,4,"1,2,3,4",complete_year
+Cosun,2016,return_after_ter,0.1029106041952439,4,"1,2,3,4",complete_year
+Cosun,2017,return_after_ter,0.04091093758832298,4,"1,2,3,4",complete_year
+Cosun,2018,return_after_ter,-0.018185229615667153,4,"1,2,3,4",complete_year
+Cosun,2019,return_after_ter,0.14698431990029825,4,"1,2,3,4",complete_year
+Cosun,2020,return_after_ter,0.044670104425401425,4,"1,2,3,4",complete_year
+Cosun,2021,return_after_ter,0.015247798543343904,4,"1,2,3,4",complete_year
+Cosun,2022,return_after_ter,-0.22377255794237205,4,"1,2,3,4",complete_year
+Cosun,2023,return_after_ter,0.06640011406091517,4,"1,2,3,4",complete_year
+Cosun,2024,return_after_ter,0.07178206175906632,4,"1,2,3,4",complete_year
+DHL Nederland,2015,return_after_ter,0.011949889142516712,4,"1,2,3,4",complete_year
+DHL Nederland,2016,return_after_ter,0.09695298508409933,4,"1,2,3,4",complete_year
+DHL Nederland,2017,return_after_ter,0.057160319935557924,4,"1,2,3,4",complete_year
+DHL Nederland,2018,return_after_ter,-0.03156786718286153,4,"1,2,3,4",complete_year
+DHL Nederland,2019,return_after_ter,0.14833253170581595,4,"1,2,3,4",complete_year
+DHL Nederland,2020,return_after_ter,0.06156748606052864,4,"1,2,3,4",complete_year
+DHL Nederland,2021,return_after_ter,0.08674616114382472,4,"1,2,3,4",complete_year
+DHL Nederland,2022,return_after_ter,-0.18345646045323427,4,"1,2,3,4",complete_year
+DHL Nederland,2023,return_after_ter,0.04489526441286795,4,"1,2,3,4",complete_year
+DHL Nederland,2024,return_after_ter,0.1254381912237823,4,"1,2,3,4",complete_year
+Delta Lloyd,2017,return_after_ter,0.016062867868726682,4,"1,2,3,4",complete_year
+Delta Lloyd,2018,return_after_ter,-0.003838036689529978,4,"1,2,3,4",complete_year
+Delta Lloyd,2019,return_after_ter,0.19375795001406448,4,"1,2,3,4",complete_year
+Delta Lloyd,2020,return_after_ter,0.10207185855799694,4,"1,2,3,4",complete_year
+Delta Lloyd,2021,return_after_ter,-0.009467405693254216,4,"1,2,3,4",complete_year
+Delta Lloyd,2022,return_after_ter,-0.26377574475638665,4,"1,2,3,4",complete_year
+Delta Lloyd,2023,return_after_ter,0.08066102264882691,4,"1,2,3,4",complete_year
+Delta Lloyd,2024,return_after_ter,0.08470312780976408,4,"1,2,3,4",complete_year
+Detailhandel,2015,return_after_ter,-0.007312023108088539,4,"1,2,3,4",complete_year
+Detailhandel,2016,return_after_ter,0.13246721304826536,4,"1,2,3,4",complete_year
+Detailhandel,2017,return_after_ter,0.03112171418007459,4,"1,2,3,4",complete_year
+Detailhandel,2018,return_after_ter,0.004145385698497206,4,"1,2,3,4",complete_year
+Detailhandel,2019,return_after_ter,0.2660116403794195,4,"1,2,3,4",complete_year
+Detailhandel,2020,return_after_ter,0.14085552200130658,4,"1,2,3,4",complete_year
+Detailhandel,2021,return_after_ter,0.010013024757492994,4,"1,2,3,4",complete_year
+Detailhandel,2022,return_after_ter,-0.2710426440448158,4,"1,2,3,4",complete_year
+Detailhandel,2023,return_after_ter,0.08932037184191688,4,"1,2,3,4",complete_year
+Detailhandel,2024,return_after_ter,0.09001628060794165,4,"1,2,3,4",complete_year
+Dierenartsen,2015,return_after_ter,-0.003914691863474706,4,"1,2,3,4",complete_year
+Dierenartsen,2016,return_after_ter,0.10114299415024952,4,"1,2,3,4",complete_year
+Dierenartsen,2017,return_after_ter,0.040585406592408946,4,"1,2,3,4",complete_year
+Dierenartsen,2018,return_after_ter,-0.005837570882620491,4,"1,2,3,4",complete_year
+Dierenartsen,2019,return_after_ter,0.18242198856396707,4,"1,2,3,4",complete_year
+Dierenartsen,2020,return_after_ter,0.09445015806780277,4,"1,2,3,4",complete_year
+Dierenartsen,2021,return_after_ter,0.02917282866303328,4,"1,2,3,4",complete_year
+Dierenartsen,2022,return_after_ter,-0.23857414518383802,4,"1,2,3,4",complete_year
+Dierenartsen,2023,return_after_ter,0.07384127990269773,4,"1,2,3,4",complete_year
+Dierenartsen,2024,return_after_ter,0.08482566571188466,4,"1,2,3,4",complete_year
+Dow,2015,return_after_ter,0.017494300245807004,4,"1,2,3,4",complete_year
+Dow,2016,return_after_ter,0.08782586676547544,4,"1,2,3,4",complete_year
+Dow,2017,return_after_ter,0.04225867083835566,4,"1,2,3,4",complete_year
+Dow,2018,return_after_ter,-0.018103385657459392,4,"1,2,3,4",complete_year
+Dow,2019,return_after_ter,0.146706159369125,4,"1,2,3,4",complete_year
+Dow,2020,return_after_ter,0.08341346572697872,4,"1,2,3,4",complete_year
+Dow,2021,return_after_ter,-0.020001907618673154,4,"1,2,3,4",complete_year
+Dow,2022,return_after_ter,-0.24974768711036255,4,"1,2,3,4",complete_year
+Dow,2023,return_after_ter,0.07000058422013788,4,"1,2,3,4",complete_year
+Dow,2024,return_after_ter,0.037658988387849535,4,"1,2,3,4",complete_year
+Ecolab,2015,return_after_ter,-0.007010228801018092,4,"1,2,3,4",complete_year
+Ecolab,2016,return_after_ter,0.07306571978193466,4,"1,2,3,4",complete_year
+Ecolab,2017,return_after_ter,0.03993589600074987,4,"1,2,3,4",complete_year
+Ecolab,2018,return_after_ter,-0.026756643499220578,4,"1,2,3,4",complete_year
+Ecolab,2019,return_after_ter,0.1830104711736742,4,"1,2,3,4",complete_year
+Ecolab,2020,return_after_ter,0.1091732810861874,4,"1,2,3,4",complete_year
+Ecolab,2021,return_after_ter,0.03967955155374847,4,"1,2,3,4",complete_year
+Ecolab,2022,return_after_ter,-0.1879625372156598,4,"1,2,3,4",complete_year
+Ecolab,2023,return_after_ter,0.11188746452953091,4,"1,2,3,4",complete_year
+Ecolab,2024,return_after_ter,0.1049325086518138,4,"1,2,3,4",complete_year
+Essity,2015,return_after_ter,0.006332896745083971,4,"1,2,3,4",complete_year
+Essity,2016,return_after_ter,0.08987137548179658,4,"1,2,3,4",complete_year
+Essity,2017,return_after_ter,0.04881316556254789,4,"1,2,3,4",complete_year
+Essity,2018,return_after_ter,-0.019013577584504837,4,"1,2,3,4",complete_year
+Essity,2019,return_after_ter,0.18524872102538392,4,"1,2,3,4",complete_year
+Essity,2020,return_after_ter,0.07005773282132721,4,"1,2,3,4",complete_year
+Essity,2021,return_after_ter,0.03863091026229237,4,"1,2,3,4",complete_year
+Essity,2022,return_after_ter,-0.2131956915180856,4,"1,2,3,4",complete_year
+Essity,2023,return_after_ter,0.08894721483505674,4,"1,2,3,4",complete_year
+Essity,2024,return_after_ter,0.09120601104606019,4,"1,2,3,4",complete_year
+Flexsecurity,2018,return_after_ter,0.004702527337883122,1,4,incomplete_year
+Flexsecurity,2019,return_after_ter,0.07284126455784401,4,"1,2,3,4",complete_year
+Flexsecurity,2020,return_after_ter,0.03296176993605404,4,"1,2,3,4",complete_year
+Flexsecurity,2021,return_after_ter,0.028852383307524487,4,"1,2,3,4",complete_year
+Flexsecurity,2022,return_after_ter,-0.1495300002557146,4,"1,2,3,4",complete_year
+Flexsecurity,2023,return_after_ter,0.08938230674781078,4,"1,2,3,4",complete_year
+Flexsecurity,2024,return_after_ter,0.09031531060148734,4,"1,2,3,4",complete_year
+Forbo,2015,return_after_ter,-0.0033940837793623446,4,"1,2,3,4",complete_year
+Forbo,2016,return_after_ter,0.11675634989268002,4,"1,2,3,4",complete_year
+Forbo,2017,return_after_ter,0.03460289868887112,4,"1,2,3,4",complete_year
+Forbo,2018,return_after_ter,-0.018152926305192385,4,"1,2,3,4",complete_year
+Forbo,2019,return_after_ter,0.20220264419344303,4,"1,2,3,4",complete_year
+Forbo,2020,return_after_ter,0.1097638904437852,4,"1,2,3,4",complete_year
+Forbo,2021,return_after_ter,-0.0009350150273500502,4,"1,2,3,4",complete_year
+Forbo,2022,return_after_ter,-0.2603236243833801,4,"1,2,3,4",complete_year
+Forbo,2023,return_after_ter,0.09606239693467189,4,"1,2,3,4",complete_year
+Forbo,2024,return_after_ter,0.07940898550053022,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2015,return_after_ter,0.01406423816687119,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2016,return_after_ter,0.09836205540957588,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2017,return_after_ter,0.048068543077733006,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2018,return_after_ter,-0.0027422793101367082,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2019,return_after_ter,0.17094757873634792,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2020,return_after_ter,0.07993019207207719,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2021,return_after_ter,0.04350670633807474,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2022,return_after_ter,-0.21628518591667778,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2023,return_after_ter,0.03520887022859287,4,"1,2,3,4",complete_year
+Fysiotherapeuten,2024,return_after_ter,0.05820682289153156,4,"1,2,3,4",complete_year
+Gasunie,2015,return_after_ter,0.007340719362787462,4,"1,2,3,4",complete_year
+Gasunie,2016,return_after_ter,0.08742091415766073,4,"1,2,3,4",complete_year
+Gasunie,2017,return_after_ter,0.06866359857694415,4,"1,2,3,4",complete_year
+Gasunie,2018,return_after_ter,-0.036105947528406346,4,"1,2,3,4",complete_year
+Gasunie,2019,return_after_ter,0.2286540256457219,4,"1,2,3,4",complete_year
+Gasunie,2020,return_after_ter,0.0932240995471676,4,"1,2,3,4",complete_year
+Gasunie,2021,return_after_ter,0.11394229320987614,4,"1,2,3,4",complete_year
+Gasunie,2022,return_after_ter,-0.17121460609191297,4,"1,2,3,4",complete_year
+Gasunie,2023,return_after_ter,0.11183601516859976,4,"1,2,3,4",complete_year
+Gasunie,2024,return_after_ter,0.11350414826848576,4,"1,2,3,4",complete_year
+Gazelle psf,2015,return_after_ter,-0.0012546880660793125,4,"1,2,3,4",complete_year
+Gazelle psf,2016,return_after_ter,0.09230738840594377,4,"1,2,3,4",complete_year
+Gazelle psf,2017,return_after_ter,0.051044575302983564,4,"1,2,3,4",complete_year
+Gazelle psf,2018,return_after_ter,-0.045574989615402406,4,"1,2,3,4",complete_year
+Gazelle psf,2019,return_after_ter,0.2431220059852497,4,"1,2,3,4",complete_year
+Gazelle psf,2020,return_after_ter,0.12304458449633815,4,"1,2,3,4",complete_year
+Gazelle psf,2021,return_after_ter,0.022843459758387752,4,"1,2,3,4",complete_year
+Gazelle psf,2022,return_after_ter,-0.2584551580399531,4,"1,2,3,4",complete_year
+Gazelle psf,2023,return_after_ter,0.10471725939494791,4,"1,2,3,4",complete_year
+Gazelle psf,2024,return_after_ter,0.10409588074773457,4,"1,2,3,4",complete_year
+Geveke,2015,return_after_ter,0.02712869461586398,4,"1,2,3,4",complete_year
+Geveke,2016,return_after_ter,0.05302423232096065,4,"1,2,3,4",complete_year
+Geveke,2017,return_after_ter,0.015658205447307783,4,"1,2,3,4",complete_year
+Geveke,2018,return_after_ter,-0.02258724781824739,4,"1,2,3,4",complete_year
+Geveke,2019,return_after_ter,0.06980461998538035,4,"1,2,3,4",complete_year
+Geveke,2020,return_after_ter,0.018156054453135395,4,"1,2,3,4",complete_year
+Geveke,2021,return_after_ter,0.022585372960011174,4,"1,2,3,4",complete_year
+Geveke,2022,return_after_ter,-0.14306828777532,4,"1,2,3,4",complete_year
+Geveke,2023,return_after_ter,0.07722999505338701,4,"1,2,3,4",complete_year
+Geveke,2024,return_after_ter,0.057859256023347294,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2015,return_after_ter,0.039584225271714235,3,"1,2,4",incomplete_year
+Grolsche bierbrouwerij,2016,return_after_ter,0.09093756679051035,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2017,return_after_ter,0.02512933566932407,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2018,return_after_ter,-0.019541050251554948,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2019,return_after_ter,0.1649189778914968,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2020,return_after_ter,0.05192762574693788,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2021,return_after_ter,-0.029906500536097336,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2022,return_after_ter,-0.26998536239791215,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2023,return_after_ter,0.0995019973211071,4,"1,2,3,4",complete_year
+Grolsche bierbrouwerij,2024,return_after_ter,0.07278179421722952,4,"1,2,3,4",complete_year
+Groothandel,2015,return_after_ter,0.0002367533925351495,4,"1,2,3,4",complete_year
+Groothandel,2016,return_after_ter,0.11953650553588924,4,"1,2,3,4",complete_year
+Groothandel,2017,return_after_ter,0.02159762512750074,4,"1,2,3,4",complete_year
+Groothandel,2018,return_after_ter,-0.003801085806372173,4,"1,2,3,4",complete_year
+Groothandel,2019,return_after_ter,0.25021934284019487,4,"1,2,3,4",complete_year
+Groothandel,2020,return_after_ter,0.17114297617167096,4,"1,2,3,4",complete_year
+Groothandel,2021,return_after_ter,-0.020909730755784506,4,"1,2,3,4",complete_year
+Groothandel,2022,return_after_ter,-0.3116939359467167,4,"1,2,3,4",complete_year
+Groothandel,2023,return_after_ter,0.11432966091127295,4,"1,2,3,4",complete_year
+Groothandel,2024,return_after_ter,0.08976624326637372,4,"1,2,3,4",complete_year
+HAL,2015,return_after_ter,0.05380823216896502,4,"1,2,3,4",complete_year
+HAL,2016,return_after_ter,0.025167381998235205,4,"1,2,3,4",complete_year
+HAL,2017,return_after_ter,0.09248176519049855,4,"1,2,3,4",complete_year
+HAL,2018,return_after_ter,-0.13648274596300303,4,"1,2,3,4",complete_year
+HAL,2019,return_after_ter,0.15380334063207268,4,"1,2,3,4",complete_year
+HAL,2020,return_after_ter,0.0244504756383519,4,"1,2,3,4",complete_year
+HAL,2021,return_after_ter,0.16708461005955688,4,"1,2,3,4",complete_year
+HAL,2022,return_after_ter,-0.1975479508300355,4,"1,2,3,4",complete_year
+HAL,2023,return_after_ter,0.15652326248488646,4,"1,2,3,4",complete_year
+HAL,2024,return_after_ter,0.09834233259052305,4,"1,2,3,4",complete_year
+Hagee,2015,return_after_ter,0.01952921768198812,4,"1,2,3,4",complete_year
+Hagee,2016,return_after_ter,0.08324256832346388,4,"1,2,3,4",complete_year
+Hagee,2017,return_after_ter,0.0289283069224191,4,"1,2,3,4",complete_year
+Hagee,2018,return_after_ter,-0.019880017855949172,4,"1,2,3,4",complete_year
+Hagee,2019,return_after_ter,0.18945597544746628,4,"1,2,3,4",complete_year
+Hagee,2020,return_after_ter,0.10254475201926994,4,"1,2,3,4",complete_year
+Hagee,2021,return_after_ter,0.02216092047237117,4,"1,2,3,4",complete_year
+Hagee,2022,return_after_ter,-0.3041205691165608,4,"1,2,3,4",complete_year
+Hagee,2023,return_after_ter,0.12504473372670133,4,"1,2,3,4",complete_year
+Hagee,2024,return_after_ter,0.10784050264940603,4,"1,2,3,4",complete_year
+HaskoningDHV,2018,return_after_ter,-0.04298304695523236,2,"3,4",incomplete_year
+HaskoningDHV,2019,return_after_ter,0.1837801348864898,4,"1,2,3,4",complete_year
+HaskoningDHV,2020,return_after_ter,0.0700871859392429,4,"1,2,3,4",complete_year
+HaskoningDHV,2021,return_after_ter,0.08572095358120291,4,"1,2,3,4",complete_year
+HaskoningDHV,2022,return_after_ter,-0.1983823872990158,4,"1,2,3,4",complete_year
+HaskoningDHV,2023,return_after_ter,0.08329747038995028,4,"1,2,3,4",complete_year
+HaskoningDHV,2024,return_after_ter,0.06763800142636689,4,"1,2,3,4",complete_year
+Heineken,2015,return_after_ter,0.02216605243029779,4,"1,2,3,4",complete_year
+Heineken,2016,return_after_ter,0.08359602314353931,4,"1,2,3,4",complete_year
+Heineken,2017,return_after_ter,0.05271431972267138,4,"1,2,3,4",complete_year
+Heineken,2018,return_after_ter,-0.019518338665151735,4,"1,2,3,4",complete_year
+Heineken,2019,return_after_ter,0.12952777320237363,4,"1,2,3,4",complete_year
+Heineken,2020,return_after_ter,0.010808403822892387,4,"1,2,3,4",complete_year
+Heineken,2021,return_after_ter,0.11392944532873428,4,"1,2,3,4",complete_year
+Heineken,2022,return_after_ter,-0.10519737792035755,4,"1,2,3,4",complete_year
+Heineken,2023,return_after_ter,0.07546145219762002,4,"1,2,3,4",complete_year
+Heineken,2024,return_after_ter,0.11714716242830625,4,"1,2,3,4",complete_year
+Honeywell,2015,return_after_ter,0.031773116815295044,4,"1,2,3,4",complete_year
+Honeywell,2016,return_after_ter,0.09324946460988404,4,"1,2,3,4",complete_year
+Honeywell,2017,return_after_ter,0.0479069570003281,4,"1,2,3,4",complete_year
+Honeywell,2018,return_after_ter,-0.03699951277774083,4,"1,2,3,4",complete_year
+Honeywell,2019,return_after_ter,0.18936046085543845,4,"1,2,3,4",complete_year
+Honeywell,2020,return_after_ter,0.1443502703738253,4,"1,2,3,4",complete_year
+Honeywell,2021,return_after_ter,0.0448289244398008,4,"1,2,3,4",complete_year
+Honeywell,2022,return_after_ter,-0.21814892349880344,4,"1,2,3,4",complete_year
+Honeywell,2023,return_after_ter,0.08280873753115747,4,"1,2,3,4",complete_year
+Honeywell,2024,return_after_ter,0.1140731075322381,4,"1,2,3,4",complete_year
+Hoogovens,2015,return_after_ter,0.02225287377675067,4,"1,2,3,4",complete_year
+Hoogovens,2016,return_after_ter,0.07541374958119307,4,"1,2,3,4",complete_year
+Hoogovens,2017,return_after_ter,0.06776039377530241,4,"1,2,3,4",complete_year
+Hoogovens,2018,return_after_ter,-0.01810743451171304,4,"1,2,3,4",complete_year
+Hoogovens,2019,return_after_ter,0.15443039653660362,4,"1,2,3,4",complete_year
+Hoogovens,2020,return_after_ter,0.059282772610154355,4,"1,2,3,4",complete_year
+Hoogovens,2021,return_after_ter,0.07626623008083855,4,"1,2,3,4",complete_year
+Hoogovens,2022,return_after_ter,-0.149884554825631,4,"1,2,3,4",complete_year
+Hoogovens,2023,return_after_ter,0.10743188856978203,4,"1,2,3,4",complete_year
+Hoogovens,2024,return_after_ter,0.0759263281103868,4,"1,2,3,4",complete_year
+Horecabedrijf,2015,return_after_ter,-0.0032027451891618597,4,"1,2,3,4",complete_year
+Horecabedrijf,2016,return_after_ter,0.11593025443974048,4,"1,2,3,4",complete_year
+Horecabedrijf,2017,return_after_ter,0.04581575573400065,4,"1,2,3,4",complete_year
+Horecabedrijf,2018,return_after_ter,-0.010573375983585875,4,"1,2,3,4",complete_year
+Horecabedrijf,2019,return_after_ter,0.25771166611736374,4,"1,2,3,4",complete_year
+Horecabedrijf,2020,return_after_ter,0.1359048910912044,4,"1,2,3,4",complete_year
+Horecabedrijf,2021,return_after_ter,0.038500434855281096,4,"1,2,3,4",complete_year
+Horecabedrijf,2022,return_after_ter,-0.28442237275567006,4,"1,2,3,4",complete_year
+Horecabedrijf,2023,return_after_ter,0.09651573552576775,4,"1,2,3,4",complete_year
+Horecabedrijf,2024,return_after_ter,0.08888955653304942,4,"1,2,3,4",complete_year
+Huisartsen,2015,return_after_ter,0.0071754027647006335,4,"1,2,3,4",complete_year
+Huisartsen,2016,return_after_ter,0.07829060875995597,4,"1,2,3,4",complete_year
+Huisartsen,2017,return_after_ter,0.05146567088230247,4,"1,2,3,4",complete_year
+Huisartsen,2018,return_after_ter,-0.01777712146519117,4,"1,2,3,4",complete_year
+Huisartsen,2019,return_after_ter,0.15723058724783945,4,"1,2,3,4",complete_year
+Huisartsen,2020,return_after_ter,0.05020362398830858,4,"1,2,3,4",complete_year
+Huisartsen,2021,return_after_ter,0.02852782846698987,4,"1,2,3,4",complete_year
+Huisartsen,2022,return_after_ter,-0.21066297409168333,4,"1,2,3,4",complete_year
+Huisartsen,2023,return_after_ter,0.06504366717430354,4,"1,2,3,4",complete_year
+Huisartsen,2024,return_after_ter,0.04177061067780863,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2015,return_after_ter,0.02166709918607257,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2016,return_after_ter,0.09399533683329553,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2017,return_after_ter,0.05108492678275223,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2018,return_after_ter,-0.023388197314336723,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2019,return_after_ter,0.16481588306271622,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2020,return_after_ter,0.07514679568714877,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2021,return_after_ter,0.05255381725173458,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2022,return_after_ter,-0.20684759314027668,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2023,return_after_ter,0.084925523282124,4,"1,2,3,4",complete_year
+Huntsman Rozenburg,2024,return_after_ter,0.08466043364063358,4,"1,2,3,4",complete_year
+IBM Nederland,2015,return_after_ter,-0.0019966425435166135,4,"1,2,3,4",complete_year
+IBM Nederland,2016,return_after_ter,0.08658381058498565,4,"1,2,3,4",complete_year
+IBM Nederland,2017,return_after_ter,0.021434130716607047,4,"1,2,3,4",complete_year
+IBM Nederland,2018,return_after_ter,0.01586627495606674,4,"1,2,3,4",complete_year
+IBM Nederland,2019,return_after_ter,0.10509978317980329,4,"1,2,3,4",complete_year
+IBM Nederland,2020,return_after_ter,0.06601383602427413,4,"1,2,3,4",complete_year
+IBM Nederland,2021,return_after_ter,0.06887736673989475,4,"1,2,3,4",complete_year
+IBM Nederland,2022,return_after_ter,-0.19937085447620595,4,"1,2,3,4",complete_year
+IBM Nederland,2023,return_after_ter,0.032656994556792496,4,"1,2,3,4",complete_year
+IBM Nederland,2024,return_after_ter,-0.005489601394572663,4,"1,2,3,4",complete_year
+IFF,2015,return_after_ter,-0.007497120599494478,3,"1,2,3",incomplete_year
+IFF,2016,return_after_ter,0.1148094593771618,4,"1,2,3,4",complete_year
+IFF,2017,return_after_ter,0.021220452643420984,4,"1,2,3,4",complete_year
+IFF,2018,return_after_ter,0.003455590850342194,4,"1,2,3,4",complete_year
+IFF,2019,return_after_ter,0.14865858817451993,4,"1,2,3,4",complete_year
+IFF,2020,return_after_ter,0.08796379249289843,4,"1,2,3,4",complete_year
+IFF,2021,return_after_ter,0.00108433289603993,4,"1,2,3,4",complete_year
+IFF,2022,return_after_ter,-0.20185396939890776,4,"1,2,3,4",complete_year
+IFF,2023,return_after_ter,0.06145864291212022,4,"1,2,3,4",complete_year
+IFF,2024,return_after_ter,0.07979375676283618,4,"1,2,3,4",complete_year
+IKEA,2015,return_after_ter,-0.03298883863060875,4,"1,2,3,4",complete_year
+IKEA,2016,return_after_ter,0.13050963815330174,4,"1,2,3,4",complete_year
+IKEA,2017,return_after_ter,0.049116797592563266,4,"1,2,3,4",complete_year
+IKEA,2018,return_after_ter,-0.024507252738430796,4,"1,2,3,4",complete_year
+IKEA,2019,return_after_ter,0.21926242973702714,4,"1,2,3,4",complete_year
+IKEA,2020,return_after_ter,0.18918859109177966,4,"1,2,3,4",complete_year
+IKEA,2021,return_after_ter,0.030988074353314188,4,"1,2,3,4",complete_year
+IKEA,2022,return_after_ter,-0.2944579288436946,4,"1,2,3,4",complete_year
+IKEA,2023,return_after_ter,0.09785587103756521,4,"1,2,3,4",complete_year
+IKEA,2024,return_after_ter,0.13147248087844465,4,"1,2,3,4",complete_year
+ING,2015,return_after_ter,0.008247272694485774,4,"1,2,3,4",complete_year
+ING,2016,return_after_ter,0.10263179821831248,4,"1,2,3,4",complete_year
+ING,2017,return_after_ter,0.005308915069556885,4,"1,2,3,4",complete_year
+ING,2018,return_after_ter,0.009029496977845719,3,"2,3,4",incomplete_year
+ING,2019,return_after_ter,0.1063197450821487,4,"1,2,3,4",complete_year
+ING,2020,return_after_ter,0.09010094800723434,4,"1,2,3,4",complete_year
+ING,2021,return_after_ter,0.0572766249780734,4,"1,2,3,4",complete_year
+ING,2022,return_after_ter,-0.2099243946774585,4,"1,2,3,4",complete_year
+ING,2023,return_after_ter,0.042914714026297096,4,"1,2,3,4",complete_year
+ING,2024,return_after_ter,0.015509764977058138,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2015,return_after_ter,0.011246406286034683,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2016,return_after_ter,0.11133670357756786,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2017,return_after_ter,0.05278636363835143,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2018,return_after_ter,0.0010811699718000778,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2019,return_after_ter,0.18528311761582583,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2020,return_after_ter,0.14754680464077286,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2021,return_after_ter,0.0016029388984208914,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2022,return_after_ter,-0.28734047435199406,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2023,return_after_ter,0.09522780361079475,4,"1,2,3,4",complete_year
+ING Bank CDC fonds,2024,return_after_ter,0.05283557629858504,4,"1,2,3,4",complete_year
+KLM Algemeen,2015,return_after_ter,0.0016867366576092113,4,"1,2,3,4",complete_year
+KLM Algemeen,2016,return_after_ter,0.08694532305246017,4,"1,2,3,4",complete_year
+KLM Algemeen,2017,return_after_ter,0.07114252730684134,4,"1,2,3,4",complete_year
+KLM Algemeen,2018,return_after_ter,-0.023664035081068846,4,"1,2,3,4",complete_year
+KLM Algemeen,2019,return_after_ter,0.14879160434177363,4,"1,2,3,4",complete_year
+KLM Algemeen,2020,return_after_ter,0.053647245834521406,4,"1,2,3,4",complete_year
+KLM Algemeen,2021,return_after_ter,0.1005610178965235,4,"1,2,3,4",complete_year
+KLM Algemeen,2022,return_after_ter,-0.1726113253496624,4,"1,2,3,4",complete_year
+KLM Algemeen,2023,return_after_ter,0.07659926102106263,4,"1,2,3,4",complete_year
+KLM Algemeen,2024,return_after_ter,0.09174702906426146,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2015,return_after_ter,0.01591897377965279,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2016,return_after_ter,0.07239680720641029,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2017,return_after_ter,0.06252646082709301,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2018,return_after_ter,-0.027370340681073024,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2019,return_after_ter,0.1312747821355107,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2020,return_after_ter,0.046340379139441445,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2021,return_after_ter,0.1547303380251006,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2022,return_after_ter,-0.1391094586318724,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2023,return_after_ter,0.059634265929737085,4,"1,2,3,4",complete_year
+KLM Vliegend Personeel,2024,return_after_ter,0.05540145555147946,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2015,return_after_ter,-0.0013554508252265896,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2016,return_after_ter,0.09468590333468097,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2017,return_after_ter,0.07761776850702296,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2018,return_after_ter,-0.04046481188102713,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2019,return_after_ter,0.13964037218352576,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2020,return_after_ter,0.08237664104360887,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2021,return_after_ter,0.08367777839541235,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2022,return_after_ter,-0.2257336570554188,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2023,return_after_ter,0.08401728370350403,4,"1,2,3,4",complete_year
+KLM-Cabinepersoneel,2024,return_after_ter,0.08190209734599607,4,"1,2,3,4",complete_year
+KPN,2015,return_after_ter,0.031468670650864894,4,"1,2,3,4",complete_year
+KPN,2016,return_after_ter,0.10737337165108873,4,"1,2,3,4",complete_year
+KPN,2017,return_after_ter,0.06538770782882342,4,"1,2,3,4",complete_year
+KPN,2018,return_after_ter,-0.024541566401938386,4,"1,2,3,4",complete_year
+KPN,2019,return_after_ter,0.17645639723824758,4,"1,2,3,4",complete_year
+KPN,2020,return_after_ter,0.08391237572462829,4,"1,2,3,4",complete_year
+KPN,2021,return_after_ter,0.06692911239996291,4,"1,2,3,4",complete_year
+KPN,2022,return_after_ter,-0.25152874867189545,4,"1,2,3,4",complete_year
+KPN,2023,return_after_ter,0.06715852889155904,4,"1,2,3,4",complete_year
+KPN,2024,return_after_ter,0.08906046795818479,4,"1,2,3,4",complete_year
+Kappersbedrijf,2015,return_after_ter,0.013276945226829096,4,"1,2,3,4",complete_year
+Kappersbedrijf,2016,return_after_ter,0.13776631994297928,4,"1,2,3,4",complete_year
+Kappersbedrijf,2017,return_after_ter,0.011819529913200011,3,"2,3,4",incomplete_year
+Kappersbedrijf,2018,return_after_ter,0.019924614365854243,4,"1,2,3,4",complete_year
+Kappersbedrijf,2019,return_after_ter,0.2682684155158037,4,"1,2,3,4",complete_year
+Kappersbedrijf,2020,return_after_ter,0.19737983048462304,4,"1,2,3,4",complete_year
+Kappersbedrijf,2021,return_after_ter,-0.023857381495562935,4,"1,2,3,4",complete_year
+Kappersbedrijf,2022,return_after_ter,-0.31790211927910184,4,"1,2,3,4",complete_year
+Kappersbedrijf,2023,return_after_ter,0.060868030683012275,4,"1,2,3,4",complete_year
+Kappersbedrijf,2024,return_after_ter,0.09310238938586024,4,"1,2,3,4",complete_year
+Kas Bank,2015,return_after_ter,0.0004731606231715979,4,"1,2,3,4",complete_year
+Kas Bank,2016,return_after_ter,0.08038283648364608,4,"1,2,3,4",complete_year
+Kas Bank,2017,return_after_ter,0.021312790305784812,4,"1,2,3,4",complete_year
+Kas Bank,2018,return_after_ter,-0.005091269975230239,4,"1,2,3,4",complete_year
+Kas Bank,2019,return_after_ter,0.17844028784904586,4,"1,2,3,4",complete_year
+Kas Bank,2020,return_after_ter,0.14535280016055596,4,"1,2,3,4",complete_year
+Kas Bank,2021,return_after_ter,0.005125274436364791,4,"1,2,3,4",complete_year
+Kas Bank,2022,return_after_ter,-0.26929038692010054,4,"1,2,3,4",complete_year
+Kas Bank,2023,return_after_ter,0.07572194309717473,4,"1,2,3,4",complete_year
+Kas Bank,2024,return_after_ter,0.06528192494813845,4,"1,2,3,4",complete_year
+Koopvaardij,2015,return_after_ter,-0.003946820598962453,4,"1,2,3,4",complete_year
+Koopvaardij,2016,return_after_ter,0.07563485008456117,4,"1,2,3,4",complete_year
+Koopvaardij,2017,return_after_ter,0.015762456169482686,4,"1,2,3,4",complete_year
+Koopvaardij,2018,return_after_ter,0.008955045383025384,4,"1,2,3,4",complete_year
+Koopvaardij,2019,return_after_ter,0.14088704593589174,4,"1,2,3,4",complete_year
+Koopvaardij,2020,return_after_ter,0.08209717254835547,4,"1,2,3,4",complete_year
+Koopvaardij,2021,return_after_ter,-0.01185480424262808,4,"1,2,3,4",complete_year
+Koopvaardij,2022,return_after_ter,-0.2216779434140046,4,"1,2,3,4",complete_year
+Koopvaardij,2023,return_after_ter,0.07311795758198181,4,"1,2,3,4",complete_year
+Koopvaardij,2024,return_after_ter,0.06021700463239621,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2017,return_after_ter,0.008494837283497647,3,"2,3,4",incomplete_year
+Kring 2 - DB premie (Achmea),2018,return_after_ter,-0.022359831392250507,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2019,return_after_ter,0.21010274705294618,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2020,return_after_ter,0.11296921938632476,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2021,return_after_ter,0.030627862802155015,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2022,return_after_ter,-0.25713521345345547,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2023,return_after_ter,0.07666859787111013,4,"1,2,3,4",complete_year
+Kring 2 - DB premie (Achmea),2024,return_after_ter,0.10565012601038326,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2017,return_after_ter,-0.013969734961967073,3,"2,3,4",incomplete_year
+Kring 3 - Stabiliteit (Achmea),2018,return_after_ter,0.0038327668953215266,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2019,return_after_ter,0.24050578329300576,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2020,return_after_ter,0.1711697966891934,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2021,return_after_ter,-0.08305807883009297,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2022,return_after_ter,-0.4096242251319947,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2023,return_after_ter,0.0688568109123866,4,"1,2,3,4",complete_year
+Kring 3 - Stabiliteit (Achmea),2024,return_after_ter,0.10242465310026438,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2017,return_after_ter,0.018043440716442483,3,"2,3,4",incomplete_year
+Kring 4 - Koopkracht (Achmea),2018,return_after_ter,-0.026959727470314276,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2019,return_after_ter,0.19261804037770203,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2020,return_after_ter,0.10173779247061598,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2021,return_after_ter,0.03492473050423506,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2022,return_after_ter,-0.22850923395710898,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2023,return_after_ter,0.0778166066908117,4,"1,2,3,4",complete_year
+Kring 4 - Koopkracht (Achmea),2024,return_after_ter,0.10189745664683114,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2018,return_after_ter,0.0018795260635751099,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2019,return_after_ter,0.26627232294962466,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2020,return_after_ter,0.18632639267901774,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2021,return_after_ter,-0.03888444104738098,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2022,return_after_ter,-0.3078751795365944,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2023,return_after_ter,0.0684780341418767,4,"1,2,3,4",complete_year
+Kring AFM (De Nationale),2024,return_after_ter,0.08470576296372112,4,"1,2,3,4",complete_year
+Kring ANWB (De nationale),2020,return_after_ter,0.11033459956855718,4,"1,2,3,4",complete_year
+Kring ANWB (De nationale),2021,return_after_ter,0.010417755770372628,4,"1,2,3,4",complete_year
+Kring ANWB (De nationale),2022,return_after_ter,-0.2926839529498564,4,"1,2,3,4",complete_year
+Kring ANWB (De nationale),2023,return_after_ter,0.10420351164988073,4,"1,2,3,4",complete_year
+Kring ANWB (De nationale),2024,return_after_ter,0.08063372529053825,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2018,return_after_ter,-0.029714777255180014,2,"3,4",incomplete_year
+Kring Arcadis (Hnp),2019,return_after_ter,0.19790349158093523,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2020,return_after_ter,0.0854362227892298,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2021,return_after_ter,0.05749148168993545,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2022,return_after_ter,-0.23628173318109613,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2023,return_after_ter,0.08322033946389396,4,"1,2,3,4",complete_year
+Kring Arcadis (Hnp),2024,return_after_ter,0.06614645772287497,4,"1,2,3,4",complete_year
+Kring B (De Nationale),2021,return_after_ter,-0.014137652228793596,2,"3,4",incomplete_year
+Kring B (De Nationale),2022,return_after_ter,-0.2664834382639305,4,"1,2,3,4",complete_year
+Kring B (De Nationale),2023,return_after_ter,0.09640207695224912,4,"1,2,3,4",complete_year
+Kring B (De Nationale),2024,return_after_ter,0.07923877855438821,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2017,return_after_ter,0.01148369464540222,3,"2,3,4",incomplete_year
+Kring Bavaria (Achmea),2018,return_after_ter,-0.003901878363163136,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2019,return_after_ter,0.1611140415357395,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2020,return_after_ter,0.09087719802865002,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2021,return_after_ter,0.008042396650439043,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2022,return_after_ter,-0.2395479159545083,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2023,return_after_ter,0.074280728520151,4,"1,2,3,4",complete_year
+Kring Bavaria (Achmea),2024,return_after_ter,0.07476634143973038,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2017,return_after_ter,0.02491112233904147,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2018,return_after_ter,0.0012013244943647194,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2019,return_after_ter,0.21046984436426563,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2020,return_after_ter,0.12368612087116948,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2021,return_after_ter,0.010622441301407992,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2022,return_after_ter,-0.3297870275565752,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2023,return_after_ter,0.08053477430411315,4,"1,2,3,4",complete_year
+Kring CK1 (Hnp),2024,return_after_ter,0.060653916108700745,4,"1,2,3,4",complete_year
+Kring Chemours (Achmea),2020,return_after_ter,0.08323363064822065,4,"1,2,3,4",complete_year
+Kring Chemours (Achmea),2021,return_after_ter,0.016959599459216435,4,"1,2,3,4",complete_year
+Kring Chemours (Achmea),2022,return_after_ter,-0.2856418299920024,4,"1,2,3,4",complete_year
+Kring Chemours (Achmea),2023,return_after_ter,0.11269598758676258,4,"1,2,3,4",complete_year
+Kring Chemours (Achmea),2024,return_after_ter,0.10577137721190444,4,"1,2,3,4",complete_year
+Kring D (De Nationale),2020,return_after_ter,0.06773555395660646,2,"3,4",incomplete_year
+Kring D (De Nationale),2021,return_after_ter,-0.01137203130356923,4,"1,2,3,4",complete_year
+Kring D (De Nationale),2022,return_after_ter,-0.2663117695228754,4,"1,2,3,4",complete_year
+Kring D (De Nationale),2023,return_after_ter,0.07064676719688445,4,"1,2,3,4",complete_year
+Kring D (De Nationale),2024,return_after_ter,0.09355902085024992,4,"1,2,3,4",complete_year
+Kring DB evenwicht (Achmea),2020,return_after_ter,0.039675158317458825,1,4,incomplete_year
+Kring DB evenwicht (Achmea),2021,return_after_ter,0.015278811184991525,4,"1,2,3,4",complete_year
+Kring DB evenwicht (Achmea),2022,return_after_ter,-0.24457728119680922,4,"1,2,3,4",complete_year
+Kring DB evenwicht (Achmea),2023,return_after_ter,0.07319000068613057,4,"1,2,3,4",complete_year
+Kring DB evenwicht (Achmea),2024,return_after_ter,0.0734251480751571,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2017,return_after_ter,0.01771860714385798,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2018,return_after_ter,-0.006043479636648974,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2019,return_after_ter,0.24788298369441297,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2020,return_after_ter,0.15822795196184458,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2021,return_after_ter,-0.024838693501867293,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2022,return_after_ter,-0.22190909662974545,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2023,return_after_ter,0.08472195084974987,4,"1,2,3,4",complete_year
+Kring DB-A (De Nationale),2024,return_after_ter,0.07509024224867855,4,"1,2,3,4",complete_year
+Kring Deutche Bank NL (Achmea),2023,return_after_ter,0.16855030343145638,1,4,incomplete_year
+Kring Deutche Bank NL (Achmea),2024,return_after_ter,0.0714937808781646,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2018,return_after_ter,-0.004542577869951714,3,"2,3,4",incomplete_year
+Kring Douwe Egberts (Stap),2019,return_after_ter,0.15766009121803393,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2020,return_after_ter,0.06621228013812841,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2021,return_after_ter,0.10157446005568582,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2022,return_after_ter,-0.23142819669036319,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2023,return_after_ter,0.1051889867318081,4,"1,2,3,4",complete_year
+Kring Douwe Egberts (Stap),2024,return_after_ter,0.08708605087512789,4,"1,2,3,4",complete_year
+Kring ES Nederland (Achmea),2021,return_after_ter,-0.004299865094422151,1,4,incomplete_year
+Kring ES Nederland (Achmea),2022,return_after_ter,-0.2843968292186867,4,"1,2,3,4",complete_year
+Kring ES Nederland (Achmea),2023,return_after_ter,0.11677316925916004,4,"1,2,3,4",complete_year
+Kring ES Nederland (Achmea),2024,return_after_ter,0.09721314093880551,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2016,return_after_ter,-0.029599460754754725,1,4,incomplete_year
+Kring Eastman (Stap),2017,return_after_ter,0.039153116709489844,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2018,return_after_ter,-0.008013066481532216,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2019,return_after_ter,0.1617509320793542,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2020,return_after_ter,0.08314308487393207,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2021,return_after_ter,0.04934968498110903,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2022,return_after_ter,-0.29698299857476407,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2023,return_after_ter,0.09322134855403341,4,"1,2,3,4",complete_year
+Kring Eastman (Stap),2024,return_after_ter,0.07186217707264198,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2017,return_after_ter,0.02517997476932221,1,4,incomplete_year
+Kring Forward (Unilever),2018,return_after_ter,-0.022192329135020783,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2019,return_after_ter,0.20811996937123434,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2020,return_after_ter,0.08839386305875441,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2021,return_after_ter,0.03873528471934695,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2022,return_after_ter,-0.2131641099646856,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2023,return_after_ter,0.07634431353070159,4,"1,2,3,4",complete_year
+Kring Forward (Unilever),2024,return_after_ter,0.09809850413824317,4,"1,2,3,4",complete_year
+Kring Grolsch (Achmea),2024,return_after_ter,0.0164254952731675,1,4,incomplete_year
+Kring HP Nederland (Achmea),2021,return_after_ter,-0.006299865094422152,1,4,incomplete_year
+Kring HP Nederland (Achmea),2022,return_after_ter,-0.2900338424931589,4,"1,2,3,4",complete_year
+Kring HP Nederland (Achmea),2023,return_after_ter,0.10536952072861272,4,"1,2,3,4",complete_year
+Kring HP Nederland (Achmea),2024,return_after_ter,0.10740931571822121,4,"1,2,3,4",complete_year
+Kring HPE (Achmea),2021,return_after_ter,0.0037001349055778565,1,4,incomplete_year
+Kring HPE (Achmea),2022,return_after_ter,-0.2265556988821511,4,"1,2,3,4",complete_year
+Kring HPE (Achmea),2023,return_after_ter,0.09645263912391133,4,"1,2,3,4",complete_year
+Kring HPE (Achmea),2024,return_after_ter,0.06889175873710296,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2017,return_after_ter,0.0525665186036226,2,"3,4",incomplete_year
+Kring Holland Casino (Stap),2018,return_after_ter,-0.015634601253350255,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2019,return_after_ter,0.18404505493515533,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2020,return_after_ter,0.10675412515981875,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2021,return_after_ter,0.09844359743678277,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2022,return_after_ter,-0.31079449393974956,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2023,return_after_ter,0.11487140181576683,4,"1,2,3,4",complete_year
+Kring Holland Casino (Stap),2024,return_after_ter,0.11530631772899946,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2017,return_after_ter,0.020075416716973438,3,"2,3,4",incomplete_year
+Kring McCain (De Nationale),2018,return_after_ter,-0.017382122211438977,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2019,return_after_ter,0.23629425608320487,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2020,return_after_ter,0.16625068832647272,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2021,return_after_ter,0.00026153894191605076,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2022,return_after_ter,-0.27707056572411026,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2023,return_after_ter,0.0944151539158884,4,"1,2,3,4",complete_year
+Kring McCain (De Nationale),2024,return_after_ter,0.08906315276956689,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2017,return_after_ter,0.026627826873129923,1,4,incomplete_year
+Kring Progress (Unilever),2018,return_after_ter,-0.04359067021328822,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2019,return_after_ter,0.13059361757279864,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2020,return_after_ter,0.04498061900210493,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2021,return_after_ter,0.10512120574752326,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2022,return_after_ter,-0.10745491725270861,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2023,return_after_ter,0.06811565162868849,4,"1,2,3,4",complete_year
+Kring Progress (Unilever),2024,return_after_ter,0.06521434149030103,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2017,return_after_ter,0.04498943764309149,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2018,return_after_ter,-0.011905033046020974,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2019,return_after_ter,0.17225339159060304,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2020,return_after_ter,0.11627212174373458,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2021,return_after_ter,0.05808015926150434,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2022,return_after_ter,-0.2568458703603782,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2023,return_after_ter,0.07481995143759468,4,"1,2,3,4",complete_year
+Kring RBS (Achmea),2024,return_after_ter,0.06984652246126832,4,"1,2,3,4",complete_year
+Kring Roba (Hnp),2023,return_after_ter,0.1049011238077584,4,"1,2,3,4",complete_year
+Kring Roba (Hnp),2024,return_after_ter,0.09705619891084694,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2016,return_after_ter,0.015925008436023846,1,4,incomplete_year
+Kring SVG (Stap),2017,return_after_ter,0.0554593841344857,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2018,return_after_ter,-0.02610453999474993,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2019,return_after_ter,0.16641906485097602,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2020,return_after_ter,0.06128479373004203,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2021,return_after_ter,0.06762767861878682,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2022,return_after_ter,-0.23373138461094245,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2023,return_after_ter,0.10141375265475783,4,"1,2,3,4",complete_year
+Kring SVG (Stap),2024,return_after_ter,0.07294371723582183,4,"1,2,3,4",complete_year
+Kring Sligro (Achmea),2019,return_after_ter,-0.017135224706790075,1,4,incomplete_year
+Kring Sligro (Achmea),2020,return_after_ter,0.19461005008752985,4,"1,2,3,4",complete_year
+Kring Sligro (Achmea),2021,return_after_ter,0.001151006582516434,4,"1,2,3,4",complete_year
+Kring Sligro (Achmea),2022,return_after_ter,-0.29939424903065703,4,"1,2,3,4",complete_year
+Kring Sligro (Achmea),2023,return_after_ter,0.1049561096980407,4,"1,2,3,4",complete_year
+Kring Sligro (Achmea),2024,return_after_ter,0.10346434146361627,4,"1,2,3,4",complete_year
+Kring TotalEnergies NL (Stap),2022,return_after_ter,-0.25796622645139133,4,"1,2,3,4",complete_year
+Kring TotalEnergies NL (Stap),2023,return_after_ter,0.08617772469641194,4,"1,2,3,4",complete_year
+Kring TotalEnergies NL (Stap),2024,return_after_ter,0.09161798710626812,4,"1,2,3,4",complete_year
+Kring equensWorldline (Achmea),2020,return_after_ter,0.13136800734295728,4,"1,2,3,4",complete_year
+Kring equensWorldline (Achmea),2021,return_after_ter,-0.024398948643506668,4,"1,2,3,4",complete_year
+Kring equensWorldline (Achmea),2022,return_after_ter,-0.2584021968874216,4,"1,2,3,4",complete_year
+Kring equensWorldline (Achmea),2023,return_after_ter,0.07201405425077789,4,"1,2,3,4",complete_year
+Kring equensWorldline (Achmea),2024,return_after_ter,0.06575817628292735,4,"1,2,3,4",complete_year
+Lanschot,2015,return_after_ter,-0.0007210439936956581,4,"1,2,3,4",complete_year
+Lanschot,2016,return_after_ter,0.07745686626068582,4,"1,2,3,4",complete_year
+Lanschot,2017,return_after_ter,0.029824250687715326,4,"1,2,3,4",complete_year
+Lanschot,2018,return_after_ter,-0.020475884052057136,4,"1,2,3,4",complete_year
+Lanschot,2019,return_after_ter,0.1464506710092639,4,"1,2,3,4",complete_year
+Lanschot,2020,return_after_ter,0.07786572206479114,4,"1,2,3,4",complete_year
+Lanschot,2021,return_after_ter,0.011958768391241659,4,"1,2,3,4",complete_year
+Lanschot,2022,return_after_ter,-0.27242895012013524,4,"1,2,3,4",complete_year
+Lanschot,2023,return_after_ter,0.09227498473325535,4,"1,2,3,4",complete_year
+Lanschot,2024,return_after_ter,0.09100864776449269,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2015,return_after_ter,-0.002526009709126531,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2016,return_after_ter,0.11621617211521218,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2017,return_after_ter,0.04162513874707874,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2018,return_after_ter,-0.013613683547540001,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2019,return_after_ter,0.16564244356008162,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2020,return_after_ter,0.08359293669813384,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2021,return_after_ter,0.022348773324523563,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2022,return_after_ter,-0.32907914292549234,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2023,return_after_ter,0.07704601737837868,4,"1,2,3,4",complete_year
+Levensmiddelenbedrijf,2024,return_after_ter,0.10215486660446538,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2015,return_after_ter,-0.0014694311702169172,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2016,return_after_ter,0.08422038702216539,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2017,return_after_ter,0.08293881449474383,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2018,return_after_ter,-0.03647580809838136,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2019,return_after_ter,0.14977389103726346,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2020,return_after_ter,0.10273112924954075,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2021,return_after_ter,0.05417962406908594,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2022,return_after_ter,-0.2298110670279252,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2023,return_after_ter,0.14040618162595853,4,"1,2,3,4",complete_year
+Lloyd's Register Nederland,2024,return_after_ter,0.08419787003402823,4,"1,2,3,4",complete_year
+Loodsen,2015,return_after_ter,-0.0014386316387084985,4,"1,2,3,4",complete_year
+Loodsen,2016,return_after_ter,0.07813836958594123,4,"1,2,3,4",complete_year
+Loodsen,2017,return_after_ter,0.05331556523207026,4,"1,2,3,4",complete_year
+Loodsen,2018,return_after_ter,-0.04099532916039772,4,"1,2,3,4",complete_year
+Loodsen,2019,return_after_ter,0.1234462168695758,4,"1,2,3,4",complete_year
+Loodsen,2020,return_after_ter,0.04656070210107588,4,"1,2,3,4",complete_year
+Loodsen,2021,return_after_ter,0.07000926308475885,4,"1,2,3,4",complete_year
+Loodsen,2022,return_after_ter,-0.1846341753552616,4,"1,2,3,4",complete_year
+Loodsen,2023,return_after_ter,0.1128566875470085,4,"1,2,3,4",complete_year
+Loodsen,2024,return_after_ter,0.08684257736203715,4,"1,2,3,4",complete_year
+MSD,2015,return_after_ter,0.008643271239497707,4,"1,2,3,4",complete_year
+MSD,2016,return_after_ter,0.1271951572200929,4,"1,2,3,4",complete_year
+MSD,2017,return_after_ter,0.04189444642905338,4,"1,2,3,4",complete_year
+MSD,2018,return_after_ter,-0.019173704511092016,4,"1,2,3,4",complete_year
+MSD,2019,return_after_ter,0.21469166449675714,4,"1,2,3,4",complete_year
+MSD,2020,return_after_ter,0.11160456458711687,4,"1,2,3,4",complete_year
+MSD,2021,return_after_ter,0.05345941680502597,4,"1,2,3,4",complete_year
+MSD,2022,return_after_ter,-0.2525563431859311,4,"1,2,3,4",complete_year
+MSD,2023,return_after_ter,0.11673030033015963,4,"1,2,3,4",complete_year
+MSD,2024,return_after_ter,0.0994965332297566,4,"1,2,3,4",complete_year
+Mars,2015,return_after_ter,0.048582597874186284,4,"1,2,3,4",complete_year
+Mars,2016,return_after_ter,0.060164380952431706,4,"1,2,3,4",complete_year
+Mars,2017,return_after_ter,0.027265052362404063,4,"1,2,3,4",complete_year
+Mars,2018,return_after_ter,-0.01756029877437315,4,"1,2,3,4",complete_year
+Mars,2019,return_after_ter,0.10389897494068578,4,"1,2,3,4",complete_year
+Mars,2020,return_after_ter,0.02963868887122012,4,"1,2,3,4",complete_year
+Mars,2021,return_after_ter,0.07237962466318049,4,"1,2,3,4",complete_year
+Mars,2022,return_after_ter,-0.20155172596744675,4,"1,2,3,4",complete_year
+Mars,2023,return_after_ter,0.00016579442571051928,4,"1,2,3,4",complete_year
+Mars,2024,return_after_ter,0.04483253275043908,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2015,return_after_ter,0.03330301050337181,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2016,return_after_ter,0.06592398100541241,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2017,return_after_ter,0.05752798645352053,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2018,return_after_ter,-0.014267725114402774,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2019,return_after_ter,0.19658304849236785,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2020,return_after_ter,0.09696285299203167,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2021,return_after_ter,0.0019190957350898596,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2022,return_after_ter,-0.320353556128097,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2023,return_after_ter,0.08999925771731987,4,"1,2,3,4",complete_year
+Medewerkers Apotheken,2024,return_after_ter,0.08063680802885997,4,"1,2,3,4",complete_year
+Media PNO,2015,return_after_ter,0.027141888551079685,4,"1,2,3,4",complete_year
+Media PNO,2016,return_after_ter,0.07696290177751774,4,"1,2,3,4",complete_year
+Media PNO,2017,return_after_ter,0.07285339092215848,4,"1,2,3,4",complete_year
+Media PNO,2018,return_after_ter,-0.005257374000983361,4,"1,2,3,4",complete_year
+Media PNO,2019,return_after_ter,0.14870201635933,4,"1,2,3,4",complete_year
+Media PNO,2020,return_after_ter,0.06908494949972477,4,"1,2,3,4",complete_year
+Media PNO,2021,return_after_ter,0.09215563914979752,4,"1,2,3,4",complete_year
+Media PNO,2022,return_after_ter,-0.17474655319099586,4,"1,2,3,4",complete_year
+Media PNO,2023,return_after_ter,0.07718955393548699,4,"1,2,3,4",complete_year
+Media PNO,2024,return_after_ter,0.08738721843027486,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2015,return_after_ter,0.027270284794431277,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2016,return_after_ter,0.08630103718558901,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2017,return_after_ter,0.04418031442100978,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2018,return_after_ter,-0.02690609703746727,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2019,return_after_ter,0.16657620818106778,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2020,return_after_ter,0.09017513972077817,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2021,return_after_ter,0.036972296090633794,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2022,return_after_ter,-0.21039624015451752,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2023,return_after_ter,0.09700564855598137,4,"1,2,3,4",complete_year
+Mediahuis Nederland,2024,return_after_ter,0.07893785973753142,4,"1,2,3,4",complete_year
+Medische Specialisten,2015,return_after_ter,0.005842657025319609,4,"1,2,3,4",complete_year
+Medische Specialisten,2016,return_after_ter,0.1122394569224654,4,"1,2,3,4",complete_year
+Medische Specialisten,2017,return_after_ter,0.04554797886244,4,"1,2,3,4",complete_year
+Medische Specialisten,2018,return_after_ter,-0.023603147419160142,4,"1,2,3,4",complete_year
+Medische Specialisten,2019,return_after_ter,0.2247898020047261,4,"1,2,3,4",complete_year
+Medische Specialisten,2020,return_after_ter,0.1484758003615707,4,"1,2,3,4",complete_year
+Medische Specialisten,2021,return_after_ter,0.016987019834203698,4,"1,2,3,4",complete_year
+Medische Specialisten,2022,return_after_ter,-0.2758662736534825,4,"1,2,3,4",complete_year
+Medische Specialisten,2023,return_after_ter,0.08149185853913066,4,"1,2,3,4",complete_year
+Medische Specialisten,2024,return_after_ter,0.07813096489267513,4,"1,2,3,4",complete_year
+Mercer,2015,return_after_ter,-0.026659611296037333,4,"1,2,3,4",complete_year
+Mercer,2016,return_after_ter,0.16489263755451988,4,"1,2,3,4",complete_year
+Mercer,2017,return_after_ter,-0.01555068343151722,4,"1,2,3,4",complete_year
+Mercer,2018,return_after_ter,0.01866885603533608,4,"1,2,3,4",complete_year
+Mercer,2019,return_after_ter,0.1738539682029867,4,"1,2,3,4",complete_year
+Mercer,2020,return_after_ter,0.09608015476470455,4,"1,2,3,4",complete_year
+Mercer,2021,return_after_ter,-0.0063118150672534235,4,"1,2,3,4",complete_year
+Mercer,2022,return_after_ter,-0.25186786879133016,4,"1,2,3,4",complete_year
+Mercer,2023,return_after_ter,0.0869263917864942,4,"1,2,3,4",complete_year
+Mercer,2024,return_after_ter,0.06574856448271071,4,"1,2,3,4",complete_year
+Metaal en Techniek,2015,return_after_ter,0.01670273039224668,4,"1,2,3,4",complete_year
+Metaal en Techniek,2016,return_after_ter,0.10406430366017294,4,"1,2,3,4",complete_year
+Metaal en Techniek,2017,return_after_ter,0.03541467330481041,4,"1,2,3,4",complete_year
+Metaal en Techniek,2018,return_after_ter,-0.0036498265813696973,4,"1,2,3,4",complete_year
+Metaal en Techniek,2019,return_after_ter,0.1736190724110116,4,"1,2,3,4",complete_year
+Metaal en Techniek,2020,return_after_ter,0.0923239581032369,4,"1,2,3,4",complete_year
+Metaal en Techniek,2021,return_after_ter,0.03014417184249707,4,"1,2,3,4",complete_year
+Metaal en Techniek,2022,return_after_ter,-0.27754854040450727,4,"1,2,3,4",complete_year
+Metaal en Techniek,2023,return_after_ter,0.08000829205252402,4,"1,2,3,4",complete_year
+Metaal en Techniek,2024,return_after_ter,0.07645528400229762,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2015,return_after_ter,0.006675899856388057,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2016,return_after_ter,0.09731331835489754,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2017,return_after_ter,0.04292004406487049,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2018,return_after_ter,-0.013212705078341491,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2019,return_after_ter,0.17757587540178865,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2020,return_after_ter,0.10029366068003309,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2021,return_after_ter,0.033644743605644845,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2022,return_after_ter,-0.23681754832216995,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2023,return_after_ter,0.08176388117823263,4,"1,2,3,4",complete_year
+"Metalektro, bedrijfstakpensioenfonds",2024,return_after_ter,0.08280709900116823,4,"1,2,3,4",complete_year
+Metro,2015,return_after_ter,0.023088209828421302,4,"1,2,3,4",complete_year
+Metro,2016,return_after_ter,0.10500605182580425,4,"1,2,3,4",complete_year
+Metro,2017,return_after_ter,0.04711500600400664,4,"1,2,3,4",complete_year
+Metro,2018,return_after_ter,0.0009658329567765467,4,"1,2,3,4",complete_year
+Metro,2019,return_after_ter,0.18972171138371485,4,"1,2,3,4",complete_year
+Metro,2020,return_after_ter,0.09805442490341787,4,"1,2,3,4",complete_year
+Metro,2021,return_after_ter,0.06115590232847823,4,"1,2,3,4",complete_year
+Metro,2022,return_after_ter,-0.23469036739464022,4,"1,2,3,4",complete_year
+Metro,2023,return_after_ter,0.09638891967044261,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2015,return_after_ter,0.008384735547735112,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2016,return_after_ter,0.1006235676013374,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2017,return_after_ter,0.03537457176951753,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2018,return_after_ter,-0.012508092842350882,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2019,return_after_ter,0.1592100054473311,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2020,return_after_ter,0.05513310846461161,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2021,return_after_ter,0.033726120814109084,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2022,return_after_ter,-0.17932987560578284,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2023,return_after_ter,0.0864199969093229,4,"1,2,3,4",complete_year
+"Mode-, Interieur-, Tapijt- en Textielindustrie",2024,return_after_ter,0.0644234675853057,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2015,return_after_ter,-0.020724525390768744,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2016,return_after_ter,0.1200795220138271,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2017,return_after_ter,0.049091236719461584,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2018,return_after_ter,-0.02089318393181927,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2019,return_after_ter,0.2721985249589729,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2020,return_after_ter,0.16814943097536927,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2021,return_after_ter,0.012308021384740853,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2022,return_after_ter,-0.327461202460963,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2023,return_after_ter,0.1170977902329362,4,"1,2,3,4",complete_year
+Molenaarspensioenfonds,2024,return_after_ter,0.12074498590526894,4,"1,2,3,4",complete_year
+NN CDC fonds,2015,return_after_ter,0.006882978264852069,4,"1,2,3,4",complete_year
+NN CDC fonds,2016,return_after_ter,0.11038951778013484,4,"1,2,3,4",complete_year
+NN CDC fonds,2017,return_after_ter,0.04759050997831071,4,"1,2,3,4",complete_year
+NN CDC fonds,2018,return_after_ter,-9.954796081534933e-05,4,"1,2,3,4",complete_year
+NN CDC fonds,2019,return_after_ter,0.18207955275211396,4,"1,2,3,4",complete_year
+NN CDC fonds,2020,return_after_ter,0.14473406984920523,4,"1,2,3,4",complete_year
+NN CDC fonds,2021,return_after_ter,0.003280555349117753,4,"1,2,3,4",complete_year
+NN CDC fonds,2022,return_after_ter,-0.2952536399835667,4,"1,2,3,4",complete_year
+NN CDC fonds,2023,return_after_ter,0.10247807678298182,4,"1,2,3,4",complete_year
+NN CDC fonds,2024,return_after_ter,0.05500725234151993,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2015,return_after_ter,0.014949863765157057,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2016,return_after_ter,0.1120501252694337,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2017,return_after_ter,0.038735135309638125,3,"2,3,4",incomplete_year
+Nederlandsche Bank,2018,return_after_ter,-0.007372006406866749,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2019,return_after_ter,0.1872567690163578,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2020,return_after_ter,0.11451107948443906,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2021,return_after_ter,0.0463659005015542,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2022,return_after_ter,-0.2456465763317941,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2023,return_after_ter,0.11510112650721371,4,"1,2,3,4",complete_year
+Nederlandsche Bank,2024,return_after_ter,0.08195094363219813,4,"1,2,3,4",complete_year
+Nedlloyd,2015,return_after_ter,0.03888077082757979,4,"1,2,3,4",complete_year
+Nedlloyd,2016,return_after_ter,0.06692663755363104,4,"1,2,3,4",complete_year
+Nedlloyd,2017,return_after_ter,0.026870406613292763,3,"1,3,4",incomplete_year
+Nedlloyd,2018,return_after_ter,0.007473072265121505,4,"1,2,3,4",complete_year
+Nedlloyd,2019,return_after_ter,0.09198428947756931,4,"1,2,3,4",complete_year
+Nedlloyd,2020,return_after_ter,0.03970052476909203,4,"1,2,3,4",complete_year
+Nedlloyd,2021,return_after_ter,0.01915165093348814,4,"1,2,3,4",complete_year
+Nedlloyd,2022,return_after_ter,-0.1928916194907403,4,"1,2,3,4",complete_year
+Nedlloyd,2023,return_after_ter,0.02963294054130694,4,"1,2,3,4",complete_year
+Nedlloyd,2024,return_after_ter,0.02268146083075817,4,"1,2,3,4",complete_year
+Notariaat,2015,return_after_ter,-0.0024584583379829716,4,"1,2,3,4",complete_year
+Notariaat,2016,return_after_ter,0.1082186272462089,4,"1,2,3,4",complete_year
+Notariaat,2017,return_after_ter,0.022044417849753195,4,"1,2,3,4",complete_year
+Notariaat,2018,return_after_ter,-0.006650464997494665,4,"1,2,3,4",complete_year
+Notariaat,2019,return_after_ter,0.18386137516038836,4,"1,2,3,4",complete_year
+Notariaat,2020,return_after_ter,0.11186022028498699,4,"1,2,3,4",complete_year
+Notariaat,2021,return_after_ter,0.015197464342555644,4,"1,2,3,4",complete_year
+Notariaat,2022,return_after_ter,-0.28079782170536705,4,"1,2,3,4",complete_year
+Notariaat,2023,return_after_ter,0.11083120239092725,4,"1,2,3,4",complete_year
+Notariaat,2024,return_after_ter,0.07676885183189586,4,"1,2,3,4",complete_year
+Oak,2015,return_after_ter,-0.03549169168462385,4,"1,2,3,4",complete_year
+Oak,2016,return_after_ter,0.11554007442814651,4,"1,2,3,4",complete_year
+Oak,2017,return_after_ter,0.05525562162961273,4,"1,2,3,4",complete_year
+Oak,2018,return_after_ter,-0.028639730589534285,4,"1,2,3,4",complete_year
+Oak,2019,return_after_ter,0.1876376625642655,4,"1,2,3,4",complete_year
+Oak,2020,return_after_ter,0.11662799555179948,4,"1,2,3,4",complete_year
+Oak,2021,return_after_ter,0.05444173318704659,4,"1,2,3,4",complete_year
+Oak,2022,return_after_ter,-0.2870371393769775,4,"1,2,3,4",complete_year
+Oak,2023,return_after_ter,0.08929440854779935,4,"1,2,3,4",complete_year
+Oak,2024,return_after_ter,0.08641758014659273,4,"1,2,3,4",complete_year
+PDN,2015,return_after_ter,-0.0024706256899794665,4,"1,2,3,4",complete_year
+PDN,2016,return_after_ter,0.06909155863163008,4,"1,2,3,4",complete_year
+PDN,2017,return_after_ter,0.047889345279058304,4,"1,2,3,4",complete_year
+PDN,2018,return_after_ter,-0.022221249179392166,4,"1,2,3,4",complete_year
+PDN,2019,return_after_ter,0.11833657922104446,4,"1,2,3,4",complete_year
+PDN,2020,return_after_ter,0.03634884843304764,4,"1,2,3,4",complete_year
+PDN,2021,return_after_ter,0.07381269512835975,4,"1,2,3,4",complete_year
+PDN,2022,return_after_ter,-0.14405310320205567,4,"1,2,3,4",complete_year
+PDN,2023,return_after_ter,0.08338586309057505,4,"1,2,3,4",complete_year
+PDN,2024,return_after_ter,0.07995490183647025,4,"1,2,3,4",complete_year
+PGB,2015,return_after_ter,0.01103211433354745,4,"1,2,3,4",complete_year
+PGB,2016,return_after_ter,0.10520654268905294,4,"1,2,3,4",complete_year
+PGB,2017,return_after_ter,0.0628643381451055,4,"1,2,3,4",complete_year
+PGB,2018,return_after_ter,-0.027083372426894403,4,"1,2,3,4",complete_year
+PGB,2019,return_after_ter,0.15458090961116544,4,"1,2,3,4",complete_year
+PGB,2020,return_after_ter,0.06471182514952378,4,"1,2,3,4",complete_year
+PGB,2021,return_after_ter,0.05731088940329032,4,"1,2,3,4",complete_year
+PGB,2022,return_after_ter,-0.2573978583255231,4,"1,2,3,4",complete_year
+PGB,2023,return_after_ter,0.11279912875657083,4,"1,2,3,4",complete_year
+PGB,2024,return_after_ter,0.08867248691352225,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2015,return_after_ter,-0.01770866419428152,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2016,return_after_ter,0.1441045211241081,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2017,return_after_ter,0.04396420091744613,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2018,return_after_ter,0.0005138039228780311,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2019,return_after_ter,0.2653475613665155,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2020,return_after_ter,0.14970197790096074,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2021,return_after_ter,0.02875314744705193,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2022,return_after_ter,-0.27066862818920234,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2023,return_after_ter,0.07667455340630225,4,"1,2,3,4",complete_year
+Particuliere Beveiliging,2024,return_after_ter,0.10277073807831782,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2018,return_after_ter,-0.00038743715301237103,3,"2,3,4",incomplete_year
+Pensioenkring 2 (Stap),2019,return_after_ter,0.15464769880692986,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2020,return_after_ter,0.08054948256611971,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2021,return_after_ter,0.03118180732147957,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2022,return_after_ter,-0.30019898123012756,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2023,return_after_ter,0.08678891500913277,4,"1,2,3,4",complete_year
+Pensioenkring 2 (Stap),2024,return_after_ter,0.06736951484129738,4,"1,2,3,4",complete_year
+Pensioenkring AON (Stap),2023,return_after_ter,0.06399737172768649,3,"2,3,4",incomplete_year
+Pensioenkring AON (Stap),2024,return_after_ter,0.07128489357386547,4,"1,2,3,4",complete_year
+Pensioenkring Astellas (Stap),2024,return_after_ter,0.08236476147235727,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2019,return_after_ter,0.1579383186493255,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2020,return_after_ter,0.0939433091677897,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2021,return_after_ter,0.035988552940336316,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2022,return_after_ter,-0.22087004967577717,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2023,return_after_ter,0.10572132144945989,4,"1,2,3,4",complete_year
+Pensioenkring Ballast Nedam (Stap),2024,return_after_ter,0.07530006778967335,4,"1,2,3,4",complete_year
+Pensioenkring Cargill (Hnp),2023,return_after_ter,0.059525158131494615,2,"3,4",incomplete_year
+Pensioenkring Cargill (Hnp),2024,return_after_ter,0.08523268640364234,4,"1,2,3,4",complete_year
+Pensioenkring GE Nederland (Stap),2021,return_after_ter,0.046660504247542534,2,"3,4",incomplete_year
+Pensioenkring GE Nederland (Stap),2022,return_after_ter,-0.27536902717561496,4,"1,2,3,4",complete_year
+Pensioenkring GE Nederland (Stap),2023,return_after_ter,0.13739880868881826,4,"1,2,3,4",complete_year
+Pensioenkring GE Nederland (Stap),2024,return_after_ter,0.08166573033700453,4,"1,2,3,4",complete_year
+Pensioenkring OWASE (Hnp),2020,return_after_ter,0.07930066029867788,4,"1,2,3,4",complete_year
+Pensioenkring OWASE (Hnp),2021,return_after_ter,0.05760087459084562,4,"1,2,3,4",complete_year
+Pensioenkring OWASE (Hnp),2022,return_after_ter,-0.22834326610301026,4,"1,2,3,4",complete_year
+Pensioenkring OWASE (Hnp),2023,return_after_ter,0.10864899244330029,4,"1,2,3,4",complete_year
+Pensioenkring OWASE (Hnp),2024,return_after_ter,0.08482942455793174,4,"1,2,3,4",complete_year
+Pensioenkring PepsiCo (Hnp),2024,return_after_ter,0.0558133327164867,4,"1,2,3,4",complete_year
+Pensioenkring Randstad (Hnp),2020,return_after_ter,0.10455006406598111,4,"1,2,3,4",complete_year
+Pensioenkring Randstad (Hnp),2021,return_after_ter,-0.026840582775307764,4,"1,2,3,4",complete_year
+Pensioenkring Randstad (Hnp),2022,return_after_ter,-0.2987410063074122,4,"1,2,3,4",complete_year
+Pensioenkring Randstad (Hnp),2023,return_after_ter,0.08058560870677423,4,"1,2,3,4",complete_year
+Pensioenkring Randstad (Hnp),2024,return_after_ter,0.057290311011481077,4,"1,2,3,4",complete_year
+Pensioenkring Sweco (Hnp),2020,return_after_ter,0.03976336512645351,2,"3,4",incomplete_year
+Pensioenkring Sweco (Hnp),2021,return_after_ter,0.007565958204675205,4,"1,2,3,4",complete_year
+Pensioenkring Sweco (Hnp),2022,return_after_ter,-0.21155825335269673,4,"1,2,3,4",complete_year
+Pensioenkring Sweco (Hnp),2023,return_after_ter,0.08240941038200167,4,"1,2,3,4",complete_year
+Pensioenkring Sweco (Hnp),2024,return_after_ter,0.06236632950006116,4,"1,2,3,4",complete_year
+Pensioenkring Xerox (Hnp),2024,return_after_ter,0.07194856708661312,4,"1,2,3,4",complete_year
+Pensura,2015,return_after_ter,0.028024104842055086,4,"1,2,3,4",complete_year
+Pensura,2016,return_after_ter,0.09638867368516113,4,"1,2,3,4",complete_year
+Pensura,2017,return_after_ter,0.04742443620465253,4,"1,2,3,4",complete_year
+Pensura,2018,return_after_ter,-0.021548328616328716,4,"1,2,3,4",complete_year
+Pensura,2019,return_after_ter,0.19924602768113897,4,"1,2,3,4",complete_year
+Pensura,2020,return_after_ter,0.07336135782980935,4,"1,2,3,4",complete_year
+Pensura,2021,return_after_ter,0.09679548438289531,4,"1,2,3,4",complete_year
+Pensura,2022,return_after_ter,-0.200799916216296,4,"1,2,3,4",complete_year
+Pensura,2023,return_after_ter,0.12860986821937437,4,"1,2,3,4",complete_year
+Pensura,2024,return_after_ter,0.1005115882565637,4,"1,2,3,4",complete_year
+Personeelsdiensten,2015,return_after_ter,-0.012090631566141319,4,"1,2,3,4",complete_year
+Personeelsdiensten,2016,return_after_ter,0.021964581492376123,4,"1,2,3,4",complete_year
+Personeelsdiensten,2017,return_after_ter,-0.01089508489209201,4,"1,2,3,4",complete_year
+Personeelsdiensten,2018,return_after_ter,0.006781347459894782,4,"1,2,3,4",complete_year
+Personeelsdiensten,2019,return_after_ter,0.06871241278453621,4,"1,2,3,4",complete_year
+Personeelsdiensten,2020,return_after_ter,0.06734011763802528,4,"1,2,3,4",complete_year
+Personeelsdiensten,2021,return_after_ter,-0.01577937928630635,4,"1,2,3,4",complete_year
+Personeelsdiensten,2022,return_after_ter,-0.22547677879212968,4,"1,2,3,4",complete_year
+Personeelsdiensten,2023,return_after_ter,0.08013935669385286,4,"1,2,3,4",complete_year
+Personeelsdiensten,2024,return_after_ter,0.030197725975358303,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2015,return_after_ter,0.0006619731779557991,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2016,return_after_ter,0.10072798649269443,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2017,return_after_ter,0.05260489593833162,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2018,return_after_ter,-0.03671485878263925,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2019,return_after_ter,0.13809491267405916,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2020,return_after_ter,0.04770915852495383,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2021,return_after_ter,0.10083695542300242,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2022,return_after_ter,-0.22384298357007448,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2023,return_after_ter,0.09457176655570554,4,"1,2,3,4",complete_year
+Personeelspensioenfonds APG,2024,return_after_ter,0.06309895870767424,4,"1,2,3,4",complete_year
+Philips,2015,return_after_ter,-0.0005549151821048204,4,"1,2,3,4",complete_year
+Philips,2016,return_after_ter,0.09921726393597186,4,"1,2,3,4",complete_year
+Philips,2017,return_after_ter,0.05418975340220222,4,"1,2,3,4",complete_year
+Philips,2018,return_after_ter,-0.027373590271796533,4,"1,2,3,4",complete_year
+Philips,2019,return_after_ter,0.16283736107635027,4,"1,2,3,4",complete_year
+Philips,2020,return_after_ter,0.09554596584141084,4,"1,2,3,4",complete_year
+Philips,2021,return_after_ter,0.05238801128319692,4,"1,2,3,4",complete_year
+Philips,2022,return_after_ter,-0.25055072354661334,4,"1,2,3,4",complete_year
+Philips,2023,return_after_ter,0.06300101095880395,4,"1,2,3,4",complete_year
+Philips,2024,return_after_ter,0.044655693085160264,4,"1,2,3,4",complete_year
+Pon,2015,return_after_ter,0.027761763048710364,4,"1,2,3,4",complete_year
+Pon,2016,return_after_ter,0.052054653384015825,4,"1,2,3,4",complete_year
+Pon,2017,return_after_ter,0.0688318481867487,4,"1,2,3,4",complete_year
+Pon,2018,return_after_ter,-0.06002566700010137,4,"1,2,3,4",complete_year
+Pon,2019,return_after_ter,0.2655039215702524,4,"1,2,3,4",complete_year
+Pon,2020,return_after_ter,0.12195908725786375,4,"1,2,3,4",complete_year
+Pon,2021,return_after_ter,0.023590231867465894,4,"1,2,3,4",complete_year
+Pon,2022,return_after_ter,-0.2829360761896592,4,"1,2,3,4",complete_year
+Pon,2023,return_after_ter,0.1095996645582864,4,"1,2,3,4",complete_year
+Pon,2024,return_after_ter,0.12466336004959233,4,"1,2,3,4",complete_year
+PostNL,2015,return_after_ter,0.010122068579343946,4,"1,2,3,4",complete_year
+PostNL,2016,return_after_ter,0.10363981754279439,4,"1,2,3,4",complete_year
+PostNL,2017,return_after_ter,0.047892683138687664,4,"1,2,3,4",complete_year
+PostNL,2018,return_after_ter,-0.010535473619875946,4,"1,2,3,4",complete_year
+PostNL,2019,return_after_ter,0.14523704150890637,4,"1,2,3,4",complete_year
+PostNL,2020,return_after_ter,0.062342986582476945,4,"1,2,3,4",complete_year
+PostNL,2021,return_after_ter,0.07011520896577328,4,"1,2,3,4",complete_year
+PostNL,2022,return_after_ter,-0.17560259672351575,4,"1,2,3,4",complete_year
+PostNL,2023,return_after_ter,0.06928965061762105,4,"1,2,3,4",complete_year
+PostNL,2024,return_after_ter,0.06581096987223778,4,"1,2,3,4",complete_year
+Provisum,2015,return_after_ter,0.02233514501703393,4,"1,2,3,4",complete_year
+Provisum,2016,return_after_ter,0.05859476458091528,4,"1,2,3,4",complete_year
+Provisum,2017,return_after_ter,0.034855510905931864,4,"1,2,3,4",complete_year
+Provisum,2018,return_after_ter,-0.01907638522535482,4,"1,2,3,4",complete_year
+Provisum,2019,return_after_ter,0.1258812282842834,4,"1,2,3,4",complete_year
+Provisum,2020,return_after_ter,0.07926160009007632,4,"1,2,3,4",complete_year
+Provisum,2021,return_after_ter,0.03885389713227538,4,"1,2,3,4",complete_year
+Provisum,2022,return_after_ter,-0.20106528956714742,4,"1,2,3,4",complete_year
+Provisum,2023,return_after_ter,0.0886894533695739,4,"1,2,3,4",complete_year
+Provisum,2024,return_after_ter,0.0691153798997095,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2015,return_after_ter,0.006824308596768303,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2016,return_after_ter,0.08248215655624991,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2017,return_after_ter,0.033323750313964506,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2018,return_after_ter,-0.028206886456308977,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2019,return_after_ter,0.11695604718757746,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2020,return_after_ter,0.16040831093314822,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2021,return_after_ter,0.012054446261335672,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2022,return_after_ter,-0.2850808892115233,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2023,return_after_ter,0.07266781551221646,4,"1,2,3,4",complete_year
+Rabobankorganisatie,2024,return_after_ter,0.0615734535754604,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2015,return_after_ter,-0.008401208668417759,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2016,return_after_ter,0.10804937427485428,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2017,return_after_ter,0.06192907827456251,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2018,return_after_ter,-0.01186191512204915,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2019,return_after_ter,0.1569593223969281,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2020,return_after_ter,0.07580280505974257,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2021,return_after_ter,0.07756866904545134,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2022,return_after_ter,-0.17870984305141402,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2023,return_after_ter,0.07174524407323002,4,"1,2,3,4",complete_year
+Rail & Openbaar Vervoer,2024,return_after_ter,0.08004776116515977,4,"1,2,3,4",complete_year
+Recreatie (SPR),2015,return_after_ter,-0.019038138827218276,4,"1,2,3,4",complete_year
+Recreatie (SPR),2016,return_after_ter,0.12023793791087845,4,"1,2,3,4",complete_year
+Recreatie (SPR),2017,return_after_ter,-0.0022135126633209268,4,"1,2,3,4",complete_year
+Recreatie (SPR),2018,return_after_ter,0.004272611660721237,4,"1,2,3,4",complete_year
+Recreatie (SPR),2019,return_after_ter,0.27379540255554424,4,"1,2,3,4",complete_year
+Recreatie (SPR),2020,return_after_ter,0.15092312138106756,4,"1,2,3,4",complete_year
+Recreatie (SPR),2021,return_after_ter,0.004823792215495004,4,"1,2,3,4",complete_year
+Recreatie (SPR),2022,return_after_ter,-0.31327258769232735,4,"1,2,3,4",complete_year
+Recreatie (SPR),2023,return_after_ter,0.083384648779397,4,"1,2,3,4",complete_year
+Recreatie (SPR),2024,return_after_ter,0.08137050902114029,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2015,return_after_ter,-0.013125590273171839,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2016,return_after_ter,0.12318635764355346,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2017,return_after_ter,0.0696877615255207,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2018,return_after_ter,-0.023330815077500233,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2019,return_after_ter,0.19631483604905697,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2020,return_after_ter,0.12271237400201085,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2021,return_after_ter,0.046032613120738475,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2022,return_after_ter,-0.2464507513984936,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2023,return_after_ter,0.08831004407570409,4,"1,2,3,4",complete_year
+Rijn- en Binnenvaart,2024,return_after_ter,0.08946604554539217,4,"1,2,3,4",complete_year
+Robeco,2015,return_after_ter,-0.005072500966657234,4,"1,2,3,4",complete_year
+Robeco,2016,return_after_ter,0.10126102753436794,4,"1,2,3,4",complete_year
+Robeco,2017,return_after_ter,0.04718879496573858,4,"1,2,3,4",complete_year
+Robeco,2018,return_after_ter,-0.03411149768913557,4,"1,2,3,4",complete_year
+Robeco,2019,return_after_ter,0.19096823133983376,4,"1,2,3,4",complete_year
+Robeco,2020,return_after_ter,0.08468576717018861,4,"1,2,3,4",complete_year
+Robeco,2021,return_after_ter,0.04195574368165733,4,"1,2,3,4",complete_year
+Robeco,2022,return_after_ter,-0.200681546732553,4,"1,2,3,4",complete_year
+Robeco,2023,return_after_ter,0.08898642050882954,4,"1,2,3,4",complete_year
+Robeco,2024,return_after_ter,0.1037405141108203,4,"1,2,3,4",complete_year
+Rockwool,2015,return_after_ter,0.012879505298721838,4,"1,2,3,4",complete_year
+Rockwool,2016,return_after_ter,0.06632918157842971,4,"1,2,3,4",complete_year
+Rockwool,2017,return_after_ter,0.014873882965969587,4,"1,2,3,4",complete_year
+Rockwool,2018,return_after_ter,-0.012650093942809026,4,"1,2,3,4",complete_year
+Rockwool,2019,return_after_ter,0.18749385766226245,4,"1,2,3,4",complete_year
+Rockwool,2020,return_after_ter,0.1322576378651612,4,"1,2,3,4",complete_year
+Rockwool,2021,return_after_ter,-0.00011798372091564868,4,"1,2,3,4",complete_year
+Rockwool,2022,return_after_ter,-0.2662113437265684,4,"1,2,3,4",complete_year
+Rockwool,2023,return_after_ter,0.10123564777619976,4,"1,2,3,4",complete_year
+Rockwool,2024,return_after_ter,0.08593557285565545,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2015,return_after_ter,0.016467115004109356,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2016,return_after_ter,0.06365396084273978,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2017,return_after_ter,0.04226380931068441,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2018,return_after_ter,-0.007969796732944512,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2019,return_after_ter,0.1379858887890142,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2020,return_after_ter,0.05808703507463142,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2021,return_after_ter,0.051524191347349646,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2022,return_after_ter,-0.16610077379062094,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2023,return_after_ter,0.1117239504087062,4,"1,2,3,4",complete_year
+Roeiers in het Rotterdamse havengebied,2024,return_after_ter,0.11408033976628773,4,"1,2,3,4",complete_year
+SABIC,2015,return_after_ter,0.005719696592562773,4,"1,2,3,4",complete_year
+SABIC,2016,return_after_ter,0.08028918351210201,4,"1,2,3,4",complete_year
+SABIC,2017,return_after_ter,0.05871057577449612,4,"1,2,3,4",complete_year
+SABIC,2018,return_after_ter,-0.031183074953546552,4,"1,2,3,4",complete_year
+SABIC,2019,return_after_ter,0.16115578668499753,4,"1,2,3,4",complete_year
+SABIC,2020,return_after_ter,0.08206644996399914,4,"1,2,3,4",complete_year
+SABIC,2021,return_after_ter,0.061851729552670376,4,"1,2,3,4",complete_year
+SABIC,2022,return_after_ter,-0.1990648187957218,4,"1,2,3,4",complete_year
+SABIC,2023,return_after_ter,0.08540593241896222,4,"1,2,3,4",complete_year
+SABIC,2024,return_after_ter,0.05295626290963651,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2015,return_after_ter,-0.02192010556182744,3,"1,2,3",incomplete_year
+SNS Reaal Groep,2016,return_after_ter,0.12161275529260229,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2017,return_after_ter,0.01492259698781484,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2018,return_after_ter,-0.008395471519174524,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2019,return_after_ter,0.1716926940284096,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2020,return_after_ter,0.11406348721545045,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2021,return_after_ter,-0.01912049305037089,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2022,return_after_ter,-0.28609510291640694,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2023,return_after_ter,0.06387389658037179,4,"1,2,3,4",complete_year
+SNS Reaal Groep,2024,return_after_ter,0.08149470557868921,4,"1,2,3,4",complete_year
+Sagittarius,2015,return_after_ter,0.05043701302273762,4,"1,2,3,4",complete_year
+Sagittarius,2016,return_after_ter,0.04504049532566068,4,"1,2,3,4",complete_year
+Sagittarius,2017,return_after_ter,0.04626521058602284,4,"1,2,3,4",complete_year
+Sagittarius,2018,return_after_ter,-0.03945346737538802,4,"1,2,3,4",complete_year
+Sagittarius,2019,return_after_ter,0.12741489349475055,4,"1,2,3,4",complete_year
+Sagittarius,2020,return_after_ter,0.03825229645537642,4,"1,2,3,4",complete_year
+Sagittarius,2021,return_after_ter,0.05872507287888329,4,"1,2,3,4",complete_year
+Sagittarius,2022,return_after_ter,-0.1588221380700756,4,"1,2,3,4",complete_year
+Sagittarius,2023,return_after_ter,0.11151321980382645,4,"1,2,3,4",complete_year
+Sagittarius,2024,return_after_ter,0.039129613541065034,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2015,return_after_ter,0.03570733990200092,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2016,return_after_ter,0.08981202775537955,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2017,return_after_ter,0.043737033493316035,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2018,return_after_ter,0.0012500050822430442,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2019,return_after_ter,0.1560548418526897,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2020,return_after_ter,0.10456738352878236,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2021,return_after_ter,0.04911500962639348,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2022,return_after_ter,-0.19817013015504192,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2023,return_after_ter,0.04037961610087959,4,"1,2,3,4",complete_year
+Samenwerking / Slagersbedrijf,2024,return_after_ter,0.07319606225387543,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2015,return_after_ter,-0.01663482642353331,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2016,return_after_ter,0.09513663357310476,3,"1,2,3",incomplete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2017,return_after_ter,0.06523670205753995,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2018,return_after_ter,-0.021941785430813043,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2019,return_after_ter,0.17151167750296037,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2020,return_after_ter,0.05832691992102812,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2021,return_after_ter,0.09510948739625902,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2022,return_after_ter,-0.19508436236914073,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2023,return_after_ter,0.10509351519066445,4,"1,2,3,4",complete_year
+"Schilders-, Afwerkings- en Glaszetbedrijf",2024,return_after_ter,0.10652125801517887,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2015,return_after_ter,-0.012753910089345899,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2016,return_after_ter,0.0887203410687627,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2017,return_after_ter,0.04161561003014436,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2018,return_after_ter,0.004936936664400315,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2019,return_after_ter,0.14895414576076083,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2020,return_after_ter,0.09325414373699714,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2021,return_after_ter,0.02455970202419544,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2022,return_after_ter,-0.2337532092911595,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2023,return_after_ter,0.10098817995669673,4,"1,2,3,4",complete_year
+Schoonmaak- en Glazenwassersbedrijf,2024,return_after_ter,0.07334446117286086,4,"1,2,3,4",complete_year
+Shell,2015,return_after_ter,0.03754027259364934,4,"1,2,3,4",complete_year
+Shell,2016,return_after_ter,0.05712240965049897,4,"1,2,3,4",complete_year
+Shell,2017,return_after_ter,0.04330871103770617,4,"1,2,3,4",complete_year
+Shell,2018,return_after_ter,-0.009768290356620746,4,"1,2,3,4",complete_year
+Shell,2019,return_after_ter,0.1228083919148788,4,"1,2,3,4",complete_year
+Shell,2020,return_after_ter,0.026066424486374418,4,"1,2,3,4",complete_year
+Shell,2021,return_after_ter,0.08164850928295153,4,"1,2,3,4",complete_year
+Shell,2022,return_after_ter,-0.19003888262123558,4,"1,2,3,4",complete_year
+Shell,2023,return_after_ter,0.061109945347688654,4,"1,2,3,4",complete_year
+Shell,2024,return_after_ter,0.024919316605459985,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2015,return_after_ter,-0.033491411321266096,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2016,return_after_ter,0.10748064221010223,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2017,return_after_ter,0.051381611039159836,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2018,return_after_ter,-0.03292035834694551,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2019,return_after_ter,0.17631105397176383,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2020,return_after_ter,0.061484266358426076,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2021,return_after_ter,0.04404217396138277,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2022,return_after_ter,-0.2034082421320459,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2023,return_after_ter,0.09539525531783255,4,"1,2,3,4",complete_year
+Smurfit Kappa Nederland,2024,return_after_ter,0.10091075592941556,4,"1,2,3,4",complete_year
+Sportfondsen,2015,return_after_ter,-0.03762676928627917,4,"1,2,3,4",complete_year
+Sportfondsen,2016,return_after_ter,0.06672058804682202,4,"1,2,3,4",complete_year
+Sportfondsen,2017,return_after_ter,0.08457650527561711,4,"1,2,3,4",complete_year
+Sportfondsen,2018,return_after_ter,-0.05031958907053935,4,"1,2,3,4",complete_year
+Sportfondsen,2019,return_after_ter,0.1699816282710649,4,"1,2,3,4",complete_year
+Sportfondsen,2020,return_after_ter,0.08718937253169146,4,"1,2,3,4",complete_year
+Sportfondsen,2021,return_after_ter,0.08687680102375284,4,"1,2,3,4",complete_year
+Sportfondsen,2022,return_after_ter,-0.2196968807731956,4,"1,2,3,4",complete_year
+Sportfondsen,2023,return_after_ter,0.11638965050138661,4,"1,2,3,4",complete_year
+Sportfondsen,2024,return_after_ter,0.11737693079326994,4,"1,2,3,4",complete_year
+Staples,2015,return_after_ter,0.01213369766351624,4,"1,2,3,4",complete_year
+Staples,2016,return_after_ter,0.07145402048805582,4,"1,2,3,4",complete_year
+Staples,2017,return_after_ter,0.03552049509467925,4,"1,2,3,4",complete_year
+Staples,2018,return_after_ter,-0.024426038724158383,4,"1,2,3,4",complete_year
+Staples,2019,return_after_ter,0.13177402078323164,4,"1,2,3,4",complete_year
+Staples,2020,return_after_ter,0.07387900035454509,4,"1,2,3,4",complete_year
+Staples,2021,return_after_ter,0.028710995617853063,4,"1,2,3,4",complete_year
+Staples,2022,return_after_ter,-0.2526071426656966,4,"1,2,3,4",complete_year
+Staples,2023,return_after_ter,0.09774275093095564,4,"1,2,3,4",complete_year
+Staples,2024,return_after_ter,0.06759475626768574,4,"1,2,3,4",complete_year
+TDV,2015,return_after_ter,0.0070751628076839435,4,"1,2,3,4",complete_year
+TDV,2016,return_after_ter,0.07298127207017524,4,"1,2,3,4",complete_year
+TDV,2017,return_after_ter,0.08155056449055476,4,"1,2,3,4",complete_year
+TDV,2018,return_after_ter,-0.035935555428975086,4,"1,2,3,4",complete_year
+TDV,2019,return_after_ter,0.15514354620737913,4,"1,2,3,4",complete_year
+TDV,2020,return_after_ter,0.0502084344133602,4,"1,2,3,4",complete_year
+TDV,2021,return_after_ter,0.08207172106048044,4,"1,2,3,4",complete_year
+TDV,2022,return_after_ter,-0.1654288287959308,4,"1,2,3,4",complete_year
+TDV,2023,return_after_ter,0.07437112139173063,4,"1,2,3,4",complete_year
+TDV,2024,return_after_ter,0.05690930319115117,4,"1,2,3,4",complete_year
+TNO,2015,return_after_ter,0.01854475578570014,4,"1,2,3,4",complete_year
+TNO,2016,return_after_ter,0.08860637173314245,4,"1,2,3,4",complete_year
+TNO,2017,return_after_ter,0.03142792277598616,4,"1,2,3,4",complete_year
+TNO,2018,return_after_ter,-0.019865122871415175,4,"1,2,3,4",complete_year
+TNO,2019,return_after_ter,0.12578590295988157,4,"1,2,3,4",complete_year
+TNO,2020,return_after_ter,0.05967320068250803,4,"1,2,3,4",complete_year
+TNO,2021,return_after_ter,0.06705431576923582,4,"1,2,3,4",complete_year
+TNO,2022,return_after_ter,-0.1961806622804818,4,"1,2,3,4",complete_year
+TNO,2023,return_after_ter,0.1045761224871582,4,"1,2,3,4",complete_year
+TNO,2024,return_after_ter,0.07999085469489065,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2015,return_after_ter,0.0002887925977206329,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2016,return_after_ter,0.08101378838995266,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2017,return_after_ter,0.018731060500650543,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2018,return_after_ter,-0.004927565005447443,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2019,return_after_ter,0.13156894460124202,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2020,return_after_ter,0.08146665296124089,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2021,return_after_ter,0.0020615769446872267,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2022,return_after_ter,-0.20533533482482857,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2023,return_after_ter,0.10058137966590053,4,"1,2,3,4",complete_year
+Tandartsen en Tandarts-Specialisten,2024,return_after_ter,0.06423302801365827,4,"1,2,3,4",complete_year
+Thales,2015,return_after_ter,0.017953018982823643,4,"1,2,3,4",complete_year
+Thales,2016,return_after_ter,0.09368026024528286,4,"1,2,3,4",complete_year
+Thales,2017,return_after_ter,0.028453486071542633,4,"1,2,3,4",complete_year
+Thales,2018,return_after_ter,-0.02942854895987268,4,"1,2,3,4",complete_year
+Thales,2019,return_after_ter,0.22571958182370921,4,"1,2,3,4",complete_year
+Thales,2020,return_after_ter,0.11500146206974526,4,"1,2,3,4",complete_year
+Thales,2021,return_after_ter,0.06669617475027478,4,"1,2,3,4",complete_year
+Thales,2022,return_after_ter,-0.255330583282977,4,"1,2,3,4",complete_year
+Thales,2023,return_after_ter,0.1229344835123074,4,"1,2,3,4",complete_year
+Thales,2024,return_after_ter,0.08457162880236879,4,"1,2,3,4",complete_year
+Trespa,2015,return_after_ter,-0.010723753086242627,4,"1,2,3,4",complete_year
+Trespa,2016,return_after_ter,0.09063909434289563,4,"1,2,3,4",complete_year
+Trespa,2017,return_after_ter,-0.009088049993252745,4,"1,2,3,4",complete_year
+Trespa,2018,return_after_ter,-0.001185863313032387,4,"1,2,3,4",complete_year
+Trespa,2019,return_after_ter,0.2247935261589984,4,"1,2,3,4",complete_year
+Trespa,2020,return_after_ter,0.14232030866360823,4,"1,2,3,4",complete_year
+Trespa,2021,return_after_ter,-0.042203947140135534,4,"1,2,3,4",complete_year
+Trespa,2022,return_after_ter,-0.28753169081596375,4,"1,2,3,4",complete_year
+Trespa,2023,return_after_ter,0.06926816768656052,4,"1,2,3,4",complete_year
+Trespa,2024,return_after_ter,0.05632751267162317,4,"1,2,3,4",complete_year
+UWV,2015,return_after_ter,-0.009841898381841907,4,"1,2,3,4",complete_year
+UWV,2016,return_after_ter,0.1132109077447987,4,"1,2,3,4",complete_year
+UWV,2017,return_after_ter,0.02931352270907528,4,"1,2,3,4",complete_year
+UWV,2018,return_after_ter,-0.011129855919422504,4,"1,2,3,4",complete_year
+UWV,2019,return_after_ter,0.15262401677333193,4,"1,2,3,4",complete_year
+UWV,2020,return_after_ter,0.06153748460341468,4,"1,2,3,4",complete_year
+UWV,2021,return_after_ter,0.041708313914611495,4,"1,2,3,4",complete_year
+UWV,2022,return_after_ter,-0.18223637459777564,4,"1,2,3,4",complete_year
+UWV,2023,return_after_ter,0.07925120942340613,4,"1,2,3,4",complete_year
+UWV,2024,return_after_ter,0.06802735344006372,4,"1,2,3,4",complete_year
+Verloskundigen,2015,return_after_ter,-0.04483966833201969,4,"1,2,3,4",complete_year
+Verloskundigen,2016,return_after_ter,0.11584184953286525,4,"1,2,3,4",complete_year
+Verloskundigen,2017,return_after_ter,0.034310811845598144,4,"1,2,3,4",complete_year
+Verloskundigen,2018,return_after_ter,-0.02150847228822861,4,"1,2,3,4",complete_year
+Verloskundigen,2019,return_after_ter,0.21232951981440684,4,"1,2,3,4",complete_year
+Verloskundigen,2020,return_after_ter,0.11827201767289242,4,"1,2,3,4",complete_year
+Verloskundigen,2021,return_after_ter,0.010278882814414247,4,"1,2,3,4",complete_year
+Verloskundigen,2022,return_after_ter,-0.26206631666625146,4,"1,2,3,4",complete_year
+Verloskundigen,2023,return_after_ter,0.0515400459311699,4,"1,2,3,4",complete_year
+Verloskundigen,2024,return_after_ter,0.08064094592034987,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2015,return_after_ter,-0.0264947022697678,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2016,return_after_ter,0.09543272799852254,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2017,return_after_ter,0.009459787069622694,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2018,return_after_ter,-0.0011342065490069775,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2019,return_after_ter,0.19851427280338751,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2020,return_after_ter,0.12538301631274384,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2021,return_after_ter,0.004413165967403598,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2022,return_after_ter,-0.2508372504451587,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2023,return_after_ter,0.08898562265297993,4,"1,2,3,4",complete_year
+"Vlakglas, Verf, het Glasbewerkings- en het Glazeniersbedrijf",2024,return_after_ter,0.10594378800940785,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2015,return_after_ter,0.0031963394285661195,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2016,return_after_ter,0.0980049766581843,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2017,return_after_ter,0.0403383109086517,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2018,return_after_ter,-0.026539652333783637,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2019,return_after_ter,0.17818202369632186,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2020,return_after_ter,0.09466194143734019,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2021,return_after_ter,0.025844748847893673,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2022,return_after_ter,-0.24052532751398914,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2023,return_after_ter,0.09909343927070413,4,"1,2,3,4",complete_year
+Vlees- en Vleeswarenindustrie en de Gemaksvoedingindustrie,2024,return_after_ter,0.10227314209913008,4,"1,2,3,4",complete_year
+Vopak,2015,return_after_ter,0.012079401819603541,4,"1,2,3,4",complete_year
+Vopak,2016,return_after_ter,0.08016687136803635,4,"1,2,3,4",complete_year
+Vopak,2017,return_after_ter,0.051452713979864395,4,"1,2,3,4",complete_year
+Vopak,2018,return_after_ter,-0.02637844640329634,4,"1,2,3,4",complete_year
+Vopak,2019,return_after_ter,0.1608657427600888,4,"1,2,3,4",complete_year
+Vopak,2020,return_after_ter,0.07732885427470793,4,"1,2,3,4",complete_year
+Vopak,2021,return_after_ter,0.04382819217300926,4,"1,2,3,4",complete_year
+Vopak,2022,return_after_ter,-0.1913776545795709,4,"1,2,3,4",complete_year
+Vopak,2023,return_after_ter,0.07934779073009945,4,"1,2,3,4",complete_year
+Vopak,2024,return_after_ter,0.06347084367064437,4,"1,2,3,4",complete_year
+Waterbouw BPF,2015,return_after_ter,0.031172709282998312,4,"1,2,3,4",complete_year
+Waterbouw BPF,2016,return_after_ter,0.06468011648689753,3,"2,3,4",incomplete_year
+Waterbouw BPF,2017,return_after_ter,0.08862390106322415,4,"1,2,3,4",complete_year
+Waterbouw BPF,2018,return_after_ter,-0.020246422170586698,4,"1,2,3,4",complete_year
+Waterbouw BPF,2019,return_after_ter,0.15161061146318722,4,"1,2,3,4",complete_year
+Waterbouw BPF,2020,return_after_ter,0.07152851928817694,4,"1,2,3,4",complete_year
+Waterbouw BPF,2021,return_after_ter,0.08864667974107565,4,"1,2,3,4",complete_year
+Waterbouw BPF,2022,return_after_ter,-0.17902399735507046,4,"1,2,3,4",complete_year
+Waterbouw BPF,2023,return_after_ter,0.08757662857818338,4,"1,2,3,4",complete_year
+Waterbouw BPF,2024,return_after_ter,0.11201377721122996,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2015,return_after_ter,0.0012381389809088539,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2016,return_after_ter,0.0693888812075758,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2017,return_after_ter,0.0838914229082286,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2018,return_after_ter,-0.04715787830645646,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2019,return_after_ter,0.15004672397830343,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2020,return_after_ter,0.07772753505027707,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2021,return_after_ter,0.0728121140849034,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2022,return_after_ter,-0.16948197714638757,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2023,return_after_ter,0.08733057731307858,4,"1,2,3,4",complete_year
+Werk en (re)Integratie,2024,return_after_ter,0.08492479521488594,4,"1,2,3,4",complete_year
+Witteveen & Bos,2015,return_after_ter,-0.002434970244360013,4,"1,2,3,4",complete_year
+Witteveen & Bos,2016,return_after_ter,0.09950494927618214,4,"1,2,3,4",complete_year
+Witteveen & Bos,2017,return_after_ter,0.04198777122154973,4,"1,2,3,4",complete_year
+Witteveen & Bos,2018,return_after_ter,-0.02110794403389793,4,"1,2,3,4",complete_year
+Witteveen & Bos,2019,return_after_ter,0.1544256551790526,4,"1,2,3,4",complete_year
+Witteveen & Bos,2020,return_after_ter,0.10599548378460555,4,"1,2,3,4",complete_year
+Witteveen & Bos,2021,return_after_ter,0.021990051584864112,4,"1,2,3,4",complete_year
+Witteveen & Bos,2022,return_after_ter,-0.2363284762645642,4,"1,2,3,4",complete_year
+Witteveen & Bos,2023,return_after_ter,0.09624247985157997,4,"1,2,3,4",complete_year
+Witteveen & Bos,2024,return_after_ter,0.0687689578114119,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2015,return_after_ter,0.0035449938893363786,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2016,return_after_ter,0.07945308079175795,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2017,return_after_ter,0.043175231709619455,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2018,return_after_ter,-0.019176349900065226,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2019,return_after_ter,0.1485380697100549,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2020,return_after_ter,0.08482695847712773,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2021,return_after_ter,0.04154890895928931,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2022,return_after_ter,-0.21359150181691722,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2023,return_after_ter,0.11170216577925984,4,"1,2,3,4",complete_year
+Wolters Kluwer Nederland,2024,return_after_ter,0.05734125447115357,4,"1,2,3,4",complete_year
+Woningcorporaties,2015,return_after_ter,0.0027836493869257684,4,"1,2,3,4",complete_year
+Woningcorporaties,2016,return_after_ter,0.12035986397416831,4,"1,2,3,4",complete_year
+Woningcorporaties,2017,return_after_ter,0.03847919282559964,4,"1,2,3,4",complete_year
+Woningcorporaties,2018,return_after_ter,-0.01963847102059124,4,"1,2,3,4",complete_year
+Woningcorporaties,2019,return_after_ter,0.1599187369299251,4,"1,2,3,4",complete_year
+Woningcorporaties,2020,return_after_ter,0.04940584606553422,4,"1,2,3,4",complete_year
+Woningcorporaties,2021,return_after_ter,0.08295686840758787,4,"1,2,3,4",complete_year
+Woningcorporaties,2022,return_after_ter,-0.23057367721036415,4,"1,2,3,4",complete_year
+Woningcorporaties,2023,return_after_ter,0.07397553813244362,4,"1,2,3,4",complete_year
+Woningcorporaties,2024,return_after_ter,0.07122220070164142,4,"1,2,3,4",complete_year
+YARA Nederland,2015,return_after_ter,0.0140907201494338,4,"1,2,3,4",complete_year
+YARA Nederland,2016,return_after_ter,0.061740792374694875,4,"1,2,3,4",complete_year
+YARA Nederland,2017,return_after_ter,0.06518480017765693,4,"1,2,3,4",complete_year
+YARA Nederland,2018,return_after_ter,-0.03680541536409532,4,"1,2,3,4",complete_year
+YARA Nederland,2019,return_after_ter,0.12445891637247986,4,"1,2,3,4",complete_year
+YARA Nederland,2020,return_after_ter,0.06494516494923941,4,"1,2,3,4",complete_year
+YARA Nederland,2021,return_after_ter,0.05829437543023852,4,"1,2,3,4",complete_year
+YARA Nederland,2022,return_after_ter,-0.17833494905493685,4,"1,2,3,4",complete_year
+YARA Nederland,2023,return_after_ter,0.10625861565562866,4,"1,2,3,4",complete_year
+YARA Nederland,2024,return_after_ter,0.0676595571391474,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2015,return_after_ter,-0.020349227460060515,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2016,return_after_ter,0.13642345824624624,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2017,return_after_ter,0.03953238054434416,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2018,return_after_ter,-0.011253647969202585,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2019,return_after_ter,0.1674519802475456,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2020,return_after_ter,0.0733938742311131,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2021,return_after_ter,0.04874217743440501,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2022,return_after_ter,-0.24927859151927179,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2023,return_after_ter,0.10867942123428498,4,"1,2,3,4",complete_year
+Zoetwarenindustrie,2024,return_after_ter,0.11460330031731214,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2015,return_after_ter,-0.006616855048650838,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2016,return_after_ter,0.1132794297383437,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2017,return_after_ter,0.04532282419129352,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2018,return_after_ter,-0.009648704214423098,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2019,return_after_ter,0.1810909385335917,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2020,return_after_ter,0.04912201776281866,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2021,return_after_ter,0.0733742747250552,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2022,return_after_ter,-0.2263682806665327,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2023,return_after_ter,0.07722936067640007,4,"1,2,3,4",complete_year
+Zorg en Welzijn,2024,return_after_ter,0.07148473610504258,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2015,return_after_ter,-0.00942196721709021,3,"1,2,4",incomplete_year
+Zorgverzekeraars,2016,return_after_ter,0.10559421863164387,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2017,return_after_ter,0.0351079636826912,3,"1,3,4",incomplete_year
+Zorgverzekeraars,2018,return_after_ter,-0.011455241717495568,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2019,return_after_ter,0.1503342875522231,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2020,return_after_ter,0.12563915693299066,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2021,return_after_ter,0.0002565557876164082,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2022,return_after_ter,-0.25071726317332543,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2023,return_after_ter,0.06145664305246745,4,"1,2,3,4",complete_year
+Zorgverzekeraars,2024,return_after_ter,0.05462931546481786,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2015,return_after_ter,-0.10561200315010355,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2016,return_after_ter,0.124428282710763,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2017,return_after_ter,0.017318623591970672,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2018,return_after_ter,-0.008320953251148122,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2019,return_after_ter,0.2404569675141417,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2020,return_after_ter,0.16326497625244696,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2021,return_after_ter,0.0033283961880052892,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2022,return_after_ter,-0.319091918634129,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2023,return_after_ter,0.10289673788115405,4,"1,2,3,4",complete_year
+Zuivel en aanverwante industrie,2024,return_after_ter,0.08853842487590002,4,"1,2,3,4",complete_year

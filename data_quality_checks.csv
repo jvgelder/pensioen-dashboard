@@ -1,0 +1,53 @@
+severity,issue,count,details
+warning,ter_not_exact,47,"                        fund  year  used_ter_year ter_missing_policy_applied
+             BPF Foodservice  2015           2016                    nearest
+                         BPL  2015           2017                    nearest
+                         BPL  2016           2017                    nearest
+                      Calpam  2024           2023                    nearest
+                       Coram  2024           2023                    nearest
+               DHL Nederland  2015           2020                    nearest
+               DHL Nederland  2016           2020                    nearest
+               DHL Nederland  2017           2020                    nearest
+               DHL Nederland  2018           2020                    nearest
+               DHL Nederland  2019           2020                    nearest
+                      Essity  2015           2018                    nearest
+                      Essity  2016           2018                    nearest
+                      Essity  2017           2018                    nearest
+                 Gazelle psf  2015           2020                    nearest
+                 Gazelle psf  2016           2020                    nearest
+                 Gazelle psf  2017           2020                    nearest
+                 Gazelle psf  2018           2020                    nearest
+                 Gazelle psf  2019           2020                    nearest
+      Grolsche bierbrouwerij  2024           2023                    nearest
+Kring 2 - DB premie (Achmea)  2018           2017                    nearest
+  Lloyd's Register Nederland  2015           2016                    nearest
+         Mediahuis Nederland  2015           2019                    nearest
+         Mediahuis Nederland  2016           2019                    nearest
+         Mediahuis Nederland  2017           2019                    nearest
+         Mediahuis Nederland  2018           2019                    nearest
+                         Oak  2015           2023                    nearest
+                         Oak  2016           2023                    nearest
+                         Oak  2017           2023                    nearest
+                         Oak  2018           2023                    nearest
+                         Oak  2019           2023                    nearest
+                         Oak  2020           2023                    nearest
+                         Oak  2021           2023                    nearest
+                         Oak  2022           2023                    nearest
+                         PDN  2015           2024                    nearest
+                         PDN  2016           2024                    nearest
+                         PDN  2017           2024                    nearest
+                         PDN  2018           2024                    nearest
+                         PDN  2019           2024                    nearest
+                         PDN  2020           2024                    nearest
+                         PDN  2021           2024                    nearest
+                         PDN  2022           2024                    nearest
+                         PDN  2023           2024                    nearest
+     Rail & Openbaar Vervoer  2015           2019                    nearest
+     Rail & Openbaar Vervoer  2016           2019                    nearest
+     Rail & Openbaar Vervoer  2017           2019                    nearest
+     Rail & Openbaar Vervoer  2018           2019                    nearest
+              YARA Nederland  2024           2023                    nearest"
+warning,annual_reconciliation_difference,3,"fund  year  dnb_compounded_annual_return  official_annual_return  difference_pp
+ ABP  2019                      0.148719                   0.168      -1.928109
+ ABP  2020                      0.050611                   0.066      -1.538861
+ ABP  2021                      0.125062                   0.114       1.106160"
