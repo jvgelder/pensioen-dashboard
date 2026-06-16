@@ -2250,6 +2250,36 @@ def make_html_report(
     if project_links:
         project_links_html = '<p class="project-links">' + " · ".join(project_links) + "</p>"
 
+    if has_alpha_chart:
+        alpha_section_html = f"""
+      <p>
+        <strong>Technisch:</strong> alpha is de intercept uit de factorregressie met HAC/Newey-West standaardfouten.
+        De standaardfouten corrigeren voor autocorrelatie en heteroskedasticiteit in kwartaalrendementen.
+      </p>
+      <div class='formula-note'>
+        <p><strong>In gewone taal:</strong></p>
+        <p>
+          Het model probeert eerst te verklaren welk rendement je zou verwachten op basis van de gemeten marktgevoeligheden:
+          aandelen, duration/rente, credit, vastgoed en valuta. Wat daarna gemiddeld overblijft, noemen we <strong>alpha</strong>.
+        </p>
+        <ul>
+          <li><strong>Positieve alpha:</strong> het fonds deed het beter dan je op basis van de gekozen factoren zou verwachten.</li>
+          <li><strong>Negatieve alpha:</strong> het fonds deed het slechter dan je op basis van de gekozen factoren zou verwachten.</li>
+          <li><strong>Alpha rond nul:</strong> het rendement is grotendeels verklaarbaar door de factorblootstellingen.</li>
+          <li><strong>Lage p_alpha_holm:</strong> het signaal blijft ook na correctie voor veel gelijktijdige tests statistisch opvallend.</li>
+        </ul>
+        <p class='muted'>
+          Alpha is dus geen direct bewijs van beleggingsvaardigheid. Het is een returns-based restterm binnen dit gekozen model.
+          Een hoge of lage alpha kan ook ontstaan door missende factoren, datakwaliteit, definitiewijzigingen, kostenverschillen,
+          illiquide beleggingen of een portefeuille die anders is dan de proxyfactoren.
+        </p>
+      </div>
+      <div id='chart-alpha' class='echarts-chart tall'></div>
+      <div class='fallback-static'>{img(alpha_chart, "Alpha per fonds")}</div>
+    """
+    else:
+        alpha_section_html = '<p class="muted">Geen alpha-resultaten; geen factorbestand of onvoldoende data.</p>'
+
     css = """
     :root { color-scheme: light; --page-pad:clamp(14px,3vw,32px); --radius:16px; }
     * { box-sizing:border-box; }
@@ -2569,31 +2599,7 @@ def make_html_report(
       <p><code>p_alpha_holm</code> is de Holm-gecorrigeerde p-waarde over alle fonds-alpha-tests.</p>
       <p class="muted">Een positieve alpha betekent: hoger rendement dan verwacht op basis van de gebruikte factorblootstellingen; geen bewijs op zichzelf voor beleggingsvaardigheid.</p>
     </div>
-    {("""
-      <p>
-        <strong>Technisch:</strong> alpha is de intercept uit de factorregressie met HAC/Newey-West standaardfouten.
-        De standaardfouten corrigeren voor autocorrelatie en heteroskedasticiteit in kwartaalrendementen.
-      </p>
-      <div class='formula-note'>
-        <p><strong>In gewone taal:</strong></p>
-        <p>
-          Het model probeert eerst te verklaren welk rendement je zou verwachten op basis van de gemeten marktgevoeligheden:
-          aandelen, duration/rente, credit, vastgoed en valuta. Wat daarna gemiddeld overblijft, noemen we <strong>alpha</strong>.
-        </p>
-        <ul>
-          <li><strong>Positieve alpha:</strong> het fonds deed het beter dan je op basis van de gekozen factoren zou verwachten.</li>
-          <li><strong>Negatieve alpha:</strong> het fonds deed het slechter dan je op basis van de gekozen factoren zou verwachten.</li>
-          <li><strong>Alpha rond nul:</strong> het rendement is grotendeels verklaarbaar door de factorblootstellingen.</li>
-          <li><strong>Lage p_alpha_holm:</strong> het signaal blijft ook na correctie voor veel gelijktijdige tests statistisch opvallend.</li>
-        </ul>
-        <p class='muted'>
-          Alpha is dus geen direct bewijs van beleggingsvaardigheid. Het is een returns-based restterm binnen dit gekozen model.
-          Een hoge of lage alpha kan ook ontstaan door missende factoren, datakwaliteit, definitiewijzigingen, kostenverschillen,
-          illiquide beleggingen of een portefeuille die anders is dan de proxyfactoren.
-        </p>
-      </div>
-      <div id='chart-alpha' class='echarts-chart tall'></div>
-      <div class='fallback-static'>""" + img(alpha_chart, "Alpha per fonds") + "</div>") if has_alpha_chart else '<p class="muted">Geen alpha-resultaten; geen factorbestand of onvoldoende data.</p>'}
+    {alpha_section_html}
     <div class="table-wrap">{df_to_html_table(alpha, max_rows=None, percent_cols=["alpha_quarterly","alpha_annualized"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
   </section>
 
