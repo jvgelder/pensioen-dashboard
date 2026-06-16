@@ -1,0 +1,183 @@
+name: Build report, publish static site branch, and deploy Pages
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "config/dnb_resources.json"
+      - "src/gather_dnb_pension_data.py"
+      - "src/gather_factors.py"
+      - "src/process_pension_alpha.py"
+      - ".github/workflows/build-commit-gh-pages-deploy.yml"
+      - "requirements.txt"
+  workflow_dispatch:
+    inputs:
+      refresh_inputs:
+        description: "Download/refresh DNB and factor input data before building"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+      analysis_end_period:
+        description: "Last quarter for alpha/reconciliation/audit"
+        required: true
+        default: "2024Q4"
+      returns_display_end_period:
+        description: "Last quarter for return charts/tables"
+        required: true
+        default: "2025Q4"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages-gh-pages-branch"
+  cancel-in-progress: false
+
+jobs:
+  build-commit-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    env:
+      CODE_BRANCH: main
+      SITE_BRANCH: gh-pages
+      ANALYSIS_END_PERIOD: ${{ inputs.analysis_end_period || '2024Q4' }}
+      RETURNS_DISPLAY_END_PERIOD: ${{ inputs.returns_display_end_period || '2025Q4' }}
+      REFRESH_INPUTS: ${{ inputs.refresh_inputs || 'true' }}
+
+    steps:
+      - name: Check out code branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ env.CODE_BRANCH }}
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Set project URLs
+        run: |
+          echo "REPOSITORY_URL=https://github.com/jvgelder/pensioen-dashboard" >> "$GITHUB_ENV"
+          echo "GENERATED_BRANCH_URL=https://github.com/jvgelder/pensioen-dashboard/tree/${SITE_BRANCH}" >> "$GITHUB_ENV"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+          cache-dependency-path: "requirements.txt"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Restore DNB/factor input cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            data
+            factors
+          key: pension-alpha-inputs-${{ runner.os }}
+          restore-keys: |
+            pension-alpha-inputs-
+
+      - name: Download/refresh DNB input data
+        if: env.REFRESH_INPUTS == 'true'
+        env:
+          DNB_STATPUB_KEY: ${{ secrets.DNB_STATPUB_KEY }}
+        run: |
+          rm -rf data
+          python src/gather_dnb_pension_data.py \
+            --dnb-config config/dnb_resources.json \
+            --output-dir data \
+            --fund-selection all
+
+      - name: Download/refresh factor data
+        if: env.REFRESH_INPUTS == 'true'
+        run: |
+          rm -rf factors
+          python src/gather_factors.py \
+            --output-dir factors \
+            --output-file factors.csv \
+            --first-period 2015Q1
+
+      - name: Save input cache
+        if: env.REFRESH_INPUTS == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            data
+            factors
+          key: pension-alpha-inputs-${{ runner.os }}-${{ github.run_id }}
+
+      - name: Verify expected inputs exist
+        run: |
+          test -f data/returns_quarterly.csv
+          test -f data/ter_annual.csv
+          test -f data/flow_diagnostics.csv
+          test -f factors/factors.csv
+
+      - name: Build report
+        run: |
+          rm -rf analysis_output
+          python src/process_pension_alpha.py \
+            --returns data/returns_quarterly.csv \
+            --ter data/ter_annual.csv \
+            --factors factors/factors.csv \
+            --flow-diagnostics data/flow_diagnostics.csv \
+            --ter-missing-policy nearest_zero \
+            --factor-model pension \
+            --analysis-end-period "${ANALYSIS_END_PERIOD}" \
+            --returns-display-end-period "${RETURNS_DISPLAY_END_PERIOD}" \
+            --repo-url "${REPOSITORY_URL}" \
+            --generated-branch-url "${GENERATED_BRANCH_URL}" \
+            --output-dir analysis_output
+
+      - name: Prepare static site
+        run: |
+          rm -rf "$RUNNER_TEMP/site"
+          mkdir -p "$RUNNER_TEMP/site"
+          cp -R analysis_output/* "$RUNNER_TEMP/site/"
+          touch "$RUNNER_TEMP/site/.nojekyll"
+
+          # Use the report itself as the GitHub Pages entry point.
+          mv "$RUNNER_TEMP/site/report.html" "$RUNNER_TEMP/site/index.html"
+
+      - name: Commit generated site to gh-pages branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git fetch origin "${SITE_BRANCH}" --depth=1 || true
+          if git show-ref --verify --quiet "refs/remotes/origin/${SITE_BRANCH}"; then
+            git switch --force-create "${SITE_BRANCH}" "origin/${SITE_BRANCH}"
+          else
+            git switch --orphan "${SITE_BRANCH}"
+          fi
+
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+          cp -R "$RUNNER_TEMP/site"/. .
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No generated site changes to commit."
+          else
+            git commit -m "Update generated pension alpha static site"
+            git push origin "${SITE_BRANCH}"
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact from generated site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "${{ runner.temp }}/site"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

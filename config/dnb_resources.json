@@ -1,0 +1,28 @@
+{
+  "description": "Tracked DNB dataset/resource configuration. Changing this file triggers a full DNB refresh and report rebuild.",
+  "api": {
+    "resourcefile_url": "https://api.dnb.nl/statpub-intapi-prd/v1/resources/{resource_id}/resourcefile/{fmt}",
+    "subscription_key_env": "DNB_STATPUB_KEY",
+    "subscription_key": "",
+    "headers": {
+      "origin": "https://www.dnb.nl",
+      "referer": "https://www.dnb.nl/statistieken/data-zoeken/",
+      "user_agent": "Mozilla/5.0"
+    }
+  },
+  "resources": {
+    "quarterly_individual_pension_funds": {
+      "resource_id": "a4b6584f-09b7-498d-bce5-3ef12e966f87",
+      "default_format": "csv",
+      "output_stem": "dnb_quarterly_raw_download",
+      "purpose": "Quarterly individual pension fund data, including fund-risk quarterly returns."
+    },
+    "annual_individual_pension_funds": {
+      "resource_id": "a4af8408-51a6-40c6-bcd5-6bc6c28a79b5",
+      "default_format": "xlsx",
+      "output_stem": "dnb_annual_raw_download",
+      "purpose": "Annual individual pension fund data, including TER/cost and flow/participants diagnostics."
+    }
+  },
+  "public_repository_note": "Do not commit a real subscription key. Keep api.subscription_key null and use the DNB_STATPUB_KEY environment variable or GitHub Actions secret."
+}
