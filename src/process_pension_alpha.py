@@ -2211,6 +2211,10 @@ def make_html_report(
     ter_chart = fig_dir / "ter_by_fund.png"
     alpha_chart = fig_dir / "alpha_by_fund.png"
 
+    def img(path: Path, alt: str) -> str:
+        rel = path.relative_to(output_dir).as_posix()
+        return f'<img class="chart" src="{rel}" alt="{alt}">'
+
     save_cumulative_chart(returns_display_base, "return_quarterly", raw_chart, "Cumulatieve ruwe kwartaalrendementen")
     save_cumulative_chart(returns_display_base, "return_after_ter", net_chart, "Cumulatieve rendementen na TER-correctie")
     save_quarterly_return_chart(returns_display_base, "return_quarterly", raw_quarterly_chart, "Ruwe kwartaalrendementen per fonds")
@@ -2378,10 +2382,6 @@ def make_html_report(
       * { scroll-behavior:auto !important; transition:none !important; animation:none !important; }
     }
     """
-
-    def img(path: Path, alt: str) -> str:
-        rel = path.relative_to(output_dir).as_posix()
-        return f'<img class="chart" src="{rel}" alt="{alt}">'
 
     html = f"""<!doctype html>
 <html lang="nl">
