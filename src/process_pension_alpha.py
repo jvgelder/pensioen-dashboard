@@ -95,13 +95,35 @@ ABP,2024,15626609,1306248,781978,1051433,3139659
 
 
 ALPHA_COLUMNS = [
-    "fund", "alpha_quarterly", "alpha_annualized", "t_alpha",
-    "p_alpha", "p_alpha_holm", "r2", "n_obs",
+    "fund",
+    "alpha_quarterly",
+    "alpha_quarterly_ci_low",
+    "alpha_quarterly_ci_high",
+    "alpha_annualized",
+    "alpha_annualized_ci_low",
+    "alpha_annualized_ci_high",
+    "t_alpha",
+    "p_alpha",
+    "p_alpha_holm",
+    "r2",
+    "n_obs",
 ]
 
 PAIRWISE_COLUMNS = [
-    "pair", "fund_1", "fund_2", "alpha_quarterly", "alpha_annualized",
-    "t_alpha", "p_alpha", "p_alpha_holm", "r2", "n_obs",
+    "pair",
+    "fund_1",
+    "fund_2",
+    "alpha_quarterly",
+    "alpha_quarterly_ci_low",
+    "alpha_quarterly_ci_high",
+    "alpha_annualized",
+    "alpha_annualized_ci_low",
+    "alpha_annualized_ci_high",
+    "t_alpha",
+    "p_alpha",
+    "p_alpha_holm",
+    "r2",
+    "n_obs",
 ]
 
 EXCLUDED_REGRESSION_FACTOR_COLUMNS = {"period", "period_original", "rf", "ff_rf"}
@@ -923,11 +945,13 @@ def run_alpha_regressions(calculation_base: pd.DataFrame, factors: pd.DataFrame 
 
         model = sm.OLS(y, X).fit(cov_type="HAC", cov_kwds={"maxlags": maxlags})
         alpha_q = float(model.params["const"])
+        alpha_ci = alpha_confidence_interval_from_model(model, alpha_q)
 
         row = {
             "fund": fund,
             "alpha_quarterly": alpha_q,
-            "alpha_annualized": (1.0 + alpha_q) ** 4 - 1.0,
+            "alpha_annualized": annualize_quarterly_return(alpha_q),
+            **alpha_ci,
             "t_alpha": float(model.tvalues["const"]),
             "p_alpha": float(model.pvalues["const"]),
             "r2": float(model.rsquared),
@@ -973,12 +997,14 @@ def run_pairwise_alpha(calculation_base: pd.DataFrame, factors: pd.DataFrame | N
             model = sm.OLS(y, X).fit(cov_type="HAC", cov_kwds={"maxlags": maxlags})
 
             alpha_q = float(model.params["const"])
+            alpha_ci = alpha_confidence_interval_from_model(model, alpha_q)
             row = {
                 "pair": f"{f1} minus {f2}",
                 "fund_1": f1,
                 "fund_2": f2,
                 "alpha_quarterly": alpha_q,
-                "alpha_annualized": (1.0 + alpha_q) ** 4 - 1.0,
+                "alpha_annualized": annualize_quarterly_return(alpha_q),
+                **alpha_ci,
                 "t_alpha": float(model.tvalues["const"]),
                 "p_alpha": float(model.pvalues["const"]),
                 "r2": float(model.rsquared),
@@ -1189,6 +1215,104 @@ def combine_official_annual_returns(
         .reset_index(drop=True)
     )
     return out
+
+
+
+def make_estimated_portfolio_mix_timeseries(
+    calculation_base: pd.DataFrame,
+    rolling_window_quarters: int = 12,
+) -> pd.DataFrame:
+    """Maak een returns-based, tijdsvariërende schatting van de portefeuillemix per fonds."""
+    if calculation_base is None or calculation_base.empty:
+        return pd.DataFrame()
+
+    factor_cols = [c for c in PENSION_FACTOR_COLUMNS if c in calculation_base.columns]
+    required_cols = ["fund", "period", "excess_return_after_ter"] + factor_cols
+    if not factor_cols or any(col not in calculation_base.columns for col in required_cols):
+        return pd.DataFrame()
+
+    work = calculation_base[required_cols].copy()
+    work["period_normalized"] = work["period"].map(normalize_period_label)
+    work = work[work["period_normalized"].notna()].copy()
+    if work.empty:
+        return pd.DataFrame()
+
+    work["year"] = work["period_normalized"].str[:4].astype(int)
+    work["quarter"] = work["period_normalized"].str[-1].astype(int)
+    work = work.sort_values(["fund", "year", "quarter"]).reset_index(drop=True)
+
+    rows: list[dict[str, Any]] = []
+    min_obs = max(8, len(factor_cols) + 3)
+
+    for fund, fund_data in work.groupby("fund"):
+        fund_data = fund_data.sort_values(["year", "quarter"]).reset_index(drop=True)
+        years = sorted(fund_data["year"].dropna().unique().tolist())
+
+        for year in years:
+            window = fund_data[fund_data["year"] <= year].tail(rolling_window_quarters).copy()
+            window = window.dropna(subset=["excess_return_after_ter"] + factor_cols)
+            if len(window) < min_obs:
+                continue
+
+            y = pd.to_numeric(window["excess_return_after_ter"], errors="coerce")
+            X = window[factor_cols].apply(pd.to_numeric, errors="coerce")
+            reg_data = pd.concat([y.rename("y"), X], axis=1).dropna()
+            if len(reg_data) < min_obs:
+                continue
+
+            try:
+                model = sm.OLS(reg_data["y"], sm.add_constant(reg_data[factor_cols], has_constant="add")).fit()
+            except Exception:
+                continue
+
+            params = model.params.to_dict()
+            equity = max(float(params.get("equity", 0.0)), 0.0)
+            bonds = max(float(params.get("duration", 0.0)), 0.0) + max(float(params.get("credit", 0.0)), 0.0)
+            real_estate = max(float(params.get("real_estate", 0.0)), 0.0)
+            fx_overlay = abs(float(params.get("fx", 0.0)))
+
+            total = equity + bonds + real_estate + fx_overlay
+            if total <= 0:
+                continue
+
+            rows.append({
+                "fund": str(fund),
+                "year": int(year),
+                "share_equity": equity / total,
+                "share_bonds": bonds / total,
+                "share_real_estate": real_estate / total,
+                "share_fx_overlay": fx_overlay / total,
+                "rolling_window_quarters": int(len(reg_data)),
+                "r2": float(model.rsquared) if pd.notna(model.rsquared) else np.nan,
+            })
+
+    return pd.DataFrame(rows)
+
+
+def portfolio_mix_timeseries_to_payload(portfolio_mix_timeseries: pd.DataFrame | None) -> dict[str, Any]:
+    payload: dict[str, Any] = {}
+    if portfolio_mix_timeseries is None or portfolio_mix_timeseries.empty:
+        return payload
+
+    needed = ["fund", "year", "share_equity", "share_bonds", "share_real_estate", "share_fx_overlay"]
+    if any(col not in portfolio_mix_timeseries.columns for col in needed):
+        return payload
+
+    for fund, data in portfolio_mix_timeseries.groupby("fund"):
+        data = data.sort_values("year")
+        payload[str(fund)] = {
+            "x": [int(x) for x in data["year"].tolist()],
+            "series": {
+                "Aandelen": [json_safe_value(x) for x in data["share_equity"].tolist()],
+                "Obligaties": [json_safe_value(x) for x in data["share_bonds"].tolist()],
+                "Vastgoed": [json_safe_value(x) for x in data["share_real_estate"].tolist()],
+                "Valuta-overlay": [json_safe_value(x) for x in data["share_fx_overlay"].tolist()],
+            },
+            "rolling_window_quarters": int(pd.to_numeric(data["rolling_window_quarters"], errors="coerce").dropna().max())
+            if "rolling_window_quarters" in data.columns and not data["rolling_window_quarters"].dropna().empty else None,
+            "last_year": int(data["year"].max()) if not data["year"].dropna().empty else None,
+        }
+    return payload
 
 
 def make_annual_returns_from_quarters(calculation_base: pd.DataFrame, value_col: str) -> pd.DataFrame:
@@ -1515,6 +1639,47 @@ def fmt_num(x) -> str:
     return f"{float(x):.4f}"
 
 
+def annualize_quarterly_return(value: float) -> float:
+    """
+    Annualiseer een kwartaalrendementachtige waarde.
+
+    Voor CI-grenzen gebruiken we dezelfde transformatie als alpha_annualized.
+    Waarden <= -100% per kwartaal zijn economisch niet zinvol voor deze transformatie
+    en worden als NaN gerapporteerd.
+    """
+    if pd.isna(value) or value <= -1.0:
+        return np.nan
+    return (1.0 + float(value)) ** 4 - 1.0
+
+
+def alpha_confidence_interval_from_model(model: Any, alpha_q: float) -> dict[str, float]:
+    """
+    95%-confidence interval voor alpha op basis van HAC/Newey-West SE.
+
+    statsmodels levert hier een asymptotisch normaal interval bij cov_type="HAC".
+    """
+    try:
+        ci = model.conf_int(alpha=0.05)
+        if hasattr(ci, "loc"):
+            low_q = float(ci.loc["const", 0])
+            high_q = float(ci.loc["const", 1])
+        else:
+            const_idx = list(model.params.index).index("const")
+            low_q = float(ci[const_idx][0])
+            high_q = float(ci[const_idx][1])
+    except Exception:
+        se = float(model.bse["const"])
+        low_q = float(alpha_q - 1.96 * se)
+        high_q = float(alpha_q + 1.96 * se)
+
+    return {
+        "alpha_quarterly_ci_low": low_q,
+        "alpha_quarterly_ci_high": high_q,
+        "alpha_annualized_ci_low": annualize_quarterly_return(low_q),
+        "alpha_annualized_ci_high": annualize_quarterly_return(high_q),
+    }
+
+
 def df_to_html_table(
     df: pd.DataFrame,
     max_rows: int | None = 80,
@@ -1596,6 +1761,7 @@ def make_echarts_chart_payload(
     calculation_base: pd.DataFrame,
     ter_long: pd.DataFrame | None,
     alpha: pd.DataFrame | None,
+    portfolio_mix_timeseries: pd.DataFrame | None = None,
 ) -> dict[str, Any]:
     raw_wide = calculation_base.pivot_table(index="period", columns="fund", values="return_quarterly", aggfunc="first").sort_index()
     net_wide = calculation_base.pivot_table(index="period", columns="fund", values="return_after_ter", aggfunc="first").sort_index()
@@ -1623,9 +1789,13 @@ def make_echarts_chart_payload(
             alpha_payload.append({
                 "fund": str(row["fund"]),
                 "alpha_annualized": json_safe_value(row["alpha_annualized"]),
+                "alpha_annualized_ci_low": json_safe_value(row.get("alpha_annualized_ci_low", np.nan)),
+                "alpha_annualized_ci_high": json_safe_value(row.get("alpha_annualized_ci_high", np.nan)),
                 "p_alpha_holm": json_safe_value(row.get("p_alpha_holm", np.nan)),
                 "n_obs": json_safe_value(row.get("n_obs", np.nan)),
             })
+
+    portfolio_mix_payload = portfolio_mix_timeseries_to_payload(portfolio_mix_timeseries)
 
     return {
         "quarterly_raw": series_to_plotly_xy(raw_wide),
@@ -1634,6 +1804,7 @@ def make_echarts_chart_payload(
         "cumulative_net": series_to_plotly_xy(cumulative_net),
         "ter": ter_payload,
         "alpha": alpha_payload,
+        "portfolio_mix": portfolio_mix_payload,
     }
 
 
@@ -1917,9 +2088,12 @@ function renderAlphaChart() {{
         const p = params && params.length ? params[0] : null;
         if (!p) return '';
         const row = data[p.dataIndex];
+        const ci = row && row.alpha_annualized_ci_low !== null && row.alpha_annualized_ci_high !== null
+          ? '<br>95% CI: ' + formatPct(Number(row.alpha_annualized_ci_low) * 100) + ' tot ' + formatPct(Number(row.alpha_annualized_ci_high) * 100)
+          : '';
         const holm = row && row.p_alpha_holm !== null ? '<br>Holm p=' + Number(row.p_alpha_holm).toFixed(3) : '';
         const nObs = row && row.n_obs !== null ? '<br>n=' + row.n_obs : '';
-        return p.name + '<br>Alpha: ' + formatPct(p.value) + holm + nObs;
+        return p.name + '<br>Alpha: ' + formatPct(p.value) + ci + holm + nObs;
       }}
     }},
     grid: {{
@@ -1954,6 +2128,179 @@ function renderAlphaChart() {{
   chart.setOption(option, true);
 }}
 
+
+function setChartMessage(divId, title, message) {{
+  const chart = getChart(divId);
+  if (!chart) return;
+  chart.clear();
+  chart.setOption({{
+    title: {{
+      text: title,
+      left: 8,
+      top: 6,
+      textStyle: {{ fontSize: 15, fontWeight: 600 }}
+    }},
+    graphic: [{{
+      type: 'text',
+      left: 'center',
+      top: 'middle',
+      style: {{
+        text: message,
+        fill: '#64748b',
+        fontSize: 14,
+        textAlign: 'center',
+        width: 280,
+        overflow: 'break'
+      }}
+    }}]
+  }}, true);
+}}
+
+function renderPortfolioMixCharts() {{
+  if (typeof ECHARTS_DATA === 'undefined') return;
+
+  const areaTitle = 'Geschatte returns-based portefeuillemix door de tijd';
+  const pieTitle = 'Geschatte portefeuillemix in het laatste jaar';
+  const dataset = ECHARTS_DATA.portfolio_mix || {{}};
+  const selected = selectedFundsArray().filter(f => dataset[f]);
+
+  if (selected.length !== 1) {{
+    setChartMessage('chart-portfolio-mix-area', areaTitle, 'Selecteer precies één fonds om deze chart te tonen.');
+    setChartMessage('chart-portfolio-mix-pie', pieTitle, 'Selecteer precies één fonds om deze chart te tonen.');
+    return;
+  }}
+
+  const fund = selected[0];
+  const item = dataset[fund];
+  if (!item || !item.x || item.x.length === 0 || !item.series) {{
+    setChartMessage('chart-portfolio-mix-area', areaTitle, 'Geen returns-based portefeuillemix beschikbaar voor dit fonds.');
+    setChartMessage('chart-portfolio-mix-pie', pieTitle, 'Geen returns-based portefeuillemix beschikbaar voor dit fonds.');
+    return;
+  }}
+
+  const labels = item.x.map(x => String(x));
+  const areaChart = getChart('chart-portfolio-mix-area');
+  const pieChart = getChart('chart-portfolio-mix-pie');
+  if (!areaChart || !pieChart) return;
+
+  const seriesNames = Object.keys(item.series);
+  const areaSeries = seriesNames.map(name => {{
+    const values = (item.series[name] || []).map(v => v === null ? null : Number(v) * 100);
+    return {{
+      name,
+      type: 'line',
+      stack: 'mix',
+      areaStyle: {{}},
+      showSymbol: labels.length <= 15,
+      symbolSize: 5,
+      connectNulls: false,
+      emphasis: {{ focus: 'series' }},
+      data: values
+    }};
+  }});
+
+  areaChart.setOption({{
+    title: {{
+      text: areaTitle + ' — ' + fund,
+      subtext: item.rolling_window_quarters ? ('rolling window: laatste ' + item.rolling_window_quarters + ' kwartalen') : '',
+      left: 8,
+      top: 6,
+      textStyle: {{ fontSize: 15, fontWeight: 600 }}
+    }},
+    tooltip: {{
+      trigger: 'axis',
+      valueFormatter: value => formatPct(value)
+    }},
+    legend: {{
+      type: 'scroll',
+      top: 40,
+      left: 8,
+      right: 8
+    }},
+    grid: {{
+      left: 68,
+      right: 28,
+      top: 92,
+      bottom: 58,
+      containLabel: true
+    }},
+    toolbox: {{
+      right: 10,
+      feature: {{
+        restore: {{}},
+        saveAsImage: {{}}
+      }}
+    }},
+    xAxis: {{
+      type: 'category',
+      data: labels
+    }},
+    yAxis: {{
+      type: 'value',
+      min: 0,
+      max: 100,
+      name: 'Geschat aandeel',
+      axisLabel: {{
+        formatter: value => value + '%'
+      }}
+    }},
+    series: areaSeries
+  }}, true);
+
+  const lastIndex = labels.length - 1;
+  const lastYear = item.last_year || labels[lastIndex];
+  const pieData = seriesNames.map(name => {{
+    const arr = item.series[name] || [];
+    const raw = arr[lastIndex];
+    return {{
+      name,
+      value: raw === null ? 0 : Number(raw) * 100
+    }};
+  }}).filter(row => row.value > 0);
+
+  pieChart.setOption({{
+    title: {{
+      text: pieTitle + ' — ' + fund,
+      subtext: lastYear ? String(lastYear) : '',
+      left: 8,
+      top: 6,
+      textStyle: {{ fontSize: 15, fontWeight: 600 }}
+    }},
+    tooltip: {{
+      trigger: 'item',
+      valueFormatter: value => formatPct(value)
+    }},
+    legend: {{
+      type: 'scroll',
+      bottom: 8,
+      left: 'center'
+    }},
+    toolbox: {{
+      right: 10,
+      feature: {{
+        restore: {{}},
+        saveAsImage: {{}}
+      }}
+    }},
+    series: [{{
+      name: 'Portefeuillemix',
+      type: 'pie',
+      radius: ['35%', '70%'],
+      center: ['50%', '54%'],
+      minAngle: 4,
+      itemStyle: {{
+        borderRadius: 6,
+        borderColor: '#fff',
+        borderWidth: 1
+      }},
+      label: {{
+        formatter: '{{b}}\n{{d}}%'
+      }},
+      data: pieData
+    }}]
+  }}, true);
+}}
+
 function updateCharts() {{
   renderLineChart('chart-cumulative-raw', 'cumulative_raw', 'Cumulatieve ruwe rendementen', 'Cumulatief rendement', true);
   renderLineChart('chart-cumulative-net', 'cumulative_net', 'Cumulatieve rendementen na TER', 'Cumulatief rendement', true);
@@ -1961,6 +2308,7 @@ function updateCharts() {{
   renderLineChart('chart-quarterly-net', 'quarterly_net', 'Kwartaalrendementen na TER', 'Kwartaalrendement', true);
   renderTerChart();
   renderAlphaChart();
+  renderPortfolioMixCharts();
 
   Object.values(ECHARTS_INSTANCES).forEach(chart => {{
     if (chart && chart.resize) chart.resize();
@@ -2234,6 +2582,7 @@ def make_html_report(
     flow_summary = summarize_flow_diagnostics(flow_diagnostics)
     raw_returns_pct_wide = make_returns_percent_wide(returns_display_base, "return_quarterly")
     net_returns_pct_wide = make_returns_percent_wide(returns_display_base, "return_after_ter")
+    portfolio_mix_timeseries = make_estimated_portfolio_mix_timeseries(calculation_base)
 
     fund_list = sorted(returns_display_base["fund"].dropna().astype(str).unique().tolist())
     fund_options_html = "\n".join(
@@ -2241,7 +2590,7 @@ def make_html_report(
         for fund in fund_list
     )
     fund_filter_js = make_fund_filter_js(fund_list)
-    echarts_payload = make_echarts_chart_payload(returns_display_base, ter_long, alpha)
+    echarts_payload = make_echarts_chart_payload(returns_display_base, ter_long, alpha, portfolio_mix_timeseries)
     echarts_payload_json = json.dumps(echarts_payload, ensure_ascii=False)
     sources_html = make_sources_html(source_files, repo_url=repo_url, generated_branch_url=generated_branch_url)
 
@@ -2284,6 +2633,35 @@ def make_html_report(
     else:
         alpha_section_html = '<p class="muted">Geen alpha-resultaten; geen factorbestand of onvoldoende data.</p>'
 
+    if portfolio_mix_timeseries is not None and not portfolio_mix_timeseries.empty:
+        portfolio_mix_section_html = """
+    <div class="formula-note">
+      <p><strong>Extra visualisatie bij selectie van één fonds:</strong></p>
+      <p>
+        Onderstaande charts tonen een <em>returns-based schatting</em> van de exposuremix. Per jaar schatten we een rolling regressie
+        over de laatste 12 kwartalen. Daarna normaliseren we alleen de niet-negatieve componenten tot 100%.
+      </p>
+      <p><code>obligaties_share = max(beta_duration, 0) + max(beta_credit, 0)</code></p>
+      <p><code>normalized_share_k = positive_component_k / sum(all positive components)</code></p>
+      <p class="muted">
+        Lees dit als een grove indicatie van marktgevoeligheden, niet als de echte holdings-allocatie.
+        Derivaten, renteafdekking, illiquide beleggingen en modelkeuzes kunnen het beeld vertekenen.
+      </p>
+    </div>
+    <div class="chart-grid-two">
+      <div class="chart-panel">
+        <h3>Geschatte mix door de tijd</h3>
+        <div id="chart-portfolio-mix-area" class="echarts-chart"></div>
+      </div>
+      <div class="chart-panel">
+        <h3>Geschatte mix in het laatste jaar</h3>
+        <div id="chart-portfolio-mix-pie" class="echarts-chart"></div>
+      </div>
+    </div>
+"""
+    else:
+        portfolio_mix_section_html = '<p class="muted">Geen returns-based portefeuillemix beschikbaar; de pension-factoren ontbreken of er is onvoldoende data per fonds.</p>'
+
     css = """
     :root { color-scheme: light; --page-pad:clamp(14px,3vw,32px); --radius:16px; }
     * { box-sizing:border-box; }
@@ -2313,6 +2691,9 @@ def make_html_report(
     .chart { width:100%; max-width:1100px; border:1px solid #d9e0ea; border-radius:12px; background:white; padding:8px; }
     .echarts-chart { width:100%; min-height:clamp(340px,54vh,520px); border:1px solid #d9e0ea; border-radius:12px; background:white; padding:8px; margin-top:12px; }
     .echarts-chart.tall { min-height:clamp(440px,70vh,680px); }
+    .chart-grid-two { display:grid; grid-template-columns:minmax(0,1.5fr) minmax(320px,1fr); gap:16px; align-items:start; margin-top:14px; }
+    .chart-panel { min-width:0; }
+    .chart-panel h3 { margin-bottom:8px; }
     .fallback-static { display:none; }
     .table-section { display:flex; flex-direction:column; gap:22px; }
     .stacked-tables { display:flex; flex-direction:column; gap:22px; }
@@ -2374,6 +2755,7 @@ def make_html_report(
       .container { width:100%; padding:14px 10px 42px; }
       .hero, .card, section, .fund-filter { border-radius:14px; }
       .fund-filter { position:static; }
+      .chart-grid-two { grid-template-columns:1fr; }
       .table-wrap { margin-left:-2px; margin-right:-2px; max-height:82vh; border-radius:12px; }
       .data-table th, .data-table td { padding:7px 8px; font-size:12px; }
       .echarts-chart { min-height:340px; }
@@ -2596,11 +2978,12 @@ def make_html_report(
       <p><strong>Regressieformule per fonds:</strong></p>
       <p><code>excess_return[i,t] = alpha[i] + beta_equity[i] * equity[t] + beta_duration[i] * duration[t] + ... + epsilon[i,t]</code></p>
       <p><code>alpha_annualized = (1 + alpha_quarterly)^4 - 1</code></p>
+      <p><code>alpha_annualized_ci_low/high</code> is het 95%-confidence interval voor geannualiseerde alpha, gebaseerd op de HAC/Newey-West standaardfout.</p>
       <p><code>p_alpha_holm</code> is de Holm-gecorrigeerde p-waarde over alle fonds-alpha-tests.</p>
-      <p class="muted">Een positieve alpha betekent: hoger rendement dan verwacht op basis van de gebruikte factorblootstellingen; geen bewijs op zichzelf voor beleggingsvaardigheid.</p>
+      <p class="muted">Een positieve alpha betekent: hoger rendement dan verwacht op basis van de gebruikte factorblootstellingen; geen bewijs op zichzelf voor beleggingsvaardigheid. Een breed confidence interval betekent dat de schatting onzeker is.</p>
     </div>
     {alpha_section_html}
-    <div class="table-wrap">{df_to_html_table(alpha, max_rows=None, percent_cols=["alpha_quarterly","alpha_annualized"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
+    <div class="table-wrap">{df_to_html_table(alpha, max_rows=None, percent_cols=["alpha_quarterly","alpha_quarterly_ci_low","alpha_quarterly_ci_high","alpha_annualized","alpha_annualized_ci_low","alpha_annualized_ci_high"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
   </section>
 
   <section>
@@ -2621,7 +3004,8 @@ def make_html_report(
         rentehedges, derivaten, illiquide beleggingen en rapportagedefinities kunnen de beta's beïnvloeden.
       </p>
     </div>
-    {('<div class="table-wrap">' + df_to_html_table(portfolio_exposure_diagnostics, max_rows=None, percent_cols=["alpha_annualized","p_alpha_holm","loading_share_equity","loading_share_credit","loading_share_real_estate","loading_share_duration","loading_share_fx_abs"] + [c for c in portfolio_exposure_diagnostics.columns if c.startswith("avg_annualized_simple_contribution_")], float_cols=["broad_risky_beta","interest_rate_beta","currency_beta","beta_equity","beta_credit","beta_real_estate","beta_duration","beta_fx","r2"]) + '</div>') if portfolio_exposure_diagnostics is not None and not portfolio_exposure_diagnostics.empty else '<p class="muted">Geen portefeuilleprofiel beschikbaar; alpha-resultaten ontbreken.</p>'}
+    {portfolio_mix_section_html}
+        {('<div class="table-wrap">' + df_to_html_table(portfolio_exposure_diagnostics, max_rows=None, percent_cols=["alpha_annualized","alpha_annualized_ci_low","alpha_annualized_ci_high","p_alpha_holm","loading_share_equity","loading_share_credit","loading_share_real_estate","loading_share_duration","loading_share_fx_abs"] + [c for c in portfolio_exposure_diagnostics.columns if c.startswith("avg_annualized_simple_contribution_")], float_cols=["broad_risky_beta","interest_rate_beta","currency_beta","beta_equity","beta_credit","beta_real_estate","beta_duration","beta_fx","r2"]) + '</div>') if portfolio_exposure_diagnostics is not None and not portfolio_exposure_diagnostics.empty else '<p class="muted">Geen portefeuilleprofiel beschikbaar; alpha-resultaten ontbreken.</p>'}
   </section>
 
   <section>
@@ -2649,7 +3033,7 @@ def make_html_report(
         Deze tabel wordt volledig in het rapport geladen zodat de fondsfilter ook werkt bij kleine selecties; bij veel fondsen kan de tabel groot zijn.
       </p>
     </div>
-    <div class="table-wrap compact-vertical">{df_to_html_table(pairwise, max_rows=None, percent_cols=["alpha_quarterly","alpha_annualized"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
+    <div class="table-wrap compact-vertical">{df_to_html_table(pairwise, max_rows=None, percent_cols=["alpha_quarterly","alpha_quarterly_ci_low","alpha_quarterly_ci_high","alpha_annualized","alpha_annualized_ci_low","alpha_annualized_ci_high"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
   </section>
 
   <section>
