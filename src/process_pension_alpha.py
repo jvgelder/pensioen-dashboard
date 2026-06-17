@@ -2294,7 +2294,7 @@ function renderPortfolioMixCharts() {{
         borderWidth: 1
       }},
       label: {{
-        formatter: '{{b}}\n{{d}}%'
+        formatter: params => params.name + '\\n' + params.percent + '%'
       }},
       data: pieData
     }}]
