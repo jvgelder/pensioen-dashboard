@@ -53,6 +53,7 @@ import argparse
 from html import escape as escape_html
 import json
 import re
+import unicodedata
 import warnings
 from pathlib import Path
 from typing import Any
@@ -1810,6 +1811,169 @@ def make_echarts_chart_payload(
 
 
 
+def slugify_fund_name(name: str) -> str:
+    normalized = unicodedata.normalize("NFKD", str(name)).encode("ascii", "ignore").decode("ascii")
+    slug = re.sub(r"[^a-zA-Z0-9]+", "-", normalized.lower()).strip("-")
+    return slug or "fund"
+
+
+def unique_fund_slugs(funds: list[str]) -> dict[str, str]:
+    used: dict[str, int] = {}
+    out: dict[str, str] = {}
+    for fund in funds:
+        base = slugify_fund_name(fund)
+        count = used.get(base, 0) + 1
+        used[base] = count
+        out[fund] = base if count == 1 else f"{base}-{count}"
+    return out
+
+
+def wide_series_for_fund(wide: pd.DataFrame, fund: str) -> dict[str, list]:
+    if wide is None or wide.empty or fund not in wide.columns:
+        return {"x": [], "y": []}
+    s = wide[fund]
+    return {
+        "x": [str(x) for x in wide.index.tolist()],
+        "y": [json_safe_value(x) for x in s.tolist()],
+    }
+
+
+def calculation_rows_for_fund(calculation_base: pd.DataFrame, fund: str) -> list[dict[str, Any]]:
+    if calculation_base is None or calculation_base.empty or "fund" not in calculation_base.columns:
+        return []
+
+    cols = [
+        "period",
+        "return_quarterly",
+        "ter_annual",
+        "ter_quarterly",
+        "return_after_ter",
+        "rf",
+        "excess_return_after_ter",
+        "used_ter_year",
+        "ter_missing_policy_applied",
+    ]
+    available_cols = [col for col in cols if col in calculation_base.columns]
+    data = calculation_base.loc[calculation_base["fund"].astype(str) == str(fund), available_cols].copy()
+    if data.empty:
+        return []
+    if "period" in data.columns:
+        data = data.sort_values("period")
+
+    rows: list[dict[str, Any]] = []
+    for _, row in data.iterrows():
+        rows.append({col: json_safe_value(row[col]) for col in available_cols})
+    return rows
+
+
+def build_lazy_fund_payloads(
+    returns_display_base: pd.DataFrame,
+    ter_long: pd.DataFrame | None,
+    alpha: pd.DataFrame | None,
+    portfolio_mix_timeseries: pd.DataFrame | None,
+) -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
+    """
+    Bouw kleine chart-ready JSON payloads per fonds.
+
+    De hoofdpagina hoeft dan niet alle series in één groot ECHARTS_DATA-object te embedden.
+    """
+    funds = sorted(returns_display_base["fund"].dropna().astype(str).unique().tolist())
+    slug_by_fund = unique_fund_slugs(funds)
+
+    raw_wide = returns_display_base.pivot_table(index="period", columns="fund", values="return_quarterly", aggfunc="first").sort_index()
+    net_wide = returns_display_base.pivot_table(index="period", columns="fund", values="return_after_ter", aggfunc="first").sort_index()
+
+    cumulative_raw = raw_wide.copy()
+    for fund in cumulative_raw.columns:
+        cumulative_raw[fund] = (1.0 + cumulative_raw[fund].dropna()).cumprod() - 1.0
+
+    cumulative_net = net_wide.copy()
+    for fund in cumulative_net.columns:
+        cumulative_net[fund] = (1.0 + cumulative_net[fund].dropna()).cumprod() - 1.0
+
+    ter_by_fund: dict[str, dict[str, list]] = {}
+    if ter_long is not None and not ter_long.empty and "fund" in ter_long.columns:
+        for fund, data in ter_long.groupby("fund"):
+            data = data.sort_values("year")
+            ter_by_fund[str(fund)] = {
+                "x": [int(x) for x in data["year"].tolist()],
+                "y": [json_safe_value(x) for x in data["ter_annual"].tolist()],
+            }
+
+    alpha_by_fund: dict[str, dict[str, Any]] = {}
+    if alpha is not None and not alpha.empty and "fund" in alpha.columns:
+        for _, row in alpha.iterrows():
+            fund = str(row["fund"])
+            alpha_by_fund[fund] = {
+                "fund": fund,
+                "alpha_annualized": json_safe_value(row.get("alpha_annualized", np.nan)),
+                "alpha_annualized_ci_low": json_safe_value(row.get("alpha_annualized_ci_low", np.nan)),
+                "alpha_annualized_ci_high": json_safe_value(row.get("alpha_annualized_ci_high", np.nan)),
+                "p_alpha_holm": json_safe_value(row.get("p_alpha_holm", np.nan)),
+                "n_obs": json_safe_value(row.get("n_obs", np.nan)),
+            }
+
+    portfolio_mix_payload = portfolio_mix_timeseries_to_payload(portfolio_mix_timeseries)
+
+    manifest = {
+        "version": 1,
+        "fund_count": len(funds),
+        "funds": [
+            {
+                "name": fund,
+                "slug": slug_by_fund[fund],
+                "file": f"funds/{slug_by_fund[fund]}.json",
+            }
+            for fund in funds
+        ],
+    }
+
+    payloads: dict[str, dict[str, Any]] = {}
+    for fund in funds:
+        slug = slug_by_fund[fund]
+        payloads[slug] = {
+            "fund": fund,
+            "slug": slug,
+            "quarterly_raw": wide_series_for_fund(raw_wide, fund),
+            "quarterly_net": wide_series_for_fund(net_wide, fund),
+            "cumulative_raw": wide_series_for_fund(cumulative_raw, fund),
+            "cumulative_net": wide_series_for_fund(cumulative_net, fund),
+            "ter": ter_by_fund.get(fund, {"x": [], "y": []}),
+            "alpha": alpha_by_fund.get(fund),
+            "portfolio_mix": portfolio_mix_payload.get(fund),
+            "calculation_base": calculation_rows_for_fund(returns_display_base, fund),
+        }
+
+    return manifest, payloads
+
+
+def write_lazy_fund_assets(
+    output_dir: Path,
+    returns_display_base: pd.DataFrame,
+    ter_long: pd.DataFrame | None,
+    alpha: pd.DataFrame | None,
+    portfolio_mix_timeseries: pd.DataFrame | None,
+) -> dict[str, Any]:
+    assets_dir = output_dir / "assets"
+    funds_dir = output_dir / "funds"
+    assets_dir.mkdir(parents=True, exist_ok=True)
+    funds_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest, payloads = build_lazy_fund_payloads(
+        returns_display_base=returns_display_base,
+        ter_long=ter_long,
+        alpha=alpha,
+        portfolio_mix_timeseries=portfolio_mix_timeseries,
+    )
+
+    (assets_dir / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    for slug, payload in payloads.items():
+        (funds_dir / f"{slug}.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
+    return manifest
+
+
+
 def make_sources_html(source_files: dict[str, str | None] | None = None, repo_url: str | None = None, generated_branch_url: str | None = None) -> str:
     source_files = source_files or {}
 
@@ -1896,6 +2060,9 @@ def make_fund_filter_js(fund_list: list[str]) -> str:
     return f"""
 const ALL_FUNDS = new Set({funds_json});
 const ECHARTS_INSTANCES = {{}};
+const FUND_DATA_CACHE = new Map();
+const FUND_LOAD_ERRORS = new Map();
+let CHART_UPDATE_TOKEN = 0;
 
 function normalizeFundName(value) {{
   return String(value || '').replace(/\u00a0/g, ' ').replace(/\\s+/g, ' ').trim();
@@ -2363,7 +2530,224 @@ function renderPortfolioMixCharts() {{
   }}, true);
 }}
 
-function updateCharts() {{
+
+function fundManifestItems() {{
+  return (typeof ECHARTS_DATA !== 'undefined' && ECHARTS_DATA.funds) ? ECHARTS_DATA.funds : [];
+}}
+
+function slugForFund(fund) {{
+  const normalized = normalizeFundName(fund);
+  const item = fundManifestItems().find(row => normalizeFundName(row.name) === normalized);
+  return item ? item.slug : null;
+}}
+
+function fileForFund(fund) {{
+  const normalized = normalizeFundName(fund);
+  const item = fundManifestItems().find(row => normalizeFundName(row.name) === normalized);
+  return item ? item.file : null;
+}}
+
+function reportBaseUrl() {{
+  const href = window.location.href || '';
+  const path = window.location.pathname || '/';
+
+  // Local smoke/manual testing via file:///.../analysis_output/report.html.
+  // window.location.origin is "null" for file URLs, so build from href instead.
+  if (href.startsWith('file://')) {{
+    return href.slice(0, href.lastIndexOf('/') + 1);
+  }}
+
+  const origin = window.location.origin && window.location.origin !== 'null'
+    ? window.location.origin
+    : '';
+
+  if (path.endsWith('/')) {{
+    return origin + path;
+  }}
+
+  // Use [.] instead of an escaped dot to avoid Python invalid-escape warnings in this embedded JS.
+  if (/[.][a-zA-Z0-9]+$/.test(path)) {{
+    return origin + path.slice(0, path.lastIndexOf('/') + 1);
+  }}
+
+  // GitHub Pages project URLs are often opened without trailing slash.
+  // Treat /pensioen-dashboard as a directory, not as a file, so funds/*.json resolves correctly.
+  return origin + path + '/';
+}}
+
+function assetUrl(file) {{
+  try {{
+    return new URL(file, reportBaseUrl()).href;
+  }} catch (error) {{
+    console.warn('Kon asset-URL niet normaliseren, gebruik relatief pad:', file, error);
+    return file;
+  }}
+}}
+
+function selectedFundLoadErrorMessage() {{
+  const selected = selectedFundsArray();
+  const errors = selected
+    .map(fund => FUND_LOAD_ERRORS.get(slugForFund(fund)))
+    .filter(Boolean);
+  if (!errors.length) return '';
+  return 'Fondsdata kon niet geladen worden. Open dit rapport niet via file://. Start lokaal een webserver met python preview_report.py of python -m http.server 8000 -d analysis_output en open http://localhost:8000/report.html.';
+}}
+
+async function loadFundData(fund) {{
+  const slug = slugForFund(fund);
+  const file = fileForFund(fund);
+  if (!slug || !file) return null;
+  if (FUND_DATA_CACHE.has(slug)) return FUND_DATA_CACHE.get(slug);
+
+  if (window.location.protocol === 'file:') {{
+    const message = 'Lazy fondsdata kan niet via file:// worden geladen. Start lokaal een webserver: python preview_report.py of python -m http.server 8000 -d analysis_output';
+    FUND_LOAD_ERRORS.set(slug, message);
+    console.warn(message);
+    return null;
+  }}
+
+  const url = assetUrl(file);
+  try {{
+    const response = await fetch(url, {{ cache: 'force-cache' }});
+    if (!response.ok) throw new Error('HTTP ' + response.status + ' bij ' + url);
+    const data = await response.json();
+    FUND_DATA_CACHE.set(slug, data);
+    FUND_LOAD_ERRORS.delete(slug);
+    return data;
+  }} catch (error) {{
+    FUND_LOAD_ERRORS.set(slug, String(error));
+    throw error;
+  }}
+}}
+
+async function loadSelectedFundData() {{
+  const selected = selectedFundsArray();
+  if (!selected.length) return [];
+  const loaded = await Promise.all(selected.map(fund => loadFundData(fund).catch(error => {{
+    console.warn('Kon lazy fondsdata niet laden voor', fund, error);
+    return null;
+  }})));
+  return loaded.filter(Boolean);
+}}
+
+function installLoadedFundData(fundData) {{
+  ECHARTS_DATA.quarterly_raw = {{}};
+  ECHARTS_DATA.quarterly_net = {{}};
+  ECHARTS_DATA.cumulative_raw = {{}};
+  ECHARTS_DATA.cumulative_net = {{}};
+  ECHARTS_DATA.ter = {{}};
+  ECHARTS_DATA.alpha = [];
+  ECHARTS_DATA.portfolio_mix = {{}};
+
+  fundData.forEach(item => {{
+    if (!item || !item.fund) return;
+    ECHARTS_DATA.quarterly_raw[item.fund] = item.quarterly_raw || {{ x: [], y: [] }};
+    ECHARTS_DATA.quarterly_net[item.fund] = item.quarterly_net || {{ x: [], y: [] }};
+    ECHARTS_DATA.cumulative_raw[item.fund] = item.cumulative_raw || {{ x: [], y: [] }};
+    ECHARTS_DATA.cumulative_net[item.fund] = item.cumulative_net || {{ x: [], y: [] }};
+    ECHARTS_DATA.ter[item.fund] = item.ter || {{ x: [], y: [] }};
+    if (item.alpha) ECHARTS_DATA.alpha.push(item.alpha);
+    if (item.portfolio_mix) ECHARTS_DATA.portfolio_mix[item.fund] = item.portfolio_mix;
+  }});
+}}
+
+
+
+function pctCell(value) {{
+  if (value === null || value === undefined || Number.isNaN(Number(value))) return '';
+  return (Number(value) * 100).toFixed(2) + '%';
+}}
+
+function textCell(value) {{
+  if (value === null || value === undefined) return '';
+  return String(value);
+}}
+
+function htmlEscape(value) {{
+  return String(value).replace(/[&<>"']/g, char => ({{
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#39;'
+  }}[char]));
+}}
+
+function renderSelectedFundCalculationTable(fundData) {{
+  const mount = document.getElementById('selected-fund-calculation-table');
+  if (!mount) return;
+
+  if (!fundData || fundData.length === 0) {{
+    mount.innerHTML = '<p class="muted">Selecteer één of meerdere fondsen om de rekenbasis per kwartaal te tonen.</p>';
+    return;
+  }}
+
+  const rows = [];
+  fundData.forEach(item => {{
+    (item.calculation_base || []).forEach(row => {{
+      rows.push({{ fund: item.fund, ...row }});
+    }});
+  }});
+
+  if (!rows.length) {{
+    mount.innerHTML = '<p class="muted">Geen rekenbasis beschikbaar voor de geselecteerde fondsen.</p>';
+    return;
+  }}
+
+  const headers = [
+    ['fund', 'fund'],
+    ['period', 'period'],
+    ['return_quarterly', 'return_quarterly'],
+    ['ter_annual', 'ter_annual'],
+    ['ter_quarterly', 'ter_quarterly'],
+    ['return_after_ter', 'return_after_ter'],
+    ['rf', 'rf'],
+    ['excess_return_after_ter', 'excess_return_after_ter'],
+    ['used_ter_year', 'used_ter_year'],
+    ['ter_missing_policy_applied', 'ter_missing_policy_applied']
+  ];
+
+  const percentKeys = new Set(['return_quarterly', 'ter_annual', 'ter_quarterly', 'return_after_ter', 'rf', 'excess_return_after_ter']);
+  const head = '<thead><tr>' + headers.map(([_, label]) => '<th>' + htmlEscape(label) + '</th>').join('') + '</tr></thead>';
+  const body = '<tbody>' + rows.map(row => {{
+    return '<tr>' + headers.map(([key]) => {{
+      const value = percentKeys.has(key) ? pctCell(row[key]) : textCell(row[key]);
+      return '<td>' + htmlEscape(value) + '</td>';
+    }}).join('') + '</tr>';
+  }}).join('') + '</tbody>';
+
+  mount.innerHTML = '<div class="table-wrap compact-vertical"><table class="data-table">' + head + body + '</table></div>';
+}}
+
+
+async function updateCharts() {{
+  const token = ++CHART_UPDATE_TOKEN;
+  const selected = selectedFundsArray();
+  let fundData = [];
+
+  if (!selected.length) {{
+    installLoadedFundData([]);
+  }} else {{
+    fundData = await loadSelectedFundData();
+    if (token !== CHART_UPDATE_TOKEN) return;
+    installLoadedFundData(fundData);
+  }}
+
+  renderSelectedFundCalculationTable(fundData);
+
+  const loadError = selected.length && fundData.length === 0 ? selectedFundLoadErrorMessage() : '';
+  if (loadError) {{
+    setChartMessage('chart-cumulative-raw', 'Cumulatieve ruwe rendementen', loadError);
+    setChartMessage('chart-cumulative-net', 'Cumulatieve rendementen na TER', loadError);
+    setChartMessage('chart-quarterly-raw', 'Ruwe kwartaalrendementen', loadError);
+    setChartMessage('chart-quarterly-net', 'Kwartaalrendementen na TER', loadError);
+    setChartMessage('chart-ter', 'TER-like kostenratio per fonds', loadError);
+    setChartMessage('chart-alpha', 'Jaarlijkse alpha per fonds', loadError);
+    setChartMessage('chart-portfolio-mix-area', 'Geschatte returns-based portefeuillemix door de tijd', loadError);
+    setChartMessage('chart-portfolio-mix-pie', 'Geschatte portefeuillemix in het laatste jaar', loadError);
+    return;
+  }}
+
   renderLineChart('chart-cumulative-raw', 'cumulative_raw', 'Cumulatieve ruwe rendementen', 'Cumulatief rendement', true);
   renderLineChart('chart-cumulative-net', 'cumulative_net', 'Cumulatieve rendementen na TER', 'Cumulatief rendement', true);
   renderLineChart('chart-quarterly-raw', 'quarterly_raw', 'Ruwe kwartaalrendementen', 'Kwartaalrendement', true);
@@ -2669,12 +3053,20 @@ def make_html_report(
     portfolio_mix_timeseries = make_estimated_portfolio_mix_timeseries(calculation_base)
 
     fund_list = sorted(returns_display_base["fund"].dropna().astype(str).unique().tolist())
+    lazy_fund_manifest = write_lazy_fund_assets(
+        output_dir=output_dir,
+        returns_display_base=returns_display_base,
+        ter_long=ter_long,
+        alpha=alpha,
+        portfolio_mix_timeseries=portfolio_mix_timeseries,
+    )
+    slug_by_fund = {item["name"]: item["slug"] for item in lazy_fund_manifest.get("funds", [])}
     fund_options_html = "\n".join(
-        f'<option value="{escape_html(fund, quote=True)}">{escape_html(fund)}</option>'
+        f'<option value="{escape_html(fund, quote=True)}" data-slug="{escape_html(slug_by_fund.get(fund, ""), quote=True)}">{escape_html(fund)}</option>'
         for fund in fund_list
     )
     fund_filter_js = make_fund_filter_js(fund_list)
-    echarts_payload = make_echarts_chart_payload(returns_display_base, ter_long, alpha, portfolio_mix_timeseries)
+    echarts_payload = {"lazy": True, "funds": lazy_fund_manifest.get("funds", [])}
     echarts_payload_json = json.dumps(echarts_payload, ensure_ascii=False)
     sources_html = make_sources_html(source_files, repo_url=repo_url, generated_branch_url=generated_branch_url)
 
@@ -3130,22 +3522,33 @@ def make_html_report(
       </ul>
       <p class="muted">
         Pairwise alpha is geen ranglijst van fondsbeheerkwaliteit; het is een returns-based verschiltest binnen het gekozen factorraamwerk.
-        Deze tabel wordt volledig in het rapport geladen zodat de fondsfilter ook werkt bij kleine selecties; bij veel fondsen kan de tabel groot zijn.
+        Om mobiele performance te beschermen wordt alleen een beperkte preview in HTML getoond; de volledige tabel staat als CSV-bestand naast het rapport.
       </p>
     </div>
-    <div class="table-wrap compact-vertical">{df_to_html_table(pairwise, max_rows=None, percent_cols=["alpha_quarterly","alpha_quarterly_ci_low","alpha_quarterly_ci_high","alpha_annualized","alpha_annualized_ci_low","alpha_annualized_ci_high"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
+    <p><a href="pairwise_alpha_results.csv">Download volledige pairwise alpha CSV</a></p>
+    <div class="table-wrap compact-vertical">{df_to_html_table(pairwise, max_rows=300, percent_cols=["alpha_quarterly","alpha_quarterly_ci_low","alpha_quarterly_ci_high","alpha_annualized","alpha_annualized_ci_low","alpha_annualized_ci_high"], float_cols=["t_alpha","p_alpha","p_alpha_holm","r2"])}</div>
   </section>
 
   <section>
-    <h2>Audit: rekenbasis analyseperiode</h2>
-    <p>Deze tabel toont de exacte inputs per fonds/kwartaal voor de analyseperiode, niet noodzakelijk alle getoonde rendementskwartalen.</p>
+    <h2>Audit: rekenbasis per geselecteerd fonds</h2>
+    <p>
+      Deze sectie rendert alleen de kwartalen voor de geselecteerde fondsen vanuit de lazy per-fund JSON-bestanden.
+      De volledige auditbestanden blijven beschikbaar als CSV.
+    </p>
     <div class="formula-note">
       <p><strong>Kolomformules:</strong></p>
       <p><code>return_after_ter = return_quarterly - ter_quarterly</code></p>
       <p><code>excess_return_after_ter = return_after_ter - rf</code></p>
       <p><code>used_ter_year</code> toont welk TER-jaar is gebruikt; bij missende jaren volgt dit uit <code>--ter-missing-policy</code>.</p>
+      <p class="muted">Deze HTML-sectie vervangt de eerdere volledige embedded audit-tabel om de DOM op mobiel klein te houden.</p>
     </div>
-    <div class="table-wrap compact-vertical">{df_to_html_table(calculation_base, max_rows=None, percent_cols=["return_quarterly","asset_management_costs","transaction_costs","ter_annual","ter_quarterly","return_after_ter","rf","excess_return_after_ter"])}</div>
+    <p>
+      <a href="calculation_base_long.csv">Download volledige audit long CSV</a>
+      · <a href="calculation_base_wide.csv">Download volledige audit wide CSV</a>
+    </p>
+    <div id="selected-fund-calculation-table">
+      <p class="muted">Selecteer één of meerdere fondsen om de rekenbasis per kwartaal te tonen.</p>
+    </div>
   </section>
 
   <section class="sources-list">

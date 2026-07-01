@@ -380,3 +380,81 @@ If mobile performance is still poor after this change, the next step is a true l
 ### Multi-select behavior
 
 The fund selector uses click-to-toggle behavior. A normal click adds or removes one fund without clearing the rest of the current selection. Search filtering only hides non-matching options and does not deselect already chosen funds.
+
+
+### Default-open fund search
+
+The fund selector panel is open by default so the search field is immediately visible on page load.
+
+
+## Lazy per-fund JSON data
+
+The generated report writes chart-ready data per fund instead of embedding one large `ECHARTS_DATA` object in `index.html`:
+
+```text
+analysis_output/assets/manifest.json
+analysis_output/funds/<fund_slug>.json
+```
+
+The dashboard loads a fund JSON file only after that fund is selected. This reduces initial chart-data parsing and avoids rendering hundreds of ECharts series on mobile.
+
+Large HTML tables are still embedded in the page in this phase. If mobile performance remains poor, the next step is to lazy-render table rows from the same per-fund JSON files.
+
+
+## Lazy table rendering
+
+To reduce mobile DOM/layout cost, the generated HTML no longer embeds the full pairwise table or the full calculation-base audit table.
+
+```text
+pairwise_alpha_results.csv        full pairwise output
+calculation_base_long.csv         full audit output
+calculation_base_wide.csv         wide audit output
+funds/<fund_slug>.json            selected-fund rows for on-page rendering
+```
+
+The report still shows a small pairwise preview and renders selected-fund audit rows only after a fund is selected.
+
+
+## Robust lazy fund loading
+
+The browser resolves lazy fund JSON URLs with a report-aware base URL. This avoids broken chart loading when a GitHub Pages project URL is opened without a trailing slash, for example `/pensioen-dashboard` instead of `/pensioen-dashboard/`.
+
+
+## Local file URL testing
+
+The lazy report resolves fund JSON paths correctly for both GitHub Pages and local `file:///.../analysis_output/report.html` URLs.
+
+Some browsers still block `fetch()` from local files for security reasons. For reliable local testing, serve the output folder with:
+
+```bash
+python -m http.server 8000 -d analysis_output
+```
+
+Then open:
+
+```text
+http://localhost:8000/report.html
+```
+
+
+## Local lazy-loading preview
+
+Do not open the lazy report directly as `file:///.../analysis_output/report.html`. Browsers such as Firefox block `fetch()` to local JSON files, so charts cannot load `funds/<slug>.json`.
+
+After generating the report, preview it with:
+
+```bash
+python preview_report.py
+```
+
+Then open:
+
+```text
+http://localhost:8000/report.html
+```
+
+Equivalent command without the helper:
+
+```bash
+python -m http.server 8000 -d analysis_output
+```
