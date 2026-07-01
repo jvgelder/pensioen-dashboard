@@ -1905,9 +1905,8 @@ const ALL_FUNDS_NORMALIZED = new Map(Array.from(ALL_FUNDS).map(f => [normalizeFu
 
 function getSelectedFunds() {{
   const select = document.getElementById('fundSelect');
-  if (!select) return new Set(ALL_FUNDS);
+  if (!select) return new Set();
   const selected = Array.from(select.selectedOptions).map(o => ALL_FUNDS_NORMALIZED.get(normalizeFundName(o.value)) || normalizeFundName(o.value));
-  if (selected.length === 0) return new Set(ALL_FUNDS);
   return new Set(selected);
 }}
 
@@ -1924,6 +1923,57 @@ function setAllFunds(selected) {{
   if (!select) return;
   Array.from(select.options).forEach(option => option.selected = selected);
   applyFundFilter();
+}}
+
+function setAllVisibleFunds(selected) {{
+  const select = document.getElementById('fundSelect');
+  if (!select) return;
+  Array.from(select.options).forEach(option => {{
+    if (!option.hidden) option.selected = selected;
+  }});
+  applyFundFilter();
+}}
+
+function filterFundOptions() {{
+  const search = document.getElementById('fundSearch');
+  const select = document.getElementById('fundSelect');
+  if (!search || !select) return;
+  const q = normalizeFundName(search.value).toLowerCase();
+
+  Array.from(select.options).forEach(option => {{
+    const label = normalizeFundName(option.textContent).toLowerCase();
+    option.hidden = !!q && !label.includes(q);
+  }});
+
+  updateFundSelectionSummary();
+}}
+
+function enableStickyMultiSelect() {{
+  const select = document.getElementById('fundSelect');
+  if (!select || select.dataset.stickyMultiSelect === '1') return;
+
+  select.addEventListener('mousedown', event => {{
+    const option = event.target;
+    if (!option || option.tagName !== 'OPTION') return;
+
+    // Native multi-select replaces selection unless Ctrl/Cmd is held.
+    // Toggle instead, so search + repeated clicks can build a selection.
+    event.preventDefault();
+    option.selected = !option.selected;
+    select.focus();
+    applyFundFilter();
+  }});
+
+  select.addEventListener('keydown', event => {{
+    if (event.key !== ' ' && event.key !== 'Enter') return;
+    const option = select.options[select.selectedIndex];
+    if (!option) return;
+    event.preventDefault();
+    option.selected = !option.selected;
+    applyFundFilter();
+  }});
+
+  select.dataset.stickyMultiSelect = '1';
 }}
 
 function headerTexts(table) {{
@@ -1983,6 +2033,10 @@ function renderLineChart(divId, datasetKey, title, yTitle, asPercent) {{
 
   const dataset = ECHARTS_DATA[datasetKey] || {{}};
   const selected = selectedFundsArray().filter(f => dataset[f]);
+  if (selected.length === 0) {{
+    setChartMessage(divId, title, 'Selecteer één of meerdere fondsen om deze grafiek te tonen.');
+    return;
+  }}
   const xLabels = makeCategoryAxis(dataset, selected);
 
   const option = {{
@@ -2046,6 +2100,10 @@ function renderTerChart() {{
 
   const dataset = ECHARTS_DATA.ter || {{}};
   const selected = selectedFundsArray().filter(f => dataset[f]);
+  if (selected.length === 0) {{
+    setChartMessage('chart-ter', 'TER-like kostenratio per fonds', 'Selecteer één of meerdere fondsen om deze grafiek te tonen.');
+    return;
+  }}
   const xLabels = makeCategoryAxis(dataset, selected);
 
   const option = {{
@@ -2077,6 +2135,10 @@ function renderAlphaChart() {{
 
   const selected = getSelectedFunds();
   const data = (ECHARTS_DATA.alpha || []).filter(row => selected.has(row.fund));
+  if (data.length === 0) {{
+    setChartMessage('chart-alpha', 'Jaarlijkse alpha per fonds', 'Selecteer één of meerdere fondsen om deze grafiek te tonen.');
+    return;
+  }}
   data.sort((a, b) => (a.alpha_annualized || 0) - (b.alpha_annualized || 0));
 
   const option = {{
@@ -2463,10 +2525,26 @@ function applyFundFilter() {{
     }}
   }});
 
-  const count = document.getElementById('selectedFundCount');
-  if (count) count.textContent = `${{selected.size}} / ${{ALL_FUNDS.size}} geselecteerd`;
+  updateFundSelectionSummary();
 
   updateCharts();
+}}
+
+function updateFundSelectionSummary() {{
+  const selected = getSelectedFunds();
+  const count = document.getElementById('selectedFundCount');
+  const summary = document.getElementById('selectedFundSummary');
+  const search = document.getElementById('fundSearch');
+  const select = document.getElementById('fundSelect');
+  const visibleCount = select ? Array.from(select.options).filter(o => !o.hidden).length : ALL_FUNDS.size;
+  const q = search ? normalizeFundName(search.value) : '';
+
+  const text = selected.size === 0
+    ? `geen fondsen geselecteerd${{q ? ` · ${{visibleCount}} zoekresultaten` : ''}}`
+    : `${{selected.size}} / ${{ALL_FUNDS.size}} geselecteerd${{q ? ` · ${{visibleCount}} zoekresultaten` : ''}}`;
+
+  if (count) count.textContent = text;
+  if (summary) summary.textContent = text;
 }}
 
 window.addEventListener('resize', () => {{
@@ -2478,11 +2556,17 @@ window.addEventListener('resize', () => {{
 document.addEventListener('DOMContentLoaded', () => {{
   addTableDownloadButtons();
 
+  const search = document.getElementById('fundSearch');
+  if (search) search.addEventListener('input', filterFundOptions);
+
   const select = document.getElementById('fundSelect');
   if (select) {{
-    Array.from(select.options).forEach(option => option.selected = true);
+    Array.from(select.options).forEach(option => option.selected = false);
     select.addEventListener('change', applyFundFilter);
+    enableStickyMultiSelect();
   }}
+
+  filterFundOptions();
   applyFundFilter();
 }});
 """
@@ -2733,7 +2817,14 @@ def make_html_report(
     .data-table td { padding:8px 12px; border-bottom:1px solid #edf1f7; white-space:nowrap; vertical-align:top; }
     .data-table tbody tr:nth-child(even) td { background:#fbfdff; }
     .data-table tbody tr:hover td { background:#f1f7ff; }
-    .fund-filter { position:sticky; top:12px; z-index:10; background:rgba(255,255,255,.94); backdrop-filter:saturate(180%) blur(18px); border:1px solid #d9e0ea; border-radius:18px; padding:18px; margin-bottom:24px; box-shadow:0 10px 32px rgba(16,24,40,.08); }
+    .fund-filter { position:sticky; top:12px; z-index:10; background:rgba(255,255,255,.94); backdrop-filter:saturate(180%) blur(18px); border:1px solid #d9e0ea; border-radius:18px; padding:0; margin-bottom:24px; box-shadow:0 10px 32px rgba(16,24,40,.08); overflow:hidden; }
+    .fund-filter summary { cursor:pointer; user-select:none; display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 18px; color:#123c69; font-weight:700; background:#f8fafc; }
+    .fund-filter summary::-webkit-details-marker { display:none; }
+    .fund-filter summary::after { content:"＋"; color:#64748b; margin-left:auto; }
+    .fund-filter[open] summary::after { content:"−"; }
+    .fund-filter-body { padding:16px 18px 18px; border-top:1px solid #e2e8f0; }
+    .fund-search-label { display:block; color:#667085; font-size:13px; font-weight:700; margin:8px 0 6px; }
+    .fund-search { width:100%; border:1px solid #cbd5e1; border-radius:12px; padding:10px 12px; font-size:14px; margin-bottom:10px; background:white; }
     .fund-filter select { width:100%; min-height:clamp(132px,22vh,210px); border:1px solid #cbd5e1; border-radius:12px; padding:8px; font-size:14px; background:white; }
     .filter-actions { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:10px; }
     .filter-actions button { background:#123c69; color:white; border:0; border-radius:9px; padding:8px 12px; cursor:pointer; }
@@ -2821,21 +2912,30 @@ def make_html_report(
     <div class="card"><div class="metric-label">Regressies</div><div class="metric-value">{len(alpha) if alpha is not None else 0}</div></div>
   </div>
 
-  <div class="fund-filter">
-    <h2>Fondsenfilter voor tabellen</h2>
-    <p class="muted">
-      Kies één of meerdere fondsen. Gebruik Ctrl/Cmd of Shift voor multi-select.
-      De filter werkt op alle HTML-tabellen én interactieve grafieken.
-    </p>
-    <select id="fundSelect" multiple>
-      {fund_options_html}
-    </select>
-    <div class="filter-actions">
-      <button type="button" onclick="setAllFunds(true)">Selecteer alles</button>
-      <button type="button" class="secondary" onclick="setAllFunds(false)">Maak selectie leeg</button>
-      <span id="selectedFundCount" class="muted"></span>
+  <details class="fund-filter" id="fundFilterPanel" open>
+    <summary>
+      <span>Fondsenfilter</span>
+      <span id="selectedFundSummary" class="muted">geen fondsen geselecteerd</span>
+    </summary>
+    <div class="fund-filter-body">
+      <p class="muted">
+        Zoek en selecteer één of meerdere fondsen. Standaard is niets geselecteerd zodat het rapport lichter opent,
+        vooral op mobiele apparaten. Klik op een fonds om het aan/uit te zetten; zoeken deselecteert eerder gekozen fondsen niet.
+      </p>
+      <label class="fund-search-label" for="fundSearch">Zoek fonds</label>
+      <input id="fundSearch" class="fund-search" type="search" placeholder="Typ bijvoorbeeld ABP, Zorg en Welzijn, Shell..." autocomplete="off">
+      <select id="fundSelect" multiple>
+        {fund_options_html}
+      </select>
+      <div class="filter-actions">
+        <button type="button" onclick="setAllVisibleFunds(true)">Selecteer zichtbare resultaten</button>
+        <button type="button" class="secondary" onclick="setAllVisibleFunds(false)">Deselecteer zichtbare resultaten</button>
+        <button type="button" class="secondary" onclick="setAllFunds(true)">Selecteer alles</button>
+        <button type="button" class="secondary" onclick="setAllFunds(false)">Maak selectie leeg</button>
+        <span id="selectedFundCount" class="muted"></span>
+      </div>
     </div>
-  </div>
+  </details>
 
   <section>
     <h2>Data quality checks</h2>

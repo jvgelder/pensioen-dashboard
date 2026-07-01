@@ -316,3 +316,67 @@ Before publishing or updating the public repository:
 - confirm GitHub Pages source is set to GitHub Actions;
 - confirm the generated site is published from `gh-pages`;
 - confirm the caveat remains visible at the top of the README and report.
+
+
+## Runtime bugfix note
+
+The report generator defines its static-image helper before composing HTML fragments. This avoids:
+
+```text
+UnboundLocalError: cannot access local variable 'img'
+```
+
+inside `make_html_report()`.
+
+
+## Fund-level estimated portfolio mix
+
+If pension-model factors are available, the report shows an extra visualisation when exactly one fund is selected:
+
+```text
+- stacked area chart of the estimated returns-based exposure mix by year
+- pie chart for the latest available year
+```
+
+This is a rolling 12-quarter exposure proxy and not the actual holdings allocation.
+
+
+## Confidence intervals
+
+The alpha outputs include 95% confidence intervals:
+
+```text
+alpha_quarterly_ci_low
+alpha_quarterly_ci_high
+alpha_annualized_ci_low
+alpha_annualized_ci_high
+```
+
+The interval is based on the HAC/Newey-West standard error from the alpha regression.
+
+
+## Chart syntax fix
+
+The portfolio pie chart label now uses a JavaScript formatter function instead of a string with an embedded newline. This prevents one JavaScript syntax error from stopping all ECharts charts.
+
+
+## Fund selection UX
+
+The generated report opens with no funds selected. This keeps the first page load lighter because ECharts does not try to render hundreds of series immediately.
+
+The fund selector is a native collapsible `<details>` panel and includes:
+
+```text
+search field
+select visible results
+deselect visible results
+select all
+clear selection
+```
+
+If mobile performance is still poor after this change, the next step is a true lazy-loading architecture where the report writes separate per-fund JSON/CSV files and fetches them only after selection.
+
+
+### Multi-select behavior
+
+The fund selector uses click-to-toggle behavior. A normal click adds or removes one fund without clearing the rest of the current selection. Search filtering only hides non-matching options and does not deselect already chosen funds.
