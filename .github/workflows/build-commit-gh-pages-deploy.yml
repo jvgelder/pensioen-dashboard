@@ -25,7 +25,7 @@ on:
       returns_display_end_period:
         description: "Last quarter for return charts/tables"
         required: true
-        default: "2025Q4"
+        default: "2026Q1"
 
 permissions:
   contents: write
