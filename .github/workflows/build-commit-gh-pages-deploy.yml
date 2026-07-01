@@ -47,7 +47,7 @@ jobs:
       CODE_BRANCH: main
       SITE_BRANCH: gh-pages
       ANALYSIS_END_PERIOD: ${{ inputs.analysis_end_period || '2024Q4' }}
-      RETURNS_DISPLAY_END_PERIOD: ${{ inputs.returns_display_end_period || '2025Q4' }}
+      RETURNS_DISPLAY_END_PERIOD: ${{ inputs.returns_display_end_period || '2026Q1' }}
       REFRESH_INPUTS: ${{ inputs.refresh_inputs || 'true' }}
 
     steps:
@@ -103,7 +103,7 @@ jobs:
           python src/gather_factors.py \
             --output-dir factors \
             --output-file factors.csv \
-            --first-period 2015Q1
+            --first-period 2015Q1 \
 
       - name: Save input cache
         if: env.REFRESH_INPUTS == 'true'
