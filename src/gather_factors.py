@@ -142,6 +142,28 @@ def parse_period(period: str) -> pd.Period:
     return pd.Period(text, freq="Q")
 
 
+def quarter_end_date_from_period(period: str) -> str:
+    """
+    Zet een kwartaal zoals 2026Q1 of 2026K1 om naar een ISO-einddatum.
+
+    Dit houdt workflowbestanden simpel: zij geven de rapportperiode door,
+    terwijl dit script bepaalt welke Yahoo-einddatum daarbij hoort.
+    """
+    p = parse_period(period)
+    return p.end_time.date().isoformat()
+
+
+def filter_to_end_period(data: pd.DataFrame, end_period: str | None) -> pd.DataFrame:
+    if data is None or data.empty or not end_period:
+        return data
+    if "period" not in data.columns:
+        return data
+
+    end_p = parse_period(end_period)
+    periods = data["period"].astype(str).map(parse_period)
+    return data.loc[periods <= end_p].copy()
+
+
 def period_from_yyyymm(value: Any) -> str | None:
     text = str(value).strip()
     if not re.fullmatch(r"\d{6}", text):
@@ -773,7 +795,14 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--output-dir", type=Path, default=Path("factors"))
     p.add_argument("--output-file", type=str, default="factors.csv")
     p.add_argument("--start", default="2014-12-31")
-    p.add_argument("--end", default=None)
+    p.add_argument("--end", default=None, help="Laatste Yahoo-datum, bijvoorbeeld 2026-03-31.")
+    p.add_argument(
+        "--end-period",
+        "--last-period",
+        dest="end_period",
+        default=None,
+        help="Laatste kwartaal voor factors.csv, bijvoorbeeld 2026Q1. Wordt intern vertaald naar --end.",
+    )
     p.add_argument("--first-period", default="2015Q1")
 
     p.add_argument("--market-source", choices=["yahoo", "none"], default="yahoo")
@@ -826,6 +855,15 @@ def main() -> None:
     args = parse_args()
     args.output_dir.mkdir(parents=True, exist_ok=True)
 
+    if args.end_period:
+        end_from_period = quarter_end_date_from_period(args.end_period)
+        if args.end and args.end != end_from_period:
+            raise SystemExit(
+                f"--end ({args.end}) en --end-period ({args.end_period} -> {end_from_period}) spreken elkaar tegen."
+            )
+        args.end = end_from_period
+        log(f"Factor end period: {args.end_period} -> {args.end}")
+
     reports = []
     prices_q = pd.DataFrame()
     market_factors = None
@@ -868,6 +906,10 @@ def main() -> None:
         rf_source=args.rf_source,
         market_factor_mode=args.market_factor_mode,
     )
+    factors = filter_to_end_period(factors, args.end_period)
+
+    if not prices_q.empty:
+        prices_q = filter_to_end_period(prices_q, args.end_period)
 
     if args.rf_source == "zero":
         factors["rf"] = 0.0

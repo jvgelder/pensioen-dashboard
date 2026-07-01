@@ -458,3 +458,37 @@ Equivalent command without the helper:
 ```bash
 python -m http.server 8000 -d analysis_output
 ```
+
+
+## Local preview without Node.js
+
+The generated dashboard uses normal browser JavaScript and ECharts from the browser. Local preview only needs Python because lazy per-fund JSON files must be served over HTTP instead of opened directly with `file://`.
+
+After generating `analysis_output`, run:
+
+```bash
+python preview_report.py
+```
+
+Then open:
+
+```text
+http://localhost:8000/report.html
+```
+
+Equivalent Python-only command:
+
+```bash
+python -m http.server 8000 -d analysis_output
+```
+
+
+## Factor end period
+
+`gather_factors.py` accepts `--end-period` for quarter-based report runs:
+
+```bash
+python src/gather_factors.py   --output-dir factors   --output-file factors.csv   --first-period 2015Q1   --end-period 2026Q1
+```
+
+The script converts `2026Q1` internally to `--end 2026-03-31` and filters `factors.csv` to that quarter. This keeps GitHub Actions workflow logic simple and prevents partially available current-quarter Yahoo rows from failing validation.
