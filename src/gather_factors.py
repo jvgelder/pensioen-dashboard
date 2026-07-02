@@ -86,6 +86,7 @@ import argparse
 import io
 import re
 import sys
+import time
 import zipfile
 from pathlib import Path
 from typing import Any
@@ -754,6 +755,50 @@ def combine_factors(
     return factors.sort_values("period").reset_index(drop=True)
 
 
+def trim_trailing_incomplete_factor_rows(factors: pd.DataFrame) -> pd.DataFrame:
+    """
+    Verwijder automatisch trailing kwartalen die nog niet volledig beschikbaar zijn.
+
+    Yahoo kan tijdens een lopend kwartaal al EUR/USD teruggeven, terwijl ETF-prijzen
+    nog geen volledige kwartaalrij opleveren. Dan ontstaat bijvoorbeeld:
+
+        2026Q3: equity/duration/credit/real_estate = NaN, fx = waarde
+
+    Zo'n rij is geen datakwaliteitsfout in de historische sample maar een incomplete
+    current-quarter artefact. Interior missings blijven wél een harde validatiefout.
+    """
+    if factors is None or factors.empty or "period" not in factors.columns:
+        return factors
+
+    out = factors.copy().sort_values("period").reset_index(drop=True)
+    check_cols = [
+        col
+        for col in ["equity", "duration", "credit", "real_estate", "fx"]
+        if col in out.columns and out[col].notna().any()
+    ]
+
+    if not check_cols:
+        return out
+
+    dropped: list[str] = []
+    while not out.empty:
+        last = out.iloc[-1]
+        missing_cols = [col for col in check_cols if pd.isna(last[col])]
+        if not missing_cols:
+            break
+        dropped.append(str(last["period"]))
+        log(
+            "Drop trailing incomplete factor quarter "
+            f"{last['period']}: missende kolommen {', '.join(missing_cols)}"
+        )
+        out = out.iloc[:-1].copy()
+
+    if dropped:
+        log("Trailing incomplete factor quarters removed: " + ", ".join(dropped))
+
+    return out.reset_index(drop=True)
+
+
 def validate_factors(factors: pd.DataFrame, allow_partial_missing: bool = False) -> None:
     if "period" not in factors.columns:
         raise RuntimeError("factors mist kolom period")
@@ -765,7 +810,7 @@ def validate_factors(factors: pd.DataFrame, allow_partial_missing: bool = False)
     all_missing = [c for c in non_period if factors[c].isna().all()]
     # Market columns may be all missing in --market-source none mode; that is okay if FF columns exist.
     ff_cols = [c for c in factors.columns if c.startswith("ff_")]
-    market_cols = ["equity", "duration", "credit", "real_estate", "fx"]
+    market_cols = ["equity", "duration", "credit", "real_estate", "fx", "eurusd_return"]
     hard_missing = [c for c in all_missing if c not in market_cols]
     if hard_missing:
         raise RuntimeError(
@@ -917,6 +962,13 @@ def main() -> None:
             # rf is nul, dus excess == raw voor marktproxies. Deze regel houdt de
             # intentie expliciet zonder de factorwaarden te wijzigen.
             pass
+
+    factors = trim_trailing_incomplete_factor_rows(factors)
+
+    if not prices_q.empty:
+        keep_periods = set(factors["period"].astype(str)) if "period" in factors.columns else set()
+        if keep_periods and "period" in prices_q.columns:
+            prices_q = prices_q[prices_q["period"].astype(str).isin(keep_periods)].copy()
 
     if tickers is not None:
         reports.insert(0, make_market_report(factors, tickers, args.rf_mode, args.market_factor_mode))
